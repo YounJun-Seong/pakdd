@@ -1,0 +1,89 @@
+experiment,protocol,model,budget,cell,n,ELR,ELR_lo,ELR_hi,WP,WP_lo,WP_hi
+"E13 1,000-token source",truncation-free,qwen3-8b,100,Aware-Single,294,95.92,93.54,97.96,95.58,93.2,97.62
+"E13 1,000-token source",truncation-free,qwen3-8b,100,Blind-Single,294,94.56,91.84,96.94,92.18,89.12,94.9
+"E13 1,000-token source",truncation-free,qwen3-8b,100,Aware-Multi,294,92.52,89.46,95.24,92.52,89.46,95.58
+"E13 1,000-token source",truncation-free,qwen3-8b,100,Blind-Multi,294,60.88,55.43,66.33,43.88,37.76,50.0
+"E13 1,000-token source",truncation-free,qwen3-8b,200,Aware-Single,294,95.24,92.86,97.62,93.88,91.16,96.6
+"E13 1,000-token source",truncation-free,qwen3-8b,200,Blind-Single,294,96.94,94.9,98.64,91.5,88.1,94.56
+"E13 1,000-token source",truncation-free,qwen3-8b,200,Aware-Multi,294,91.16,88.09,94.22,90.82,87.41,93.88
+"E13 1,000-token source",truncation-free,qwen3-8b,200,Blind-Multi,294,69.39,63.95,74.49,61.56,55.78,67.35
+"E13 1,000-token source",truncation-free,qwen3-8b,400,Aware-Single,294,94.22,91.5,96.6,94.9,92.52,97.28
+"E13 1,000-token source",truncation-free,qwen3-8b,400,Blind-Single,294,96.94,94.9,98.64,91.5,88.1,94.56
+"E13 1,000-token source",truncation-free,qwen3-8b,400,Aware-Multi,294,86.39,82.31,90.14,89.8,86.39,93.2
+"E13 1,000-token source",truncation-free,qwen3-8b,400,Blind-Multi,294,81.29,76.87,85.71,78.91,74.49,83.33
+"E13 1,000-token source",truncation-free,qwen3-8b,800,Aware-Single,294,94.56,91.84,96.94,94.22,91.5,96.6
+"E13 1,000-token source",truncation-free,qwen3-8b,800,Blind-Single,294,95.58,93.2,97.62,93.2,90.48,95.92
+"E13 1,000-token source",truncation-free,qwen3-8b,800,Aware-Multi,294,88.78,85.03,92.19,89.12,85.37,92.52
+"E13 1,000-token source",truncation-free,qwen3-8b,800,Blind-Multi,294,85.03,80.95,88.78,88.44,84.35,91.84
+"E13 1,000-token source",enforced cap,qwen3-8b,100,Aware-Single,294,95.58,93.2,97.96,95.24,92.86,97.62
+"E13 1,000-token source",enforced cap,qwen3-8b,100,Blind-Single,294,94.9,92.18,97.28,91.84,88.78,94.56
+"E13 1,000-token source",enforced cap,qwen3-8b,100,Aware-Multi,294,92.86,89.8,95.58,92.52,89.46,95.24
+"E13 1,000-token source",enforced cap,qwen3-8b,100,Blind-Multi,294,58.5,53.06,63.95,38.78,32.99,44.22
+"E13 1,000-token source",enforced cap,qwen3-8b,200,Aware-Single,294,95.24,92.86,97.62,93.88,91.16,96.6
+"E13 1,000-token source",enforced cap,qwen3-8b,200,Blind-Single,294,96.94,94.9,98.64,91.5,88.1,94.56
+"E13 1,000-token source",enforced cap,qwen3-8b,200,Aware-Multi,294,91.5,88.1,94.56,91.16,87.76,94.22
+"E13 1,000-token source",enforced cap,qwen3-8b,200,Blind-Multi,294,64.29,58.84,70.07,59.86,54.42,65.65
+"E13 1,000-token source",enforced cap,qwen3-8b,400,Aware-Single,294,94.22,91.5,96.6,94.9,92.52,97.28
+"E13 1,000-token source",enforced cap,qwen3-8b,400,Blind-Single,294,96.94,94.9,98.64,91.5,88.1,94.56
+"E13 1,000-token source",enforced cap,qwen3-8b,400,Aware-Multi,294,86.39,82.31,90.14,89.8,86.39,93.2
+"E13 1,000-token source",enforced cap,qwen3-8b,400,Blind-Multi,294,73.47,68.7,78.24,72.11,66.67,76.87
+"E13 1,000-token source",enforced cap,qwen3-8b,800,Aware-Single,294,94.56,91.84,96.94,93.88,91.16,96.26
+"E13 1,000-token source",enforced cap,qwen3-8b,800,Blind-Single,294,95.58,93.2,97.62,93.2,90.48,95.92
+"E13 1,000-token source",enforced cap,qwen3-8b,800,Aware-Multi,294,88.78,85.03,92.19,88.78,85.03,92.18
+"E13 1,000-token source",enforced cap,qwen3-8b,800,Blind-Multi,294,84.01,79.93,88.1,85.71,81.63,89.8
+"E13 1,000-token source",truncation-free,qwen3-14b,100,Aware-Single,294,97.28,95.24,98.98,96.26,93.88,98.3
+"E13 1,000-token source",truncation-free,qwen3-14b,100,Blind-Single,294,95.92,93.54,97.96,93.54,90.82,95.92
+"E13 1,000-token source",truncation-free,qwen3-14b,100,Aware-Multi,294,94.22,91.16,96.61,94.56,91.84,96.94
+"E13 1,000-token source",truncation-free,qwen3-14b,100,Blind-Multi,294,62.93,57.48,68.71,48.3,42.86,54.08
+"E13 1,000-token source",truncation-free,qwen3-14b,200,Aware-Single,294,93.54,90.48,96.26,92.18,89.12,95.24
+"E13 1,000-token source",truncation-free,qwen3-14b,200,Blind-Single,294,96.26,93.88,98.3,94.56,91.84,96.94
+"E13 1,000-token source",truncation-free,qwen3-14b,200,Aware-Multi,294,93.2,90.48,95.92,92.18,89.12,94.9
+"E13 1,000-token source",truncation-free,qwen3-14b,200,Blind-Multi,294,72.11,67.01,77.21,61.22,55.44,66.67
+"E13 1,000-token source",truncation-free,qwen3-14b,400,Aware-Single,294,95.24,92.85,97.62,93.2,90.14,95.92
+"E13 1,000-token source",truncation-free,qwen3-14b,400,Blind-Single,294,93.88,91.16,96.26,93.54,90.82,96.26
+"E13 1,000-token source",truncation-free,qwen3-14b,400,Aware-Multi,294,92.52,89.46,95.24,92.18,88.78,94.9
+"E13 1,000-token source",truncation-free,qwen3-14b,400,Blind-Multi,294,87.41,83.33,91.16,84.01,79.93,87.76
+"E13 1,000-token source",truncation-free,qwen3-14b,800,Aware-Single,294,95.24,92.52,97.62,93.54,90.82,96.26
+"E13 1,000-token source",truncation-free,qwen3-14b,800,Blind-Single,294,92.86,89.8,95.58,90.14,86.73,93.2
+"E13 1,000-token source",truncation-free,qwen3-14b,800,Aware-Multi,294,90.82,87.41,93.88,89.46,85.71,92.86
+"E13 1,000-token source",truncation-free,qwen3-14b,800,Blind-Multi,294,91.84,88.78,94.9,88.1,84.69,91.84
+"E13 1,000-token source",enforced cap,qwen3-14b,100,Aware-Single,294,96.94,94.9,98.64,95.58,93.2,97.96
+"E13 1,000-token source",enforced cap,qwen3-14b,100,Blind-Single,294,95.58,93.2,97.62,93.2,90.48,95.58
+"E13 1,000-token source",enforced cap,qwen3-14b,100,Aware-Multi,294,93.88,91.16,96.6,93.2,90.14,95.92
+"E13 1,000-token source",enforced cap,qwen3-14b,100,Blind-Multi,294,44.9,39.79,50.68,30.61,25.51,35.71
+"E13 1,000-token source",enforced cap,qwen3-14b,200,Aware-Single,294,93.54,90.48,96.26,92.18,89.12,95.24
+"E13 1,000-token source",enforced cap,qwen3-14b,200,Blind-Single,294,96.26,93.88,98.3,94.56,91.84,96.94
+"E13 1,000-token source",enforced cap,qwen3-14b,200,Aware-Multi,294,93.54,90.82,96.26,91.5,88.1,94.56
+"E13 1,000-token source",enforced cap,qwen3-14b,200,Blind-Multi,294,59.52,54.08,64.97,53.4,47.96,59.18
+"E13 1,000-token source",enforced cap,qwen3-14b,400,Aware-Single,294,95.24,92.85,97.62,93.2,90.14,95.92
+"E13 1,000-token source",enforced cap,qwen3-14b,400,Blind-Single,294,93.88,91.16,96.26,93.54,90.82,96.26
+"E13 1,000-token source",enforced cap,qwen3-14b,400,Aware-Multi,294,91.84,88.78,94.9,91.5,88.1,94.56
+"E13 1,000-token source",enforced cap,qwen3-14b,400,Blind-Multi,294,76.87,72.11,81.63,74.15,69.38,78.91
+"E13 1,000-token source",enforced cap,qwen3-14b,800,Aware-Single,294,95.24,92.52,97.62,93.88,91.16,96.26
+"E13 1,000-token source",enforced cap,qwen3-14b,800,Blind-Single,294,93.2,90.14,95.92,90.14,86.73,93.2
+"E13 1,000-token source",enforced cap,qwen3-14b,800,Aware-Multi,294,91.16,87.76,94.22,89.46,85.71,92.86
+"E13 1,000-token source",enforced cap,qwen3-14b,800,Blind-Multi,294,92.18,89.12,94.91,88.78,85.03,92.18
+Original span source,enforced cap,qwen3-8b,25,Aware-Single,294,89.46,86.05,92.86,87.07,83.33,90.82
+Original span source,enforced cap,qwen3-8b,25,Blind-Single,294,88.1,84.35,91.84,76.19,71.43,80.95
+Original span source,enforced cap,qwen3-8b,25,Aware-Multi,294,89.12,85.37,92.52,91.84,88.44,94.56
+Original span source,enforced cap,qwen3-8b,25,Blind-Multi,294,71.43,66.33,76.53,59.18,53.4,64.63
+Original span source,enforced cap,qwen3-14b,25,Aware-Single,294,89.46,85.71,92.86,87.07,82.99,90.82
+Original span source,enforced cap,qwen3-14b,25,Blind-Single,294,84.01,79.59,88.1,74.49,69.39,79.25
+Original span source,enforced cap,qwen3-14b,25,Aware-Multi,294,86.39,81.97,90.14,86.05,81.63,90.14
+Original span source,enforced cap,qwen3-14b,25,Blind-Multi,294,65.99,60.54,71.43,46.94,41.16,52.72
+Original span source,enforced cap,gpt-5.4-mini,25,Aware-Single,294,88.78,84.69,92.52,90.48,87.07,93.54
+Original span source,enforced cap,gpt-5.4-mini,25,Blind-Single,294,82.31,78.23,86.39,76.19,71.43,80.95
+Original span source,enforced cap,gpt-5.4-mini,25,Aware-Multi,294,86.73,82.65,90.48,91.84,88.78,94.9
+Original span source,enforced cap,gpt-5.4-mini,25,Blind-Multi,294,68.71,63.61,74.15,52.72,46.93,58.5
+E6 contextual source,truncation-free,qwen3-14b,100,Aware-Single,294,94.56,91.84,96.94,96.94,94.9,98.64
+E6 contextual source,truncation-free,qwen3-14b,100,Blind-Single,294,94.22,91.16,96.6,93.88,91.16,96.26
+E6 contextual source,truncation-free,qwen3-14b,100,Aware-Multi,294,95.24,92.86,97.62,93.54,90.82,96.26
+E6 contextual source,truncation-free,qwen3-14b,100,Blind-Multi,294,86.73,82.65,90.48,87.07,82.99,90.82
+E6 contextual source,truncation-free,qwen3-14b,200,Aware-Single,294,94.9,92.18,97.28,94.22,91.5,96.94
+E6 contextual source,truncation-free,qwen3-14b,200,Blind-Single,294,93.54,90.48,96.26,93.54,90.82,96.26
+E6 contextual source,truncation-free,qwen3-14b,200,Aware-Multi,294,95.58,93.2,97.62,94.56,91.84,96.94
+E6 contextual source,truncation-free,qwen3-14b,200,Blind-Multi,294,92.18,88.78,95.24,91.5,88.1,94.56
+E6 contextual source,truncation-free,qwen3-14b,400,Aware-Single,294,95.24,92.86,97.62,94.9,92.18,97.28
+E6 contextual source,truncation-free,qwen3-14b,400,Blind-Single,294,92.18,89.12,95.24,92.86,89.8,95.58
+E6 contextual source,truncation-free,qwen3-14b,400,Aware-Multi,294,94.22,91.5,96.94,94.22,91.49,96.6
+E6 contextual source,truncation-free,qwen3-14b,400,Blind-Multi,294,92.18,89.12,95.24,91.84,88.78,94.56

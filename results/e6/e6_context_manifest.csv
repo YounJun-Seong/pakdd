@@ -1,0 +1,1222 @@
+sample_id,pmcid,prompt_id,role,position,gold_label,located,section,in_body,span_tokens,pre_tokens,post_tokens,context_tokens,passage_tokens,context_dropped_long_sentence,ctx_overlaps_candidate,ctx_overlaps_candidate_ids,ctx_overlaps_target,ctx_overlaps_other_annotated,ctx_overlaps_other_annotated_ids,ctx_stat_sentences,evidence_identical_to_other_candidate
+G2-0002,4215531,6104,distractor,0,NO_DIFFERENCE,True,Results > Neuropsychological Test Performance,True,150,65,86,151,357,False,False,,False,False,,3,True
+G2-0002,4215531,6103,distractor,1,INCREASE,True,Results > Neuropsychological Test Performance,True,150,65,86,151,355,False,False,,False,False,,3,True
+G2-0002,4215531,6102,distractor,2,INCREASE,True,Results > Specificity Of Intervention Effects,True,119,21,23,44,210,False,False,,False,False,,0,False
+G2-0002,4215531,6100,target,3,INCREASE,True,Results > Fat Impact On Meg During Far Criterion Task,True,66,3,30,33,143,False,False,,False,False,,0,False
+G2-0004,4608626,5527,distractor,0,DECREASE,True,Abstract > Results,False,30,1,81,82,141,False,True,5529 5528,True,False,,1,False
+G2-0004,4608626,5529,distractor,1,INCREASE,True,Abstract > Results,False,78,0,33,33,134,False,False,,False,False,,0,True
+G2-0004,4608626,5528,target,2,DECREASE,True,Abstract > Results,False,78,0,33,33,138,False,False,,False,False,,0,True
+G2-0004,4608626,5531,distractor,3,NO_DIFFERENCE,True,Results > Neuropsychological Assessments,True,25,28,51,79,133,False,False,,False,False,,1,False
+G2-0005,4173331,10954,target,0,NO_DIFFERENCE,True,Front,False,47,20,31,51,136,False,False,,False,False,,1,True
+G2-0005,4173331,10956,distractor,1,DECREASE,True,Results,True,44,85,98,183,268,False,False,,False,False,,2,False
+G2-0005,4173331,10955,distractor,2,NO_DIFFERENCE,True,Front,False,47,20,31,51,136,False,False,,False,False,,1,True
+G2-0005,4173331,10952,distractor,3,NO_DIFFERENCE,True,Front,False,47,20,31,51,137,False,False,,False,False,,1,True
+G2-0005,4173331,10953,distractor,4,NO_DIFFERENCE,True,Front,False,47,20,31,51,137,False,False,,False,False,,1,True
+G2-0006,5684963,3504,distractor,0,INCREASE,True,Results,True,31,49,82,131,194,False,True,3503,False,False,,3,False
+G2-0006,5684963,3502,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,44,0,46,46,123,False,False,,False,False,,2,True
+G2-0006,5684963,3501,target,2,INCREASE,True,Abstract > Results,False,44,0,46,46,123,False,False,,False,False,,2,True
+G2-0006,5684963,3500,distractor,3,INCREASE,True,Abstract > Results,False,44,0,46,46,123,False,False,,False,False,,2,True
+G2-0006,5684963,3503,distractor,4,INCREASE,True,Results,True,56,68,56,124,214,False,True,3504,False,False,,4,False
+G2-0007,4141382,3852,distractor,0,NO_DIFFERENCE,True,Results,True,40,59,82,141,218,False,True,3853,False,False,,3,False
+G2-0007,4141382,3855,distractor,1,INCREASE,True,Results,True,64,95,55,150,257,False,False,,False,False,,3,False
+G2-0007,4141382,3856,target,2,DECREASE,True,Results,True,45,55,48,103,185,False,False,,False,False,,2,False
+G2-0007,4141382,3854,distractor,3,DECREASE,True,Front,False,43,47,100,147,231,False,False,,False,False,,3,False
+G2-0007,4141382,3853,distractor,4,DECREASE,True,Results,True,88,59,72,131,261,False,False,,False,False,,3,False
+G2-0008,5320759,2199,target,0,NO_DIFFERENCE,True,Abstract > Results,False,71,54,29,83,206,False,True,2196 2197,False,False,,3,True
+G2-0008,5320759,2198,distractor,1,INCREASE,True,Results > Secondary Outcomes,True,89,99,21,120,259,False,False,,False,False,,0,False
+G2-0008,5320759,2196,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,30,0,95,95,166,False,True,2199 2197 2200,True,False,,2,False
+G2-0008,5320759,2197,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,24,30,100,130,197,False,True,2199 2196 2200,True,False,,3,False
+G2-0008,5320759,2200,distractor,4,INCREASE,True,Abstract > Results,False,71,54,29,83,200,False,True,2196 2197,False,False,,3,True
+G2-0009,3525032,2237,target,0,INCREASE,True,Results,True,40,77,22,99,188,False,False,,False,False,,1,False
+G2-0009,3525032,2236,distractor,1,NO_DIFFERENCE,True,Front,False,25,60,29,89,160,False,True,2235,False,False,,3,False
+G2-0009,3525032,2235,distractor,2,DECREASE,True,Front,False,29,85,0,85,157,False,True,2236,False,False,,3,False
+G2-0010,4776564,2671,distractor,0,INCREASE,True,Front,False,83,0,71,71,186,False,True,2672,False,False,,1,False
+G2-0010,4776564,2672,distractor,1,INCREASE,True,Front,False,154,0,0,0,186,False,False,,False,False,,0,False
+G2-0010,4776564,2670,target,2,NO_DIFFERENCE,True,R,True,75,45,101,146,250,False,False,,False,False,,2,False
+G2-0011,1784583,11228,target,0,DECREASE,True,Title,False,41,42,44,86,182,False,False,,False,False,,1,False
+G2-0011,1784583,11229,distractor,1,INCREASE,True,Title,False,72,88,91,179,315,False,True,11228 11230,True,False,,4,False
+G2-0011,1784583,11230,distractor,2,NO_DIFFERENCE,True,Title,False,31,60,54,114,210,False,False,,False,False,,1,False
+G2-0012,5106877,2877,distractor,0,INCREASE,True,Abstract > Results,False,41,0,50,50,124,False,False,,False,False,,1,False
+G2-0012,5106877,2878,distractor,1,DECREASE,True,Body,True,50,93,33,126,207,False,True,2879,True,False,,3,False
+G2-0012,5106877,2879,target,2,NO_DIFFERENCE,True,Body,True,34,142,0,142,242,False,True,2878,False,False,,3,False
+G2-0014,2888205,560,target,0,DECREASE,True,Results,True,52,64,53,117,229,False,False,,False,False,,4,False
+G2-0014,2888205,565,distractor,1,NO_DIFFERENCE,False,not located,False,93,0,0,0,165,False,False,,False,False,,0,False
+G2-0014,2888205,563,distractor,2,NO_DIFFERENCE,True,Results,True,78,0,0,0,142,True,False,,False,False,,0,False
+G2-0014,2888205,564,distractor,3,NO_DIFFERENCE,True,Results,True,90,0,0,0,155,True,False,,False,False,,0,False
+G2-0014,2888205,562,distractor,4,NO_DIFFERENCE,True,Results,True,84,0,0,0,147,True,False,,False,False,,0,False
+G2-0015,4899895,5412,target,0,INCREASE,True,Front,False,28,25,95,120,173,False,True,5414 5413,False,False,,2,False
+G2-0015,4899895,5414,distractor,1,INCREASE,True,Front,False,27,67,28,95,152,False,True,5412,True,False,,2,False
+G2-0015,4899895,5411,distractor,2,INCREASE,True,Results > Respiratory Exchange Ratio(Rer) And Fat Oxidation,True,38,60,95,155,231,False,False,,False,False,,3,False
+G2-0015,4899895,5413,distractor,3,INCREASE,True,Front,False,26,67,29,96,152,False,True,5412 5414,True,False,,2,False
+G2-0015,4899895,5416,distractor,4,NO_DIFFERENCE,False,not located,False,192,0,0,0,216,False,False,,False,False,,0,False
+G2-0016,3653044,9431,distractor,0,NO_DIFFERENCE,True,Results,True,76,81,51,132,240,False,False,,False,False,,0,False
+G2-0016,3653044,9429,distractor,1,NO_DIFFERENCE,True,Results,True,37,50,65,115,180,False,False,,False,False,,1,False
+G2-0016,3653044,9430,distractor,2,DECREASE,True,Results,True,35,59,94,153,228,False,False,,False,False,,1,False
+G2-0016,3653044,9432,target,3,DECREASE,True,Results,True,37,82,90,172,252,False,True,9431 9429,False,False,,1,False
+G2-0017,3743641,1191,distractor,0,DECREASE,True,"Efficacy On Hot Flushes, Health Related-Quality Of Life, And Sleep",True,119,62,0,62,258,True,False,,False,False,,0,False
+G2-0017,3743641,1199,distractor,1,INCREASE,True,Bone Effects,True,182,0,76,76,315,False,False,,False,False,,1,False
+G2-0017,3743641,1201,distractor,2,NO_DIFFERENCE,True,Conclusion,True,42,26,25,51,167,False,False,,False,False,,0,False
+G2-0017,3743641,1200,target,3,NO_DIFFERENCE,True,Safety > Breast Safety,True,213,0,113,113,378,False,False,,False,False,,1,False
+G2-0017,3743641,1193,distractor,4,INCREASE,True,Effects On Vulvovaginal Atrophy,True,30,0,33,33,129,False,False,,False,True,1194,1,False
+G2-0018,5126873,6677,distractor,0,DECREASE,True,Results > Effect Of The Upbeat Intervention On Dietary Pattern Scores,True,89,19,95,114,239,False,True,6679 6680,True,False,,0,False
+G2-0018,5126873,6679,distractor,1,NO_DIFFERENCE,True,Results > Effect Of The Upbeat Intervention On Dietary Pattern Scores,True,31,89,65,154,221,False,True,6677 6678,False,False,,1,True
+G2-0018,5126873,6680,target,2,NO_DIFFERENCE,True,Results > Effect Of The Upbeat Intervention On Dietary Pattern Scores,True,31,89,65,154,223,False,True,6677 6678,False,False,,1,True
+G2-0018,5126873,6678,distractor,3,DECREASE,True,Results > Effect Of The Upbeat Intervention On Dietary Pattern Scores,True,78,19,106,125,237,False,True,6677 6679 6680,True,False,,0,False
+G2-0020,5686687,10234,target,0,NO_DIFFERENCE,False,not located,False,140,0,0,0,167,False,False,,False,False,,0,False
+G2-0020,5686687,10236,distractor,1,NO_DIFFERENCE,False,not located,False,171,0,0,0,198,False,False,,False,False,,0,False
+G2-0020,5686687,10232,distractor,2,NO_DIFFERENCE,True,Front,False,123,18,25,43,188,False,False,,False,False,,1,False
+G2-0021,5852701,8295,distractor,0,NO_DIFFERENCE,True,Abstract,False,53,44,90,134,213,False,False,,False,False,,4,False
+G2-0021,5852701,8294,distractor,1,NO_DIFFERENCE,True,Abstract,False,82,51,52,103,217,False,False,,False,False,,1,False
+G2-0021,5852701,8293,target,2,NO_DIFFERENCE,True,Abstract,False,82,37,52,89,202,False,True,8294,False,False,,1,False
+G2-0021,5852701,8296,distractor,3,NO_DIFFERENCE,True,Abstract,False,39,32,54,86,151,False,False,,False,False,,1,False
+G2-0022,1261533,519,distractor,0,DECREASE,True,Results > Clinical And Parasitological Findings,True,39,50,96,146,235,False,False,,False,False,,1,False
+G2-0022,1261533,521,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,72,76,18,94,208,False,False,,False,False,,0,False
+G2-0022,1261533,520,distractor,2,NO_DIFFERENCE,True,Results > Clinical And Parasitological Findings,True,47,36,76,112,212,False,False,,False,False,,1,False
+G2-0022,1261533,517,distractor,3,NO_DIFFERENCE,True,Results > Adverse Events,True,24,85,18,103,165,False,False,,False,False,,0,False
+G2-0022,1261533,522,target,4,INCREASE,True,Results > Other Parasitological Findings,True,65,0,57,57,170,False,False,,False,False,,1,False
+G2-0023,5022334,4190,distractor,0,INCREASE,True,Front,False,74,61,68,129,232,False,True,4192 4188,False,True,4191,2,True
+G2-0023,5022334,4192,distractor,1,NO_DIFFERENCE,True,Front,False,47,74,33,107,185,False,True,4190 4189,True,False,,1,False
+G2-0023,5022334,4193,distractor,2,NO_DIFFERENCE,True,R,True,60,63,86,149,237,False,False,,False,False,,2,False
+G2-0023,5022334,4188,distractor,3,INCREASE,True,Front,False,48,28,75,103,179,False,True,4190 4189,True,False,,1,False
+G2-0023,5022334,4189,target,4,DECREASE,True,Front,False,74,61,68,129,232,False,True,4192 4188,False,True,4191,2,True
+G2-0024,4372550,13150,distractor,0,NO_DIFFERENCE,True,Results,True,73,82,0,82,191,False,True,13148,False,False,,1,False
+G2-0024,4372550,13148,distractor,1,DECREASE,True,Results,True,65,0,91,91,201,False,True,13150 13149,True,False,,2,False
+G2-0024,4372550,13149,target,2,INCREASE,True,Results,True,44,82,29,111,195,False,True,13150 13148,False,False,,1,False
+G2-0025,5726464,4432,distractor,0,NO_DIFFERENCE,True,Results > Glucose Metabolism And Measures Of Insulin Resistance,True,34,52,0,52,124,False,False,,False,False,,1,False
+G2-0025,5726464,4431,distractor,1,NO_DIFFERENCE,True,Results > Lipid Profile,True,91,16,0,16,138,False,False,,False,False,,0,False
+G2-0025,5726464,4430,target,2,INCREASE,True,Results > Baseline Demographics,True,179,36,26,62,276,False,False,,False,False,,0,False
+G2-0025,5726464,4434,distractor,3,NO_DIFFERENCE,True,Results > Body Composition And Metabolic Syndrome,True,33,55,53,108,173,False,True,4433,False,False,,2,False
+G2-0025,5726464,4433,distractor,4,NO_DIFFERENCE,True,Results > Body Composition And Metabolic Syndrome,True,73,0,87,87,196,False,True,4434,False,False,,1,False
+G2-0026,3733748,12789,target,0,DECREASE,True,Results,True,59,0,49,49,159,False,False,,False,False,,0,False
+G2-0026,3733748,12788,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,44,0,91,91,187,False,False,,False,False,,1,False
+G2-0026,3733748,12790,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,59,91,0,91,232,False,False,,False,False,,1,False
+G2-0028,2652457,9478,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,47,85,0,85,163,False,True,9477 9483,True,False,,1,False
+G2-0028,2652457,9482,distractor,1,INCREASE,True,Results,True,85,0,26,26,141,False,False,,False,False,,0,False
+G2-0028,2652457,9477,target,2,INCREASE,True,Abstract > Results,False,85,0,47,47,157,False,True,9478,False,False,,1,False
+G2-0028,2652457,9483,distractor,3,INCREASE,True,Abstract > Results,False,42,0,90,90,159,False,True,9478 9477,True,False,,2,False
+G2-0029,4809147,12708,distractor,0,INCREASE,True,Device Preference And Satisfaction,True,27,55,51,106,165,False,True,12707 12706,True,False,,3,False
+G2-0029,4809147,12704,distractor,1,INCREASE,True,Device Mastery,True,85,95,40,135,252,False,False,,False,False,,1,False
+G2-0029,4809147,12707,distractor,2,NO_DIFFERENCE,True,Device Preference And Satisfaction,True,19,83,78,161,214,False,True,12708 12706,True,False,,3,False
+G2-0029,4809147,12706,target,3,INCREASE,True,Device Preference And Satisfaction,True,83,0,76,76,214,False,True,12708 12707,False,False,,2,False
+G2-0030,5560514,7030,target,0,NO_DIFFERENCE,True,Results > Primary Outcome,True,51,0,91,91,184,False,False,,False,False,,2,False
+G2-0030,5560514,7031,distractor,1,INCREASE,True,Results > Secondary Outcomes,True,29,44,75,119,190,False,False,,False,False,,2,False
+G2-0030,5560514,7033,distractor,2,INCREASE,True,Abstract,False,23,89,36,125,187,False,False,,False,False,,2,True
+G2-0030,5560514,7032,distractor,3,INCREASE,True,Abstract,False,23,89,36,125,189,False,False,,False,False,,2,True
+G2-0031,2974815,877,distractor,0,NO_DIFFERENCE,True,Front,False,39,39,57,96,176,False,False,,False,False,,2,False
+G2-0031,2974815,875,distractor,1,NO_DIFFERENCE,True,Results > A) Control Of Blood Pressure,True,39,78,96,174,253,False,True,877,False,False,,1,False
+G2-0031,2974815,876,target,2,DECREASE,False,not located,False,43,0,0,0,72,False,False,,False,False,,0,False
+G2-0032,3606616,11813,target,0,DECREASE,True,Time From Intervention To Regular Latching And Suckling,True,89,6,38,44,185,False,False,,False,False,,0,False
+G2-0032,3606616,11812,distractor,1,NO_DIFFERENCE,True,Proportions Of Infants Starting Regular Latching-On And Suckling,True,54,0,0,0,112,False,False,,False,False,,0,False
+G2-0032,3606616,11810,distractor,2,INCREASE,True,Breastfeeding Emotional Scale,True,62,0,0,0,107,False,False,,False,False,,0,False
+G2-0032,3606616,11814,distractor,3,NO_DIFFERENCE,True,The Median Age Of The Infants When Starting Latching-On And Suckling Regularly,True,87,0,0,0,152,False,False,,False,False,,0,False
+G2-0033,3785973,10896,distractor,0,INCREASE,True,Results > Clinical Outcomes,True,71,0,91,91,192,False,False,,False,False,,2,False
+G2-0033,3785973,10897,distractor,1,INCREASE,True,Abstract > Results,False,70,0,27,27,124,False,True,10899 10898,True,False,,0,False
+G2-0033,3785973,10899,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,27,70,0,70,125,False,True,10897,False,False,,1,False
+G2-0033,3785973,10898,target,3,NO_DIFFERENCE,True,Abstract > Results,False,26,70,1,71,127,False,True,10897 10899,False,False,,1,False
+G2-0034,5746685,1043,distractor,0,NO_DIFFERENCE,True,Abstract,False,35,93,100,193,260,False,True,1042,False,False,,2,False
+G2-0034,5746685,1041,target,1,NO_DIFFERENCE,True,Abstract,False,45,71,73,144,221,False,True,1042,False,False,,1,False
+G2-0034,5746685,1042,distractor,2,NO_DIFFERENCE,True,Abstract,False,51,60,40,100,182,False,True,1041,True,False,,1,False
+G2-0035,4713062,12338,target,0,INCREASE,True,Abstract > Results,False,39,49,21,70,153,False,True,12337 12339 12336,False,False,,1,False
+G2-0035,4713062,12337,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,21,88,0,88,145,False,True,12338 12336,True,False,,2,True
+G2-0035,4713062,12339,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,21,88,0,88,144,False,True,12338 12336,True,False,,2,True
+G2-0035,4713062,12336,distractor,3,INCREASE,True,Abstract > Results,False,33,0,76,76,150,False,True,12338 12337 12339,True,False,,2,False
+G2-0038,5539943,4726,distractor,0,INCREASE,True,Results > Analysis Plan,True,103,0,0,0,152,False,False,,False,False,,0,True
+G2-0038,5539943,4723,distractor,1,DECREASE,True,Results > Analysis Plan,True,70,76,0,76,190,False,False,,False,False,,1,False
+G2-0038,5539943,4724,target,2,DECREASE,True,Results > Analysis Plan,True,67,77,17,94,203,False,False,,False,False,,1,False
+G2-0038,5539943,4725,distractor,3,NO_DIFFERENCE,True,Results > Analysis Plan,True,61,84,67,151,262,False,True,4724,True,False,,2,False
+G2-0038,5539943,4727,distractor,4,NO_DIFFERENCE,True,Results > Analysis Plan,True,103,0,0,0,151,False,False,,False,False,,0,True
+G2-0039,3658388,10560,distractor,0,NO_DIFFERENCE,True,Abstract,False,63,41,59,100,213,False,False,,False,False,,1,True
+G2-0039,3658388,10557,distractor,1,NO_DIFFERENCE,True,Abstract,False,59,27,16,43,136,False,True,10559,False,False,,0,False
+G2-0039,3658388,10558,target,2,NO_DIFFERENCE,True,Abstract,False,63,41,59,100,213,False,False,,False,False,,1,True
+G2-0039,3658388,10559,distractor,3,NO_DIFFERENCE,True,Abstract,False,60,27,17,44,138,False,False,,False,False,,0,False
+G2-0040,4399299,5433,distractor,0,NO_DIFFERENCE,True,Results > Hepatic Glucose Production,True,85,42,0,42,162,False,False,,False,False,,0,False
+G2-0040,4399299,5430,distractor,1,DECREASE,True,Results > Plasma Alanine Aminotransferase (Alt),True,76,0,69,69,184,False,False,,False,False,,2,False
+G2-0040,4399299,5434,target,2,DECREASE,True,Results > Plasma Hba,True,112,0,0,0,144,False,False,,False,False,,0,False
+G2-0040,4399299,5428,distractor,3,DECREASE,True,Front,False,71,0,87,87,186,False,True,5429,False,False,,1,False
+G2-0040,4399299,5429,distractor,4,DECREASE,True,Front,False,31,25,135,160,218,False,True,5428,False,False,,2,False
+G2-0041,5762965,6588,distractor,0,NO_DIFFERENCE,True,Results > Effect On Mineral And Bone Disorder Outcomes,True,42,0,58,58,137,False,True,6587,False,False,,1,False
+G2-0041,5762965,6587,distractor,1,NO_DIFFERENCE,True,Results > Effect On Mineral And Bone Disorder Outcomes,True,43,0,57,57,135,False,False,,False,False,,1,False
+G2-0041,5762965,6586,distractor,2,NO_DIFFERENCE,True,Results > Primary Efficacy Analysis,True,53,58,44,102,193,False,True,6585,True,False,,2,False
+G2-0041,5762965,6585,target,3,DECREASE,True,Results > Primary Efficacy Analysis,True,48,43,107,150,233,False,True,6586,False,False,,3,False
+G2-0041,5762965,6584,distractor,4,NO_DIFFERENCE,True,Results > Primary Efficacy Analysis,True,64,15,43,58,162,False,False,,False,False,,1,False
+G2-0042,4859395,1450,distractor,0,DECREASE,True,Results > Comparisons Between Nebivolol And Atenolol,True,74,53,42,95,207,False,True,1448,False,False,,1,False
+G2-0042,4859395,1449,distractor,1,INCREASE,True,Results > Comparisons Between Nebivolol And Atenolol,True,53,53,63,116,207,False,True,1450 1448,False,False,,1,False
+G2-0042,4859395,1447,target,2,NO_DIFFERENCE,True,Results > Comparisons Between Nebivolol And Atenolol,True,58,29,53,82,185,False,True,1448,False,False,,1,True
+G2-0042,4859395,1448,distractor,3,NO_DIFFERENCE,True,Results > Comparisons Between Nebivolol And Atenolol,True,53,65,94,159,249,False,True,1450 1449 1447 1446,True,False,,2,False
+G2-0042,4859395,1446,distractor,4,DECREASE,True,Results > Comparisons Between Nebivolol And Atenolol,True,58,29,53,82,186,False,True,1448,False,False,,1,True
+G2-0043,5399146,4114,distractor,0,NO_DIFFERENCE,True,Results,True,72,71,66,137,262,False,True,4111,False,False,,3,True
+G2-0043,5399146,4112,distractor,1,INCREASE,True,Front,False,30,65,12,77,161,False,False,,False,False,,1,False
+G2-0043,5399146,4115,distractor,2,NO_DIFFERENCE,True,Results,True,55,64,0,64,179,False,False,,False,False,,1,False
+G2-0043,5399146,4111,distractor,3,NO_DIFFERENCE,True,Results,True,71,60,72,132,273,False,True,4114 4113,True,False,,1,False
+G2-0043,5399146,4113,target,4,INCREASE,True,Results,True,72,71,66,137,263,False,True,4111,False,False,,3,True
+G2-0044,4780150,1768,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,79,68,8,76,199,False,True,1771,True,False,,1,False
+G2-0044,4780150,1770,distractor,1,NO_DIFFERENCE,True,Results > Anthropometry And Haematological Indices,True,72,36,23,59,177,False,True,1769,False,False,,0,False
+G2-0044,4780150,1767,distractor,2,NO_DIFFERENCE,False,not located,False,51,0,0,0,94,False,False,,False,False,,0,False
+G2-0044,4780150,1769,distractor,3,NO_DIFFERENCE,True,Results > Anthropometry And Haematological Indices,True,32,0,99,99,179,False,True,1770,False,False,,2,False
+G2-0044,4780150,1771,target,4,NO_DIFFERENCE,True,Abstract > Results,False,68,0,87,87,198,False,True,1768 1767,False,False,,0,False
+G2-0045,3480782,1908,target,0,DECREASE,True,Front,False,84,0,38,38,162,False,False,,False,False,,1,False
+G2-0045,3480782,1910,distractor,1,NO_DIFFERENCE,True,Results,True,73,41,29,70,205,False,True,1909,False,False,,1,False
+G2-0045,3480782,1909,distractor,2,DECREASE,True,Results,True,137,52,73,125,299,False,True,1910,False,False,,2,False
+G2-0046,4599047,8616,distractor,0,DECREASE,True,Results,True,126,92,59,151,330,False,False,,False,False,,1,False
+G2-0046,4599047,8618,distractor,1,NO_DIFFERENCE,True,Results,True,42,58,92,150,248,False,False,,False,False,,2,False
+G2-0046,4599047,8617,target,2,INCREASE,True,Abstract > Results,False,87,0,26,26,172,False,False,,False,False,,0,False
+G2-0047,5897859,7741,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,32,0,55,55,124,False,False,,False,False,,0,False
+G2-0047,5897859,7739,target,1,DECREASE,True,Abstract > Results,False,75,96,117,213,336,False,True,7741 7740,False,False,,2,False
+G2-0047,5897859,7743,distractor,2,NO_DIFFERENCE,True,Results > Safety,True,25,0,0,0,71,False,False,,False,False,,0,False
+G2-0047,5897859,7742,distractor,3,NO_DIFFERENCE,True,Results > Patients,True,46,24,0,24,108,False,False,,False,False,,0,False
+G2-0047,5897859,7740,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,111,89,87,176,332,False,True,7741,False,False,,1,False
+G2-0048,1570354,11652,distractor,0,INCREASE,True,Abstract > Results,False,107,0,96,96,254,False,False,,False,False,,0,False
+G2-0048,1570354,11653,target,1,NO_DIFFERENCE,True,Study B,True,67,30,14,44,181,False,False,,False,False,,0,True
+G2-0048,1570354,11654,distractor,2,NO_DIFFERENCE,True,Study B,True,67,30,14,44,181,False,False,,False,False,,0,True
+G2-0049,4877819,7249,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,32,35,34,69,132,False,True,7247,True,False,,1,True
+G2-0049,4877819,7247,target,1,DECREASE,True,Abstract > Results,False,34,0,67,67,132,False,True,7249 7248 7250,False,False,,1,False
+G2-0049,4877819,7248,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,32,35,34,69,131,False,True,7247,True,False,,1,True
+G2-0049,4877819,7250,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,32,35,34,69,131,False,True,7247,True,False,,1,True
+G2-0050,4731690,3585,distractor,0,NO_DIFFERENCE,True,Front,False,44,53,30,83,169,False,False,,False,False,,3,True
+G2-0050,4731690,3581,target,1,INCREASE,True,Front,False,91,0,53,53,190,False,False,,False,False,,2,True
+G2-0050,4731690,3582,distractor,2,NO_DIFFERENCE,True,Front,False,91,0,53,53,178,False,False,,False,False,,2,True
+G2-0050,4731690,3584,distractor,3,NO_DIFFERENCE,True,Front,False,44,53,30,83,157,False,False,,False,False,,3,True
+G2-0051,5426232,8470,distractor,0,DECREASE,True,Results > Qca,True,93,62,92,154,285,False,True,8473,True,False,,2,True
+G2-0051,5426232,8473,target,1,NO_DIFFERENCE,True,Results > Qca,True,24,61,0,61,124,False,False,,False,False,,1,False
+G2-0051,5426232,8472,distractor,2,INCREASE,True,Abstract,False,58,40,60,100,195,False,False,,False,False,,2,False
+G2-0051,5426232,8469,distractor,3,DECREASE,True,Results > Qca,True,93,62,92,154,287,False,True,8473,True,False,,2,True
+G2-0052,4236282,11769,distractor,0,DECREASE,True,Psychological And Motivation Assessments,True,40,52,63,115,188,False,False,,False,False,,4,False
+G2-0052,4236282,11771,distractor,1,INCREASE,True,"Treatment Credibility, Satisfaction, Fidelity, And Adherence",True,110,31,11,42,198,False,False,,False,False,,0,False
+G2-0052,4236282,11768,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,20,0,57,57,109,False,False,,False,False,,1,False
+G2-0052,4236282,11770,distractor,3,NO_DIFFERENCE,True,Psychological And Motivation Assessments,True,32,59,63,122,188,False,True,11769,False,False,,4,False
+G2-0052,4236282,11767,target,4,DECREASE,True,Physical And Metabolic Assessments,True,42,46,16,62,138,False,False,,False,False,,3,False
+G2-0053,3872586,12552,distractor,0,NO_DIFFERENCE,True,Results,True,87,45,0,45,170,False,False,,False,False,,0,False
+G2-0053,3872586,12550,distractor,1,DECREASE,True,Results,True,51,38,50,88,174,False,False,,False,False,,1,False
+G2-0053,3872586,12551,target,2,INCREASE,True,Results,True,70,43,45,88,190,False,False,,False,False,,0,False
+G2-0054,4331314,7417,distractor,0,NO_DIFFERENCE,True,Abstract,False,39,90,20,110,173,False,True,7416 7415,True,False,,2,False
+G2-0054,4331314,7416,target,1,DECREASE,True,Abstract,False,60,31,42,73,162,False,True,7417 7415,False,False,,2,False
+G2-0054,4331314,7415,distractor,2,NO_DIFFERENCE,True,Abstract,False,29,13,100,113,176,False,True,7417 7416,True,False,,2,False
+G2-0055,4395675,4358,distractor,0,NO_DIFFERENCE,False,not located,False,20,0,0,0,56,False,False,,False,False,,0,False
+G2-0055,4395675,4359,distractor,1,INCREASE,False,not located,False,74,0,0,0,106,False,False,,False,False,,0,False
+G2-0055,4395675,4357,target,2,INCREASE,False,not located,False,77,0,0,0,109,False,False,,False,False,,0,False
+G2-0059,3661377,12392,target,0,DECREASE,True,Pruritus Vas,True,64,18,78,96,198,False,False,,False,False,,1,False
+G2-0059,3661377,12395,distractor,1,NO_DIFFERENCE,True,Pruritus Vas,True,41,62,0,62,144,False,True,12394,False,False,,1,False
+G2-0059,3661377,12393,distractor,2,INCREASE,True,Abstract > Results,False,43,80,51,131,214,False,True,12391,False,False,,1,False
+G2-0059,3661377,12391,distractor,3,DECREASE,True,Abstract > Results,False,55,24,95,119,222,False,True,12393,False,False,,2,False
+G2-0059,3661377,12394,distractor,4,INCREASE,True,Pruritus Vas,True,62,62,41,103,208,False,True,12395,False,False,,1,False
+G2-0060,5851005,12917,target,0,INCREASE,True,Abstract > Conclusion,False,41,59,76,135,241,False,True,12916,False,False,,2,False
+G2-0060,5851005,12918,distractor,1,NO_DIFFERENCE,True,Abstract > Methods,False,35,37,39,76,177,False,False,,False,False,,0,False
+G2-0060,5851005,12916,distractor,2,INCREASE,True,Abstract > Conclusion,False,59,0,70,70,195,False,True,12917,True,False,,1,False
+G2-0061,4747995,2031,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,77,27,13,40,150,False,False,,False,False,,0,True
+G2-0061,4747995,2032,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,77,27,13,40,149,False,False,,False,False,,0,True
+G2-0061,4747995,2030,target,2,NO_DIFFERENCE,True,Results > Safety,True,37,0,97,97,166,False,False,,False,False,,0,False
+G2-0062,2865639,8639,target,0,INCREASE,True,Results > Study Sample Description And Vaginal Practices,True,38,84,0,84,158,True,True,8638,False,False,,1,False
+G2-0062,2865639,8640,distractor,1,INCREASE,True,Results > Study Sample Description And Vaginal Practices,True,39,122,0,122,197,True,True,8639 8638,True,False,,1,False
+G2-0062,2865639,8636,distractor,2,INCREASE,True,Results > Vaginal Practices During Follow-Up And By Study Group,True,123,11,82,93,253,False,False,,False,False,,1,False
+G2-0062,2865639,8638,distractor,3,NO_DIFFERENCE,True,Results > Study Sample Description And Vaginal Practices,True,24,31,4,35,112,False,False,,False,False,,0,False
+G2-0062,2865639,8637,distractor,4,INCREASE,True,Abstract,False,25,45,71,116,167,False,False,,False,False,,0,False
+G2-0063,4472776,1773,distractor,0,NO_DIFFERENCE,True,Results > Cost-Effectiveness Analysis,True,24,56,90,146,208,False,True,1775,True,False,,1,True
+G2-0063,4472776,1774,distractor,1,NO_DIFFERENCE,True,Results > Cost-Effectiveness Analysis,True,24,56,90,146,209,False,True,1775,True,False,,1,True
+G2-0063,4472776,1772,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,29,46,34,80,141,False,False,,False,False,,1,False
+G2-0063,4472776,1775,target,3,DECREASE,True,Results > Cost-Effectiveness Analysis,True,85,0,24,24,146,False,True,1773 1774,False,False,,0,False
+G2-0064,2856148,1650,distractor,0,NO_DIFFERENCE,True,Front,False,117,15,73,88,241,False,False,,False,False,,1,False
+G2-0064,2856148,1651,distractor,1,NO_DIFFERENCE,True,Front,False,106,15,84,99,241,False,True,1650,False,False,,1,False
+G2-0064,2856148,1653,target,2,NO_DIFFERENCE,True,Front,False,73,15,117,132,240,False,True,1650 1651,False,False,,2,False
+G2-0064,2856148,1652,distractor,3,NO_DIFFERENCE,True,Results,True,103,62,0,62,202,True,False,,False,False,,1,False
+G2-0065,1420296,11592,distractor,0,NO_DIFFERENCE,True,Results,True,30,0,37,37,91,False,True,11593,True,False,,2,False
+G2-0065,1420296,11594,distractor,1,NO_DIFFERENCE,True,Results,True,63,37,0,37,128,False,True,11593,True,False,,2,False
+G2-0065,1420296,11593,target,2,NO_DIFFERENCE,True,Results,True,130,0,0,0,159,False,False,,False,False,,0,False
+G2-0067,3321403,3314,distractor,0,INCREASE,True,Abstract > Results,False,47,66,0,66,155,False,False,,False,False,,1,True
+G2-0067,3321403,3312,target,1,NO_DIFFERENCE,True,Abstract > Results,False,47,66,0,66,154,False,False,,False,False,,1,True
+G2-0067,3321403,3313,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,47,66,0,66,155,False,False,,False,False,,1,True
+G2-0067,3321403,3315,distractor,3,NO_DIFFERENCE,True,Results,True,17,37,32,69,128,False,False,,False,False,,0,False
+G2-0068,5513842,7867,target,0,DECREASE,True,Results > Postoperative Pain Scores Using Nrs,True,52,26,0,26,121,False,False,,False,False,,0,False
+G2-0068,5513842,7869,distractor,1,DECREASE,True,Results > Postoperative Total Analgesic Consumption,True,47,99,0,99,185,False,True,7868,False,False,,0,False
+G2-0068,5513842,7866,distractor,2,NO_DIFFERENCE,True,Results > Sociodemographic Characteristics Of Patients,True,31,91,0,91,170,False,False,,False,False,,0,False
+G2-0068,5513842,7868,distractor,3,DECREASE,True,Results > Postoperative Total Analgesic Consumption,True,65,34,47,81,186,False,True,7869,False,False,,1,False
+G2-0068,5513842,7870,distractor,4,INCREASE,True,Results > Postoperative First Analgesic Request Time,True,54,0,0,0,94,False,False,,False,False,,0,False
+G2-0069,4297469,3342,distractor,0,INCREASE,True,Abstract > Methods And Results,False,109,61,0,61,210,True,True,3344,False,True,3345 3343,0,False
+G2-0069,4297469,3339,target,1,DECREASE,True,Results > Resource Utilization During Follow-Up,True,59,26,73,99,203,False,False,,False,False,,3,False
+G2-0069,4297469,3340,distractor,2,INCREASE,True,Results > Other Secondary End-Points,True,58,0,0,0,105,False,False,,False,False,,0,False
+G2-0069,4297469,3344,distractor,3,INCREASE,True,Abstract > Methods And Results,False,174,61,129,190,404,False,False,,False,True,3346 3345,2,False
+G2-0069,4297469,3341,distractor,4,INCREASE,True,Abstract > Methods And Results,False,76,61,0,61,176,True,True,3342 3344,False,True,3345 3343,0,False
+G2-0070,2928344,2956,target,0,NO_DIFFERENCE,True,Results,True,24,94,0,94,141,False,False,,False,False,,1,False
+G2-0070,2928344,2952,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,34,0,28,28,100,False,False,,False,False,,1,True
+G2-0070,2928344,2953,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,34,0,28,28,99,False,False,,False,False,,1,True
+G2-0070,2928344,2954,distractor,3,NO_DIFFERENCE,True,Results,True,123,98,57,155,303,False,False,,False,False,,2,False
+G2-0072,5228186,5831,distractor,0,INCREASE,True,Body,True,38,61,90,151,213,False,True,5834,False,False,,1,True
+G2-0072,5228186,5832,target,1,INCREASE,True,Body,True,38,61,90,151,214,False,True,5834,False,False,,1,True
+G2-0072,5228186,5834,distractor,2,NO_DIFFERENCE,True,Body,True,22,89,42,131,174,False,True,5831 5832,True,False,,1,False
+G2-0073,5343026,6149,target,0,INCREASE,True,Discussion,True,29,72,75,147,199,False,False,,False,False,,0,False
+G2-0073,5343026,6150,distractor,1,NO_DIFFERENCE,True,Abstract,False,17,99,118,217,264,False,True,6151,False,False,,1,False
+G2-0073,5343026,6151,distractor,2,NO_DIFFERENCE,True,Abstract,False,19,118,97,215,256,False,True,6150,False,False,,1,False
+G2-0073,5343026,6147,distractor,3,NO_DIFFERENCE,True,Discussion,True,22,59,73,132,186,False,False,,False,False,,0,False
+G2-0074,5588958,8902,target,0,DECREASE,True,Results > Metabolic Effects,True,50,0,82,82,184,False,False,,False,False,,1,False
+G2-0074,5588958,8898,distractor,1,DECREASE,True,Results > Safety,True,64,43,98,141,262,False,False,,False,False,,1,False
+G2-0074,5588958,8900,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,23,0,87,87,162,False,False,,False,False,,2,True
+G2-0074,5588958,8899,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,23,0,87,87,161,False,False,,False,False,,2,True
+G2-0074,5588958,8901,distractor,4,INCREASE,True,Abstract > Results,False,76,81,0,81,209,False,False,,False,False,,2,False
+G2-0075,5448649,4486,distractor,0,INCREASE,True,Abstract,False,85,57,75,132,240,False,False,,False,False,,1,True
+G2-0075,5448649,4489,distractor,1,NO_DIFFERENCE,True,Results > Immune Responses,True,24,46,84,130,185,False,False,,False,False,,2,False
+G2-0075,5448649,4485,target,2,INCREASE,True,Abstract,False,85,57,75,132,243,False,False,,False,False,,1,True
+G2-0075,5448649,4487,distractor,3,DECREASE,True,Results > Safety,True,47,140,76,216,288,False,False,,False,False,,4,False
+G2-0075,5448649,4488,distractor,4,NO_DIFFERENCE,True,Results > Immune Responses,True,102,57,97,154,287,False,False,,False,False,,1,False
+G2-0076,3258705,13672,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,30,27,42,69,189,False,False,,False,False,,1,False
+G2-0076,3258705,13669,target,1,NO_DIFFERENCE,True,Results,True,52,0,66,66,193,False,True,13671 13670,False,False,,2,False
+G2-0076,3258705,13671,distractor,2,NO_DIFFERENCE,True,Results,True,49,69,91,160,289,False,True,13669 13670,True,False,,3,False
+G2-0076,3258705,13670,distractor,3,NO_DIFFERENCE,True,Results,True,17,52,80,132,226,False,True,13669 13671,True,False,,3,False
+G2-0077,5971505,10777,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,17,31,13,44,87,False,False,,False,False,,1,True
+G2-0077,5971505,10780,distractor,1,NO_DIFFERENCE,False,not located,False,55,0,0,0,80,False,False,,False,False,,0,False
+G2-0077,5971505,10776,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,17,31,13,44,86,False,False,,False,False,,1,True
+G2-0077,5971505,10778,target,3,NO_DIFFERENCE,False,not located,False,57,0,0,0,84,False,False,,False,False,,0,False
+G2-0077,5971505,10779,distractor,4,NO_DIFFERENCE,False,not located,False,57,0,0,0,84,False,False,,False,False,,0,False
+G2-0079,5754420,6635,distractor,0,NO_DIFFERENCE,True,Results > Muscular Metabolic Enzyme Expression And Substrate Level,True,20,0,6,6,67,False,False,,False,False,,0,False
+G2-0079,5754420,6638,distractor,1,NO_DIFFERENCE,True,Results > Muscular Ion-Regulatory Enzyme Expression,True,113,0,42,42,195,False,False,,False,False,,0,False
+G2-0079,5754420,6634,distractor,2,NO_DIFFERENCE,True,Results > Muscular Metabolic Enzyme Expression And Substrate Level,True,143,0,26,26,204,False,True,6635,False,False,,0,False
+G2-0079,5754420,6633,target,3,INCREASE,True,Abstract > Results,False,37,0,85,85,151,False,True,6636,False,False,,2,False
+G2-0079,5754420,6636,distractor,4,DECREASE,True,Abstract > Results,False,175,0,28,28,230,False,False,,False,False,,1,False
+G2-0080,3089991,3228,distractor,0,NO_DIFFERENCE,True,Results > The Relationship Among Cravings And Tms Condition,True,99,85,69,154,297,False,True,3226,False,False,,2,False
+G2-0080,3089991,3227,target,1,NO_DIFFERENCE,True,Results > Validity Of The Sham-Tms System,True,60,0,0,0,99,False,False,,False,False,,0,False
+G2-0080,3089991,3226,distractor,2,NO_DIFFERENCE,True,Results > The Relationship Among Cravings And Tms Condition,True,41,0,44,44,126,False,False,,False,False,,1,False
+G2-0081,4493951,4927,distractor,0,NO_DIFFERENCE,True,Results,True,117,69,0,69,240,True,True,4926,False,False,,1,False
+G2-0081,4493951,4925,distractor,1,NO_DIFFERENCE,True,Results,True,88,52,0,52,188,True,False,,False,False,,1,True
+G2-0081,4493951,4924,target,2,DECREASE,True,Results,True,88,52,0,52,195,True,False,,False,False,,1,True
+G2-0081,4493951,4926,distractor,3,INCREASE,True,Results,True,97,93,0,93,255,True,True,4927,False,False,,1,False
+G2-0082,5850960,12696,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,27,35,40,75,157,False,False,,False,False,,0,False
+G2-0082,5850960,12697,target,1,NO_DIFFERENCE,True,Clinical Evaluation,True,65,81,53,134,246,False,False,,False,False,,0,False
+G2-0082,5850960,12699,distractor,2,NO_DIFFERENCE,True,Clinical Evaluation,True,55,76,82,158,264,False,True,12697,True,False,,1,False
+G2-0082,5850960,12698,distractor,3,NO_DIFFERENCE,True,Clinical Evaluation,True,41,64,74,138,226,False,False,,False,False,,0,False
+G2-0083,4054662,11102,distractor,0,NO_DIFFERENCE,True,Results > Compliance With Treatment,True,101,22,85,107,239,False,False,,False,False,,0,False
+G2-0083,4054662,11101,distractor,1,NO_DIFFERENCE,False,not located,False,130,0,0,0,155,False,False,,False,False,,0,False
+G2-0083,4054662,11100,target,2,NO_DIFFERENCE,True,Results > Compliance With Treatment,True,33,90,85,175,243,False,True,11102,False,False,,1,False
+G2-0084,2759981,7301,distractor,0,NO_DIFFERENCE,False,not located,False,165,0,0,0,195,False,False,,False,False,,0,False
+G2-0084,2759981,7299,distractor,1,NO_DIFFERENCE,False,not located,False,165,0,0,0,194,False,False,,False,False,,0,False
+G2-0084,2759981,7297,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,26,12,52,64,118,False,False,,False,False,,0,True
+G2-0084,2759981,7300,target,3,NO_DIFFERENCE,False,not located,False,166,0,0,0,196,False,False,,False,False,,0,False
+G2-0084,2759981,7296,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,26,12,52,64,118,False,False,,False,False,,0,True
+G2-0085,5524701,5762,distractor,0,INCREASE,True,Results,True,63,77,94,171,263,False,False,,False,True,5760,4,False
+G2-0085,5524701,5758,target,1,INCREASE,True,Abstract > Results,False,25,40,0,40,90,False,True,5761 5763,False,False,,1,False
+G2-0085,5524701,5761,distractor,2,INCREASE,True,Abstract > Results,False,26,28,26,54,111,False,True,5758 5763,True,False,,1,False
+G2-0085,5524701,5759,distractor,3,NO_DIFFERENCE,True,Results,True,51,55,77,132,208,False,False,,False,True,5760,2,False
+G2-0085,5524701,5763,distractor,4,INCREASE,True,Abstract > Results,False,25,31,25,56,109,False,True,5758 5761,True,False,,1,False
+G2-0087,4305224,9288,distractor,0,DECREASE,True,Abstract > Results,False,132,60,0,60,228,False,False,,False,False,,0,True
+G2-0087,4305224,9290,distractor,1,INCREASE,True,Abstract > Results,False,132,60,0,60,226,False,False,,False,False,,0,True
+G2-0087,4305224,9292,target,2,DECREASE,True,Abstract > Results,False,105,0,94,94,236,False,False,,False,True,9293,1,False
+G2-0087,4305224,9289,distractor,3,DECREASE,True,Abstract > Results,False,100,60,32,92,228,False,True,9288 9290,False,False,,1,False
+G2-0087,4305224,9291,distractor,4,DECREASE,True,Abstract > Results,False,67,0,133,133,237,False,True,9292,True,True,9293,2,False
+G2-0088,3633335,4224,distractor,0,NO_DIFFERENCE,True,Results > Patient Characteristics,True,47,81,19,100,185,False,False,,False,False,,1,False
+G2-0088,3633335,4223,distractor,1,DECREASE,True,Abstract > Results,False,96,0,73,73,199,False,True,4226,False,False,,1,False
+G2-0088,3633335,4221,target,2,DECREASE,True,Abstract > Results,False,59,0,89,89,183,False,True,4223 4226,False,False,,1,False
+G2-0088,3633335,4222,distractor,3,DECREASE,True,Abstract > Conclusions,False,73,0,0,0,104,False,False,,False,False,,0,False
+G2-0088,3633335,4226,distractor,4,DECREASE,True,Abstract > Results,False,73,96,0,96,200,False,True,4223 4221,True,False,,2,False
+G2-0089,5075282,11086,target,0,DECREASE,True,Results,True,56,54,47,101,196,False,True,11085 11088 11087,False,False,,0,False
+G2-0089,5075282,11085,distractor,1,NO_DIFFERENCE,True,Results,True,29,85,56,141,206,False,True,11086,True,False,,2,False
+G2-0089,5075282,11084,distractor,2,DECREASE,True,Results,True,66,61,58,119,220,False,False,,False,False,,1,False
+G2-0089,5075282,11088,distractor,3,NO_DIFFERENCE,True,Results,True,47,85,0,85,167,False,True,11086 11085,True,False,,1,True
+G2-0089,5075282,11087,distractor,4,NO_DIFFERENCE,True,Results,True,47,85,0,85,167,False,True,11086 11085,True,False,,1,True
+G2-0091,5301372,5128,distractor,0,NO_DIFFERENCE,True,Results > Safety,True,60,89,54,143,230,False,True,5131 5130,True,False,,0,False
+G2-0091,5301372,5129,distractor,1,INCREASE,True,Results > Safety,True,95,70,96,166,293,False,False,,False,False,,0,False
+G2-0091,5301372,5131,target,2,INCREASE,True,Results > Safety,True,79,31,70,101,211,False,True,5128,False,False,,0,False
+G2-0091,5301372,5130,distractor,3,INCREASE,True,Results > Safety,True,31,31,118,149,211,False,True,5128 5131,True,False,,0,False
+G2-0093,2818614,7747,target,0,NO_DIFFERENCE,True,Results > Adverse Events,True,28,0,61,61,144,False,False,,False,False,,0,False
+G2-0093,2818614,7745,distractor,1,NO_DIFFERENCE,True,Results > Intervention Study,True,56,76,110,186,305,False,False,,False,False,,2,False
+G2-0093,2818614,7744,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,27,42,0,42,127,False,False,,False,False,,0,True
+G2-0093,2818614,7746,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,27,42,0,42,139,False,False,,False,False,,0,True
+G2-0094,5925011,6969,target,0,INCREASE,True,Abstract > Conclusion,False,47,33,99,132,226,False,True,6967 6970,False,False,,1,False
+G2-0094,5925011,6968,distractor,1,NO_DIFFERENCE,True,Abstract > Conclusion,False,33,0,46,46,122,False,False,,False,False,,0,False
+G2-0094,5925011,6967,distractor,2,NO_DIFFERENCE,True,Abstract > Conclusion,False,33,0,47,47,119,False,True,6969,True,False,,1,False
+G2-0094,5925011,6970,distractor,3,INCREASE,True,Abstract > Conclusion,False,47,48,18,66,160,False,False,,False,False,,2,False
+G2-0095,4082484,1089,distractor,0,INCREASE,True,Abstract > Results,False,72,39,29,68,173,False,True,1090,False,False,,2,False
+G2-0095,4082484,1088,target,1,INCREASE,True,Abstract > Results,False,44,39,57,96,176,False,True,1089 1090,False,False,,2,False
+G2-0095,4082484,1090,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,29,72,0,72,144,False,True,1089 1088,True,False,,1,False
+G2-0097,4994668,5511,distractor,0,NO_DIFFERENCE,True,Results,True,94,73,76,149,278,False,False,,False,False,,1,True
+G2-0097,4994668,5516,target,1,INCREASE,True,Results,True,58,69,50,119,202,False,False,,False,False,,1,False
+G2-0097,4994668,5510,distractor,2,NO_DIFFERENCE,True,Results,True,94,73,76,149,271,False,False,,False,False,,1,True
+G2-0097,4994668,5514,distractor,3,NO_DIFFERENCE,True,Results,True,135,1,76,77,241,False,False,,False,False,,1,False
+G2-0097,4994668,5515,distractor,4,NO_DIFFERENCE,True,Results,True,73,66,143,209,310,False,False,,False,False,,1,False
+G2-0098,3434899,3538,target,0,NO_DIFFERENCE,True,Results,True,33,51,51,102,181,False,True,3539,False,False,,3,False
+G2-0098,3434899,3539,distractor,1,INCREASE,True,Results,True,51,48,64,112,211,False,True,3538 3540,True,False,,3,False
+G2-0098,3434899,3540,distractor,2,INCREASE,True,Results,True,34,71,35,106,184,False,True,3539,False,False,,3,False
+G2-0099,5827302,13365,distractor,0,NO_DIFFERENCE,True,Title,False,112,88,0,88,230,False,False,,False,False,,1,False
+G2-0099,5827302,13366,distractor,1,NO_DIFFERENCE,True,Title,False,34,0,10,10,70,False,False,,False,False,,0,False
+G2-0099,5827302,13367,target,2,DECREASE,True,Title,False,60,0,31,31,116,False,False,,False,False,,0,False
+G2-0099,5827302,13368,distractor,3,NO_DIFFERENCE,True,Title,False,76,62,0,62,164,False,False,,False,False,,1,False
+G2-0100,3546023,3743,distractor,0,INCREASE,True,Abstract > Results,False,51,50,36,86,171,False,False,,False,False,,1,False
+G2-0100,3546023,3746,target,1,DECREASE,False,not located,False,71,0,0,0,111,False,False,,False,False,,0,False
+G2-0100,3546023,3742,distractor,2,INCREASE,False,not located,False,36,0,0,0,79,False,False,,False,False,,0,True
+G2-0100,3546023,3741,distractor,3,INCREASE,False,not located,False,36,0,0,0,76,False,False,,False,False,,0,True
+G2-0100,3546023,3740,distractor,4,INCREASE,True,Results > Plasma Total Vitamin E Level,True,45,2,50,52,148,False,True,3742 3741,False,False,,1,False
+G2-0101,4958948,4876,distractor,0,NO_DIFFERENCE,True,Results > Ba Profile,True,52,0,66,66,150,False,False,,False,False,,1,True
+G2-0101,4958948,4872,distractor,1,DECREASE,True,Results > Ba Profile,True,76,82,70,152,258,False,True,4871,False,True,4873,2,False
+G2-0101,4958948,4871,distractor,2,DECREASE,True,Results > Ba Profile,True,82,51,76,127,248,False,True,4872,False,True,4873,1,False
+G2-0101,4958948,4868,distractor,3,DECREASE,True,Results > Clinical And Laboratory Parameters,True,172,40,45,85,317,False,False,,False,False,,0,False
+G2-0101,4958948,4875,target,4,DECREASE,True,Results > Ba Profile,True,52,0,66,66,146,False,False,,False,False,,1,True
+G2-0103,4990415,13862,target,0,DECREASE,True,Abstract > Results,False,27,85,28,113,173,False,False,,False,False,,1,True
+G2-0103,4990415,13861,distractor,1,DECREASE,True,Abstract > Results,False,27,85,28,113,172,False,False,,False,False,,1,True
+G2-0103,4990415,13860,distractor,2,NO_DIFFERENCE,True,Between Group Differences,True,59,0,35,35,135,False,False,,False,False,,0,False
+G2-0104,4860224,2133,distractor,0,NO_DIFFERENCE,True,Abstract,False,82,0,46,46,159,False,False,,False,False,,1,False
+G2-0104,4860224,2131,distractor,1,NO_DIFFERENCE,True,Abstract,False,19,66,14,80,129,False,False,,False,False,,1,False
+G2-0104,4860224,2132,target,2,NO_DIFFERENCE,True,Abstract,False,25,49,45,94,150,False,False,,False,False,,0,False
+G2-0105,4895420,5517,distractor,0,NO_DIFFERENCE,True,Results,True,191,88,47,135,355,False,False,,False,False,,1,False
+G2-0105,4895420,5518,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,39,0,41,41,112,False,False,,False,False,,0,False
+G2-0105,4895420,5520,target,2,NO_DIFFERENCE,True,Results,True,68,64,77,141,242,False,False,,False,False,,0,False
+G2-0106,5586978,2853,distractor,0,NO_DIFFERENCE,True,Results,True,56,67,0,67,182,False,True,2852,False,False,,2,False
+G2-0106,5586978,2852,distractor,1,DECREASE,True,Results,True,38,70,37,107,205,False,True,2853 2851,False,False,,3,False
+G2-0106,5586978,2851,distractor,2,NO_DIFFERENCE,True,Results,True,41,68,68,136,222,False,True,2852,False,False,,3,False
+G2-0106,5586978,2849,target,3,DECREASE,True,Results,True,51,52,68,120,231,False,False,,False,False,,2,False
+G2-0107,2650992,543,distractor,0,NO_DIFFERENCE,True,Abstract,False,27,64,98,162,227,False,False,,False,False,,1,True
+G2-0107,2650992,541,distractor,1,NO_DIFFERENCE,True,Abstract,False,27,64,98,162,225,False,False,,False,False,,1,True
+G2-0107,2650992,542,target,2,NO_DIFFERENCE,True,Abstract,False,27,64,98,162,226,False,False,,False,False,,1,True
+G2-0109,3387601,465,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,28,60,89,149,217,False,True,464 466,False,False,,3,False
+G2-0109,3387601,468,distractor,1,NO_DIFFERENCE,True,Results,True,20,17,0,17,68,False,False,,False,False,,0,False
+G2-0109,3387601,467,target,2,INCREASE,True,Results,True,40,43,4,47,128,False,False,,False,False,,2,False
+G2-0109,3387601,464,distractor,3,DECREASE,True,Abstract > Results,False,60,96,76,172,267,False,True,465 466,False,False,,3,False
+G2-0109,3387601,466,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,48,88,41,129,219,False,True,465 464,False,False,,3,False
+G2-0110,5662620,6349,distractor,0,INCREASE,True,Results > Intervention Effects,True,260,69,91,160,448,False,False,,False,False,,3,False
+G2-0110,5662620,6346,target,1,INCREASE,True,Abstract,False,27,25,24,49,103,False,False,,False,False,,0,True
+G2-0110,5662620,6348,distractor,2,NO_DIFFERENCE,True,Results > Intervention Effects,True,79,78,80,158,270,False,True,6350,False,False,,3,False
+G2-0110,5662620,6350,distractor,3,INCREASE,True,Results > Intervention Effects,True,78,89,79,168,275,False,True,6348,False,False,,2,False
+G2-0110,5662620,6347,distractor,4,INCREASE,True,Abstract,False,27,25,24,49,102,False,False,,False,False,,0,True
+G2-0111,4879328,4002,distractor,0,NO_DIFFERENCE,True,Results > Anthropometric And Behavior Change Results > Anthropometric Outcomes,True,52,61,0,61,153,False,False,,False,False,,1,True
+G2-0111,4879328,4005,distractor,1,INCREASE,True,Abstract > Results,False,115,0,19,19,168,False,False,,False,False,,1,True
+G2-0111,4879328,4001,distractor,2,INCREASE,True,Results > Anthropometric And Behavior Change Results > Anthropometric Outcomes,True,52,61,0,61,153,False,False,,False,False,,1,True
+G2-0111,4879328,4004,distractor,3,INCREASE,True,Results > Anthropometric And Behavior Change Results > Dietary Behaviors,True,46,0,36,36,128,False,False,,False,False,,1,False
+G2-0111,4879328,4006,target,4,INCREASE,True,Abstract > Results,False,115,0,19,19,176,False,False,,False,False,,1,True
+G2-0112,3517358,7102,distractor,0,NO_DIFFERENCE,True,Results > Knowledge Gain By Study Condition,True,76,68,0,68,192,False,True,7106,True,False,,1,False
+G2-0112,3517358,7106,target,1,INCREASE,True,Results > Knowledge Gain By Study Condition,True,68,54,76,130,247,False,True,7102,False,False,,2,False
+G2-0112,3517358,7105,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,59,71,0,71,171,False,True,7103,False,False,,2,False
+G2-0112,3517358,7103,distractor,3,INCREASE,True,Abstract > Results,False,61,30,59,89,188,False,True,7105,False,False,,2,False
+G2-0113,3669111,5185,distractor,0,NO_DIFFERENCE,True,Results > Pth And Biochemical Parameters,True,53,39,63,102,187,False,True,5186 5184,True,False,,2,False
+G2-0113,3669111,5186,target,1,NO_DIFFERENCE,True,Results > Pth And Biochemical Parameters,True,48,92,89,181,267,False,True,5185 5184,False,False,,2,False
+G2-0113,3669111,5184,distractor,2,NO_DIFFERENCE,True,Results > Pth And Biochemical Parameters,True,39,92,53,145,218,False,True,5185,False,False,,0,False
+G2-0114,5839221,11011,distractor,0,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,52,0,59,59,145,False,False,,False,False,,0,True
+G2-0114,5839221,11009,distractor,1,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,52,0,59,59,145,False,False,,False,False,,0,True
+G2-0114,5839221,11010,target,2,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,52,0,59,59,145,False,False,,False,False,,0,True
+G2-0114,5839221,11013,distractor,3,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,52,0,59,59,146,False,False,,False,False,,0,True
+G2-0114,5839221,11012,distractor,4,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,52,0,59,59,146,False,False,,False,False,,0,True
+G2-0115,5656562,4638,distractor,0,NO_DIFFERENCE,True,Results > Predictors Of Dose-Concentration Ratio Of Sildenafil,True,19,83,91,174,235,False,True,4641 4640,False,False,,3,True
+G2-0115,5656562,4639,distractor,1,NO_DIFFERENCE,True,Results > Predictors Of Dose-Concentration Ratio Of Sildenafil,True,19,83,91,174,235,False,True,4641 4640,False,False,,3,True
+G2-0115,5656562,4641,distractor,2,NO_DIFFERENCE,True,Results > Predictors Of Dose-Concentration Ratio Of Sildenafil,True,60,76,64,140,242,False,True,4638 4639 4640,False,False,,2,False
+G2-0115,5656562,4637,target,3,INCREASE,True,Results > Predictors Of Dose-Concentration Ratio Of Sildenafil,True,37,93,60,153,232,False,False,,False,False,,2,False
+G2-0115,5656562,4640,distractor,4,NO_DIFFERENCE,True,Results > Predictors Of Dose-Concentration Ratio Of Sildenafil,True,24,83,86,169,235,False,True,4641,False,False,,3,False
+G2-0117,4871571,3687,target,0,NO_DIFFERENCE,True,Results > Immunological Outcomes > Functional Antibody Responses (Neutralizing Ab And Adcc),True,87,49,0,49,188,False,False,,False,False,,0,False
+G2-0117,4871571,3688,distractor,1,NO_DIFFERENCE,True,Results > Safety And Tolerability,True,54,76,0,76,167,False,False,,False,False,,0,False
+G2-0117,4871571,3685,distractor,2,INCREASE,True,Results > Immunological Outcomes > Binding Igg Antibody Responses,True,67,61,79,140,284,False,False,,False,False,,1,False
+G2-0117,4871571,3686,distractor,3,INCREASE,True,Results > Immunological Outcomes > Binding Igg Antibody Responses,True,131,37,68,105,286,False,False,,False,False,,1,False
+G2-0118,5215647,9882,distractor,0,NO_DIFFERENCE,True,Results,True,24,0,27,27,82,False,False,,False,False,,1,True
+G2-0118,5215647,9886,distractor,1,NO_DIFFERENCE,True,Results,True,78,24,0,24,132,False,False,,False,False,,0,False
+G2-0118,5215647,9883,distractor,2,NO_DIFFERENCE,True,Results,True,24,0,27,27,82,False,False,,False,False,,1,True
+G2-0118,5215647,9887,target,3,NO_DIFFERENCE,True,Results,True,56,0,0,0,88,True,False,,False,False,,0,False
+G2-0118,5215647,9884,distractor,4,NO_DIFFERENCE,True,Results,True,24,0,27,27,82,False,False,,False,False,,1,True
+G2-0120,4153084,9369,distractor,0,NO_DIFFERENCE,True,Abstract,False,51,70,68,138,213,False,False,,False,False,,1,False
+G2-0120,4153084,9371,target,1,NO_DIFFERENCE,True,Results > Secondary Outcomes Measures,True,66,54,94,148,246,False,False,,False,False,,2,True
+G2-0120,4153084,9372,distractor,2,NO_DIFFERENCE,True,Results > Secondary Outcomes Measures,True,66,54,94,148,244,False,False,,False,False,,2,True
+G2-0120,4153084,9370,distractor,3,NO_DIFFERENCE,True,Results > Secondary Outcomes Measures,True,66,54,94,148,246,False,False,,False,False,,2,True
+G2-0121,5593818,7101,distractor,0,DECREASE,True,Results > Incidence Rate Of Diabetes Mellitus,True,72,0,92,92,217,False,False,,False,False,,0,False
+G2-0121,5593818,7099,distractor,1,INCREASE,True,Abstract,False,55,70,74,144,243,False,True,7098,True,False,,1,False
+G2-0121,5593818,7097,distractor,2,NO_DIFFERENCE,True,Results > Safety Analysis,True,49,90,9,99,192,False,False,,False,False,,1,False
+G2-0121,5593818,7100,distractor,3,INCREASE,True,Results > Baseline Characteristics,True,68,14,0,14,125,True,False,,False,False,,0,False
+G2-0121,5593818,7098,target,4,DECREASE,True,Abstract,False,57,59,94,153,256,False,True,7099,False,False,,1,False
+G2-0123,2429977,4070,distractor,0,INCREASE,True,Results > Endpoints Among Patients Who Underwent Percutaneous Coronary Intervention,True,65,88,0,88,251,False,True,4067,False,False,,2,False
+G2-0123,2429977,4067,distractor,1,NO_DIFFERENCE,True,Results > Endpoints Among All Study Patients,True,63,52,43,95,240,False,False,,False,False,,2,False
+G2-0123,2429977,4068,distractor,2,NO_DIFFERENCE,False,not located,False,89,0,0,0,193,False,False,,False,False,,0,False
+G2-0123,2429977,4064,target,3,INCREASE,True,Results > Endpoints Among All Study Patients,True,45,63,54,117,239,False,False,,False,False,,3,False
+G2-0125,4812817,10740,distractor,0,NO_DIFFERENCE,True,Results,True,54,44,93,137,216,False,False,,False,False,,2,True
+G2-0125,4812817,10737,target,1,DECREASE,True,Results,True,54,44,93,137,218,False,False,,False,False,,2,True
+G2-0125,4812817,10739,distractor,2,NO_DIFFERENCE,True,Results,True,54,44,93,137,216,False,False,,False,False,,2,True
+G2-0125,4812817,10736,distractor,3,DECREASE,True,Results,True,54,44,93,137,219,False,False,,False,False,,2,True
+G2-0125,4812817,10738,distractor,4,NO_DIFFERENCE,True,Results,True,54,44,93,137,215,False,False,,False,False,,2,True
+G2-0126,3984270,3893,target,0,DECREASE,True,Results > Effect On Clinical Parameters,True,32,0,42,42,102,False,False,,False,False,,0,False
+G2-0126,3984270,3892,distractor,1,NO_DIFFERENCE,True,Abstract,False,30,62,0,62,125,False,False,,False,False,,0,False
+G2-0126,3984270,3890,distractor,2,INCREASE,True,Results > Effect On Clinical Parameters,True,63,73,64,137,238,False,True,3893,True,False,,2,False
+G2-0127,1874716,11658,target,0,INCREASE,True,Abstract > Results,False,26,75,31,106,171,False,False,,False,False,,2,False
+G2-0127,1874716,11655,distractor,1,NO_DIFFERENCE,True,Cpap Compliance,True,62,18,84,102,202,False,False,,False,False,,1,False
+G2-0127,1874716,11657,distractor,2,NO_DIFFERENCE,True,Cpap Efficacy,True,188,31,0,31,258,False,False,,False,False,,0,False
+G2-0128,2758835,6364,target,0,NO_DIFFERENCE,True,Abstract > Results,False,26,0,11,11,83,False,False,,False,False,,0,False
+G2-0128,2758835,6365,distractor,1,NO_DIFFERENCE,True,Results > Baseline Comparisons Of Both Groups,True,22,0,29,29,85,False,False,,False,False,,0,False
+G2-0128,2758835,6363,distractor,2,NO_DIFFERENCE,True,Results > Primary Outcome Measures,True,53,0,4,4,96,False,False,,False,False,,0,False
+G2-0129,3208043,7089,target,0,DECREASE,True,Results > Overall Efficacy Of Study Drugs,True,38,52,0,52,137,True,False,,False,False,,1,False
+G2-0129,3208043,7088,distractor,1,NO_DIFFERENCE,True,Abstract,False,47,85,73,158,242,False,False,,False,False,,1,False
+G2-0129,3208043,7090,distractor,2,NO_DIFFERENCE,True,Results > Overall Efficacy Of Study Drugs,True,44,39,1,40,130,False,False,,False,False,,0,False
+G2-0132,5017045,1667,distractor,0,NO_DIFFERENCE,True,Results > Ancillary Analyses,True,23,58,85,143,197,False,False,,False,False,,0,False
+G2-0132,5017045,1666,target,1,INCREASE,True,Results > Ancillary Analyses,True,50,28,24,52,144,False,False,,False,False,,1,False
+G2-0132,5017045,1669,distractor,2,NO_DIFFERENCE,True,Results > Ancillary Analyses,True,50,59,50,109,227,False,False,,False,False,,2,False
+G2-0132,5017045,1668,distractor,3,NO_DIFFERENCE,True,Discussion,True,30,30,81,111,166,False,False,,False,False,,1,False
+G2-0133,5911298,5287,distractor,0,NO_DIFFERENCE,True,Results,True,32,67,0,67,129,False,False,,False,False,,2,True
+G2-0133,5911298,5285,distractor,1,NO_DIFFERENCE,True,Results,True,32,67,0,67,130,False,False,,False,False,,2,True
+G2-0133,5911298,5283,target,2,DECREASE,True,Front,False,34,0,46,46,110,False,False,,False,True,5284,1,False
+G2-0133,5911298,5288,distractor,3,NO_DIFFERENCE,True,Results,True,32,67,0,67,129,False,False,,False,False,,2,True
+G2-0133,5911298,5286,distractor,4,NO_DIFFERENCE,True,Results,True,32,67,0,67,128,False,False,,False,False,,2,True
+G2-0134,1784771,420,distractor,0,INCREASE,True,Abstract,False,32,71,44,115,180,False,True,419 417,True,False,,2,False
+G2-0134,1784771,419,distractor,1,NO_DIFFERENCE,True,Abstract,False,62,44,76,120,216,False,True,420,False,False,,2,False
+G2-0134,1784771,417,target,2,INCREASE,True,Abstract,False,35,44,103,147,221,False,True,420 419,False,False,,3,False
+G2-0135,5425769,4850,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,23,0,83,83,135,False,False,,False,False,,2,False
+G2-0135,5425769,4849,distractor,1,INCREASE,True,Results > Effect Of Intervention,True,53,34,74,108,192,False,False,,False,False,,1,True
+G2-0135,5425769,4848,distractor,2,INCREASE,True,Results > Effect Of Intervention,True,53,34,74,108,191,False,False,,False,False,,1,True
+G2-0135,5425769,4854,target,3,NO_DIFFERENCE,True,Results > Effect Of Intervention,True,118,67,0,67,219,False,False,,False,False,,1,False
+G2-0135,5425769,4852,distractor,4,NO_DIFFERENCE,True,Method > Study Design,True,34,55,0,55,119,False,False,,False,False,,0,False
+G2-0136,3204557,9237,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,46,58,39,97,178,False,False,,False,False,,3,True
+G2-0136,3204557,9239,distractor,1,DECREASE,True,Results > Outcome For Patients According To Patterns Of Liver Metastases,True,66,54,69,123,234,False,False,,False,False,,1,False
+G2-0136,3204557,9240,target,2,DECREASE,True,Results > Outcome For Patients According To Patterns Of Liver Metastases,True,64,58,74,132,238,False,True,9241,False,False,,2,False
+G2-0136,3204557,9238,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,46,58,39,97,179,False,False,,False,False,,3,True
+G2-0136,3204557,9241,distractor,4,NO_DIFFERENCE,True,Results > Outcome For Patients According To Patterns Of Liver Metastases,True,74,79,18,97,212,False,True,9240,True,False,,1,False
+G2-0137,3933059,1264,target,0,DECREASE,True,Results,True,53,34,25,59,153,False,False,,False,False,,1,False
+G2-0137,3933059,1265,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,49,41,0,41,122,False,True,1264,True,False,,1,False
+G2-0137,3933059,1266,distractor,2,NO_DIFFERENCE,True,Results,True,76,83,17,100,245,False,True,1264,True,False,,2,False
+G2-0138,5601935,2933,distractor,0,NO_DIFFERENCE,True,Front,False,36,0,69,69,162,False,True,2937,False,False,,2,True
+G2-0138,5601935,2937,distractor,1,DECREASE,True,Front,False,45,61,0,61,162,False,True,2933 2934 2935,True,False,,2,False
+G2-0138,5601935,2934,target,2,NO_DIFFERENCE,True,Front,False,36,0,69,69,168,False,True,2937,False,False,,2,True
+G2-0138,5601935,2935,distractor,3,NO_DIFFERENCE,True,Front,False,36,0,69,69,163,False,True,2937,False,False,,2,True
+G2-0139,5698974,11889,distractor,0,NO_DIFFERENCE,True,Results,True,119,0,0,0,148,False,False,,False,False,,0,False
+G2-0139,5698974,11893,distractor,1,NO_DIFFERENCE,True,Title,False,45,0,101,101,171,False,False,,False,False,,3,False
+G2-0139,5698974,11890,target,2,INCREASE,True,Results,True,80,0,99,99,217,False,True,11891,False,False,,2,False
+G2-0139,5698974,11888,distractor,3,NO_DIFFERENCE,True,Results,True,102,0,0,0,132,False,False,,False,False,,0,False
+G2-0139,5698974,11891,distractor,4,INCREASE,True,Results,True,49,50,0,50,126,False,False,,False,False,,1,False
+G2-0140,3599938,7774,target,0,NO_DIFFERENCE,True,Results,True,45,21,87,108,184,False,False,,False,False,,0,False
+G2-0140,3599938,7773,distractor,1,INCREASE,True,Abstract > Results,False,68,80,0,80,182,False,True,7772,False,False,,1,False
+G2-0140,3599938,7772,distractor,2,INCREASE,True,Abstract > Results,False,80,60,68,128,240,False,True,7773,False,False,,1,False
+G2-0141,4048120,1958,distractor,0,NO_DIFFERENCE,True,Abstract,False,58,43,0,43,134,False,False,,False,False,,1,True
+G2-0141,4048120,1955,target,1,INCREASE,True,Results,True,87,41,63,104,230,False,False,,False,True,1956,1,True
+G2-0141,4048120,1960,distractor,2,NO_DIFFERENCE,True,Abstract,False,58,43,0,43,131,False,False,,False,False,,1,True
+G2-0141,4048120,1954,distractor,3,NO_DIFFERENCE,True,Results,True,87,41,63,104,231,False,False,,False,True,1956,1,True
+G2-0141,4048120,1957,distractor,4,NO_DIFFERENCE,True,Abstract,False,44,47,0,47,120,False,False,,False,False,,1,False
+G2-0142,3931696,6772,distractor,0,INCREASE,True,Abstract,False,48,14,33,47,128,False,False,,False,False,,3,True
+G2-0142,3931696,6774,target,1,DECREASE,True,Results > Effect Of Drugs On Electrolyte Excretion Rates And Plasma Levels,True,121,31,0,31,196,False,False,,False,False,,1,False
+G2-0142,3931696,6773,distractor,2,INCREASE,True,Abstract,False,48,14,33,47,126,False,False,,False,False,,3,True
+G2-0142,3931696,6776,distractor,3,NO_DIFFERENCE,True,Results > Effect Of Drugs On Aldosterone,True,56,26,90,116,211,False,False,,False,False,,1,False
+G2-0142,3931696,6775,distractor,4,NO_DIFFERENCE,True,Results > Effect Of Drugs On Electrolyte Excretion Rates And Plasma Levels,True,36,0,0,0,85,True,False,,False,False,,0,False
+G2-0143,5296807,10454,target,0,DECREASE,True,Front,False,38,10,47,57,139,False,False,,False,False,,1,True
+G2-0143,5296807,10453,distractor,1,NO_DIFFERENCE,True,Front,False,38,10,47,57,134,False,False,,False,False,,1,True
+G2-0143,5296807,10456,distractor,2,NO_DIFFERENCE,True,Discussion,True,25,0,1,1,63,False,False,,False,False,,0,False
+G2-0144,5452353,2976,distractor,0,NO_DIFFERENCE,False,not located,False,86,0,0,0,121,False,False,,False,False,,0,False
+G2-0144,5452353,2972,target,1,INCREASE,True,Abstract > Results,False,76,16,41,57,207,False,True,2973,False,False,,2,False
+G2-0144,5452353,2975,distractor,2,INCREASE,False,not located,False,84,0,0,0,142,False,False,,False,False,,0,False
+G2-0144,5452353,2973,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,95,16,21,37,199,False,True,2972,True,False,,1,False
+G2-0144,5452353,2974,distractor,4,INCREASE,False,not located,False,62,0,0,0,98,False,False,,False,False,,0,False
+G2-0146,4311106,10438,distractor,0,NO_DIFFERENCE,False,not located,False,27,0,0,0,68,False,False,,False,False,,0,False
+G2-0146,4311106,10437,target,1,DECREASE,False,not located,False,72,0,0,0,101,False,False,,False,False,,0,False
+G2-0146,4311106,10436,distractor,2,INCREASE,False,not located,False,48,0,0,0,77,False,False,,False,False,,0,False
+G2-0146,4311106,10439,distractor,3,INCREASE,False,not located,False,47,0,0,0,92,False,False,,False,False,,0,False
+G2-0146,4311106,10435,distractor,4,NO_DIFFERENCE,False,not located,False,68,0,0,0,94,False,False,,False,False,,0,False
+G2-0148,5595267,10173,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,145,51,0,51,227,False,False,,False,False,,0,True
+G2-0148,5595267,10171,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,34,35,0,35,99,False,True,10173 10170,False,False,,1,False
+G2-0148,5595267,10172,target,2,NO_DIFFERENCE,True,Results,True,53,63,119,182,264,False,False,,False,False,,3,False
+G2-0148,5595267,10174,distractor,3,NO_DIFFERENCE,True,Results,True,80,56,49,105,212,False,False,,False,False,,3,False
+G2-0148,5595267,10170,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,145,51,0,51,226,False,False,,False,False,,0,True
+G2-0149,4715405,2765,distractor,0,NO_DIFFERENCE,True,Results,True,51,54,45,99,201,False,False,,False,False,,1,False
+G2-0149,4715405,2764,distractor,1,NO_DIFFERENCE,True,Results,True,54,50,50,100,208,False,True,2763,True,False,,2,False
+G2-0149,4715405,2763,target,2,DECREASE,True,Results,True,50,54,54,108,211,False,True,2764,False,False,,2,False
+G2-0149,4715405,2766,distractor,3,INCREASE,True,Results,True,45,140,0,140,249,False,True,2765,False,False,,1,False
+G2-0149,4715405,2767,distractor,4,INCREASE,False,not located,False,20,0,0,0,63,False,False,,False,False,,0,False
+G2-0150,5434251,1599,target,0,NO_DIFFERENCE,True,Results > Feasibility Of The Outcome Measures,True,60,0,82,82,192,False,False,,False,False,,0,True
+G2-0150,5434251,1598,distractor,1,NO_DIFFERENCE,True,Results > Feasibility Of The Outcome Measures,True,60,0,82,82,186,False,False,,False,False,,0,True
+G2-0150,5434251,1602,distractor,2,NO_DIFFERENCE,True,Results > Feasibility Of The Outcome Measures,True,60,0,82,82,202,False,False,,False,False,,0,True
+G2-0150,5434251,1600,distractor,3,NO_DIFFERENCE,True,Results > Feasibility Of The Outcome Measures,True,60,0,82,82,192,False,False,,False,False,,0,True
+G2-0150,5434251,1601,distractor,4,NO_DIFFERENCE,True,Results > Feasibility Of The Outcome Measures,True,60,0,82,82,191,False,False,,False,False,,0,True
+G2-0151,4595235,8507,distractor,0,NO_DIFFERENCE,True,Results,True,65,91,0,91,183,False,True,8505,False,False,,2,True
+G2-0151,4595235,8503,distractor,1,NO_DIFFERENCE,True,Results,True,36,40,82,122,183,False,False,,False,False,,3,True
+G2-0151,4595235,8504,distractor,2,NO_DIFFERENCE,True,Results,True,36,40,82,122,184,False,False,,False,False,,3,True
+G2-0151,4595235,8506,target,3,NO_DIFFERENCE,True,Results,True,65,91,0,91,180,False,True,8505,False,False,,2,True
+G2-0151,4595235,8505,distractor,4,NO_DIFFERENCE,True,Results,True,47,82,65,147,219,False,True,8507 8506,True,True,8508,3,False
+G2-0152,5951568,1297,target,0,DECREASE,True,Results > Primary Outcomes,True,58,0,0,0,92,False,False,,False,False,,0,False
+G2-0152,5951568,1300,distractor,1,NO_DIFFERENCE,True,Results > Primary Outcomes,True,48,0,57,57,138,False,False,,False,False,,1,True
+G2-0152,5951568,1298,distractor,2,NO_DIFFERENCE,True,Results > Primary Outcomes,True,48,0,57,57,138,False,False,,False,False,,1,True
+G2-0153,1550875,11390,distractor,0,NO_DIFFERENCE,True,Outcome,True,81,81,25,106,239,False,True,11389,True,False,,1,False
+G2-0153,1550875,11391,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,22,64,36,100,187,False,False,,False,False,,0,False
+G2-0153,1550875,11389,target,2,NO_DIFFERENCE,True,Outcome,True,81,0,81,81,220,False,True,11390,False,False,,1,False
+G2-0154,2361806,280,distractor,0,NO_DIFFERENCE,True,Abstract,False,63,37,48,85,215,False,True,281,False,False,,1,False
+G2-0154,2361806,281,distractor,1,INCREASE,True,Abstract,False,48,86,69,155,266,False,True,280 282 283,False,False,,2,False
+G2-0154,2361806,282,distractor,2,NO_DIFFERENCE,True,Abstract,False,69,48,72,120,253,False,True,281,False,False,,1,True
+G2-0154,2361806,285,target,3,INCREASE,True,Results > Safety,True,36,76,34,110,217,False,False,,False,False,,1,False
+G2-0154,2361806,283,distractor,4,NO_DIFFERENCE,True,Abstract,False,69,48,72,120,251,False,True,281,False,False,,1,True
+G2-0155,5019971,5695,distractor,0,INCREASE,True,Results > Effect Of Maraviroc On The Brachial Artery (Fmd),True,66,66,86,152,262,False,False,,False,False,,0,False
+G2-0155,5019971,5700,distractor,1,NO_DIFFERENCE,True,Results > Effect Of Maraviroc On Immune Activation And Inflammation,True,51,49,4,53,147,False,False,,False,True,5699 5694,0,False
+G2-0155,5019971,5696,distractor,2,INCREASE,True,Abstract > Results,False,67,58,88,146,249,False,False,,False,False,,1,False
+G2-0155,5019971,5698,target,3,INCREASE,True,Results > Effect Of Maraviroc On The Brachial Artery (Fmd),True,111,79,64,143,305,False,False,,False,False,,1,False
+G2-0155,5019971,5697,distractor,4,INCREASE,True,Results > Effect Of Maraviroc On The Brachial Artery (Fmd),True,131,23,95,118,300,False,False,,False,False,,1,False
+G2-0156,5695311,9038,target,0,DECREASE,True,Results,True,28,67,102,169,232,False,True,9039 9037,False,False,,3,False
+G2-0156,5695311,9039,distractor,1,NO_DIFFERENCE,True,Results,True,44,95,58,153,232,False,True,9038 9037,True,False,,3,False
+G2-0156,5695311,9037,distractor,2,NO_DIFFERENCE,True,Results,True,19,70,48,118,170,False,False,,False,False,,2,False
+G2-0157,3644688,10950,distractor,0,NO_DIFFERENCE,True,Introduction,True,28,0,49,49,114,False,False,,False,False,,0,False
+G2-0157,3644688,10947,target,1,INCREASE,True,Abstract > Results,False,103,0,49,49,193,False,True,10951,False,False,,2,True
+G2-0157,3644688,10948,distractor,2,INCREASE,True,Abstract > Results,False,103,0,49,49,193,False,True,10951,False,False,,2,True
+G2-0157,3644688,10951,distractor,3,DECREASE,True,Abstract > Results,False,32,17,0,17,89,False,False,,False,False,,1,False
+G2-0157,3644688,10949,distractor,4,INCREASE,True,Abstract > Results,False,103,0,49,49,193,False,True,10951,False,False,,2,True
+G2-0158,5565373,9062,distractor,0,NO_DIFFERENCE,True,Results > Changes In Ckd-Mbd Parameters > Changes In Other Ckd-Mbd Parameters,True,60,81,0,81,197,False,True,9063,False,False,,1,False
+G2-0158,5565373,9060,target,1,NO_DIFFERENCE,True,Results > Changes In Ckd-Mbd Parameters > Changes In Serum Calcium And Phosphate Levels,True,61,62,35,97,209,False,True,9061,False,False,,2,False
+G2-0158,5565373,9061,distractor,2,NO_DIFFERENCE,True,Results > Changes In Ckd-Mbd Parameters > Changes In Serum Calcium And Phosphate Levels,True,35,61,0,61,149,False,True,9060,True,False,,1,False
+G2-0158,5565373,9063,distractor,3,NO_DIFFERENCE,True,Results > Changes In Ckd-Mbd Parameters > Changes In Other Ckd-Mbd Parameters,True,81,0,60,60,199,False,True,9062,False,False,,1,False
+G2-0158,5565373,9059,distractor,4,NO_DIFFERENCE,True,Results > Patient Characteristics,True,92,0,70,70,201,False,False,,False,True,9058,1,False
+G2-0159,4418140,8671,target,0,DECREASE,True,Front,False,51,65,0,65,185,False,True,8667,False,False,,1,True
+G2-0159,4418140,8668,distractor,1,INCREASE,True,Results,True,45,56,94,150,258,False,False,,False,False,,4,False
+G2-0159,4418140,8666,distractor,2,DECREASE,True,Front,False,51,65,0,65,186,False,True,8667,False,False,,1,True
+G2-0159,4418140,8670,distractor,3,DECREASE,True,Front,False,43,73,0,73,180,False,True,8671 8666 8667,True,False,,1,False
+G2-0159,4418140,8667,distractor,4,NO_DIFFERENCE,True,Front,False,65,0,51,51,164,False,True,8671 8666 8670,True,False,,1,False
+G2-0160,4221638,1031,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,21,77,0,77,129,False,True,1030 1032,True,False,,1,False
+G2-0160,4221638,1029,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,66,0,98,98,194,False,True,1031 1030 1032,True,False,,1,False
+G2-0160,4221638,1030,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,77,66,21,87,190,False,True,1031 1029,False,False,,1,True
+G2-0160,4221638,1032,target,3,NO_DIFFERENCE,True,Abstract > Results,False,77,66,21,87,196,False,True,1031 1029,False,False,,1,True
+G2-0161,4610775,9487,distractor,0,INCREASE,True,Abstract > Results,False,78,0,0,0,106,False,False,,False,False,,0,False
+G2-0161,4610775,9488,target,1,DECREASE,True,Abstract > Results,False,37,0,41,41,111,False,True,9487 9489,False,False,,0,False
+G2-0161,4610775,9489,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,38,1,41,42,112,False,True,9487 9488,True,False,,0,False
+G2-0162,4153077,5326,target,0,INCREASE,False,not located,False,42,0,0,0,81,False,False,,False,False,,0,True
+G2-0162,4153077,5325,distractor,1,INCREASE,False,not located,False,42,0,0,0,75,False,False,,False,False,,0,True
+G2-0162,4153077,5324,distractor,2,NO_DIFFERENCE,False,not located,False,78,0,0,0,114,False,False,,False,False,,0,False
+G2-0163,5019463,1872,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,70,98,71,169,279,False,True,1871,False,False,,2,False
+G2-0163,5019463,1871,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,69,50,70,120,225,False,True,1872,False,False,,1,False
+G2-0163,5019463,1873,target,2,NO_DIFFERENCE,True,Results,True,80,73,83,156,271,False,True,1872,False,False,,1,False
+G2-0164,4869362,6730,distractor,0,NO_DIFFERENCE,True,Results > Baseline Data > Primary Outcomes > Intention-To-Treat Analyses,True,50,92,63,155,249,False,False,,False,False,,2,False
+G2-0164,4869362,6733,distractor,1,NO_DIFFERENCE,True,Results > Baseline Data > Primary Outcomes > Intention-To-Treat Analyses,True,59,52,51,103,205,False,False,,False,False,,4,False
+G2-0164,4869362,6734,target,2,INCREASE,True,Results > Baseline Data > Primary Outcomes > Intention-To-Treat Analyses,True,30,112,64,176,251,False,True,6730 6729 6731,False,True,6732,3,False
+G2-0164,4869362,6729,distractor,3,NO_DIFFERENCE,True,Results > Baseline Data > Primary Outcomes > Intention-To-Treat Analyses,True,20,92,93,185,246,False,True,6730 6734,True,False,,3,True
+G2-0164,4869362,6731,distractor,4,NO_DIFFERENCE,True,Results > Baseline Data > Primary Outcomes > Intention-To-Treat Analyses,True,20,92,93,185,249,False,True,6730 6734,True,False,,3,True
+G2-0166,5340016,1941,distractor,0,NO_DIFFERENCE,True,Results > Surgery And Pathologic Response,True,103,68,26,94,286,False,False,,False,False,,1,False
+G2-0166,5340016,1938,distractor,1,DECREASE,True,Abstract > Results,False,37,36,67,103,215,False,True,1943,False,False,,2,False
+G2-0166,5340016,1942,target,2,DECREASE,True,Abstract > Results,False,44,67,0,67,188,False,False,,False,False,,1,False
+G2-0166,5340016,1943,distractor,3,INCREASE,True,Abstract > Results,False,36,73,67,140,258,False,True,1938,False,False,,2,False
+G2-0167,3717762,11702,target,0,NO_DIFFERENCE,True,Worse Eye Analysis,True,36,78,0,78,164,False,False,,False,False,,1,True
+G2-0167,3717762,13285,distractor,1,NO_DIFFERENCE,True,Safety And Tolerability,True,70,6,53,59,176,False,False,,False,False,,0,False
+G2-0167,3717762,11701,distractor,2,NO_DIFFERENCE,True,Safety And Tolerability,True,47,50,0,50,167,False,False,,False,False,,1,False
+G2-0167,3717762,13288,distractor,3,NO_DIFFERENCE,True,Worse Eye Analysis,True,36,78,0,78,159,False,False,,False,False,,1,True
+G2-0167,3717762,13286,distractor,4,NO_DIFFERENCE,True,Safety And Tolerability,True,35,50,12,62,159,False,True,11701,False,False,,2,False
+G2-0168,5703870,6287,distractor,0,DECREASE,True,Abstract,False,132,85,77,162,329,False,False,,False,False,,1,True
+G2-0168,5703870,6288,target,1,INCREASE,True,Results,True,101,0,24,24,159,False,False,,False,False,,1,False
+G2-0168,5703870,6289,distractor,2,NO_DIFFERENCE,True,Results,True,108,0,0,0,146,False,False,,False,False,,0,False
+G2-0168,5703870,6290,distractor,3,NO_DIFFERENCE,True,Abstract,False,132,85,77,162,321,False,False,,False,False,,1,True
+G2-0170,5045666,1901,target,0,NO_DIFFERENCE,True,Abstract > Results,False,41,78,0,78,159,False,True,1900,False,False,,1,False
+G2-0170,5045666,1900,distractor,1,INCREASE,True,Abstract > Results,False,56,22,41,63,147,False,True,1901,True,False,,1,False
+G2-0170,5045666,1899,distractor,2,INCREASE,True,Abstract > Conclusions,False,58,65,43,108,204,False,False,,False,False,,2,False
+G2-0171,5588713,4363,distractor,0,NO_DIFFERENCE,False,not located,False,35,0,0,0,61,False,False,,False,False,,0,False
+G2-0171,5588713,4361,distractor,1,NO_DIFFERENCE,True,Results > Safety Analysis,True,33,0,43,43,102,False,False,,False,False,,0,False
+G2-0171,5588713,4362,distractor,2,NO_DIFFERENCE,True,Results > Safety Analysis,True,24,24,65,89,141,False,True,4360,True,False,,1,False
+G2-0171,5588713,4360,target,3,INCREASE,True,Abstract > Results,False,61,0,0,0,90,False,False,,False,False,,0,False
+G2-0172,4467206,3643,distractor,0,INCREASE,True,Results > Between-Group Comparisons At Baseline,True,35,0,41,41,133,False,True,3644 3645,True,False,,1,False
+G2-0172,4467206,3644,target,1,DECREASE,True,Results > Between-Group Comparisons At Baseline,True,29,35,69,104,186,False,True,3643 3645,False,False,,1,False
+G2-0172,4467206,3645,distractor,2,NO_DIFFERENCE,True,Results > Between-Group Comparisons At Baseline,True,41,35,57,92,184,False,True,3643,False,False,,1,False
+G2-0173,3961877,6068,distractor,0,NO_DIFFERENCE,True,Results And Analysis,True,136,55,0,55,253,False,False,,False,False,,1,True
+G2-0173,3961877,6071,distractor,1,DECREASE,True,Results And Analysis,True,67,88,70,158,279,False,False,,False,False,,1,False
+G2-0173,3961877,6067,distractor,2,DECREASE,True,Results And Analysis,True,136,55,0,55,256,False,False,,False,False,,1,True
+G2-0173,3961877,6070,distractor,3,INCREASE,True,Results And Analysis,True,60,13,73,86,201,False,False,,False,False,,0,False
+G2-0173,3961877,6069,target,4,DECREASE,True,Results And Analysis,True,62,40,73,113,240,False,True,6070,False,False,,1,False
+G2-0174,5508614,8929,distractor,0,NO_DIFFERENCE,True,Results > Patient Characteristics,True,36,18,0,18,110,False,False,,False,False,,0,True
+G2-0174,5508614,8931,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,19,0,27,27,89,False,False,,False,False,,0,True
+G2-0174,5508614,8927,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,19,0,27,27,87,False,False,,False,False,,0,True
+G2-0174,5508614,8928,target,3,NO_DIFFERENCE,True,Results > Patient Characteristics,True,36,18,0,18,95,False,False,,False,False,,0,True
+G2-0175,125315,549,distractor,0,NO_DIFFERENCE,True,Results > Sepsis-Related Organ Dysfunction,True,56,34,0,34,145,False,False,,False,False,,0,False
+G2-0175,125315,551,distractor,1,NO_DIFFERENCE,True,Results > Description Of Study Population,True,57,70,0,70,176,False,False,,False,False,,1,False
+G2-0175,125315,550,target,2,NO_DIFFERENCE,True,Results > Description Of Study Population,True,32,0,69,69,150,False,False,,False,False,,1,False
+G2-0176,4319300,5733,distractor,0,NO_DIFFERENCE,True,Results > Demographic And Clinical Findings,True,47,53,86,139,244,False,False,,False,False,,2,False
+G2-0176,4319300,5734,distractor,1,INCREASE,True,Front,False,32,7,0,7,88,False,False,,False,False,,0,False
+G2-0176,4319300,5737,target,2,INCREASE,True,Front,False,32,63,0,63,151,False,False,,False,False,,2,False
+G2-0176,4319300,5735,distractor,3,NO_DIFFERENCE,True,Results > Demographic And Clinical Findings,True,62,93,43,136,261,False,False,,False,False,,2,False
+G2-0177,3890270,3800,distractor,0,NO_DIFFERENCE,True,Results,True,55,79,95,174,255,False,False,,False,False,,1,False
+G2-0177,3890270,3799,target,1,INCREASE,True,Results,True,73,41,42,83,183,False,False,,False,False,,2,False
+G2-0177,3890270,3802,distractor,2,NO_DIFFERENCE,True,Results,True,54,42,70,112,196,False,False,,False,False,,1,False
+G2-0177,3890270,3798,distractor,3,INCREASE,True,Abstract > Results,False,61,91,65,156,246,False,False,,False,False,,1,False
+G2-0177,3890270,3801,distractor,4,NO_DIFFERENCE,True,Results,True,23,42,101,143,194,False,True,3802,False,False,,1,False
+G2-0178,3622020,11723,distractor,0,INCREASE,True,Results,True,116,36,3,39,215,False,False,,False,False,,2,False
+G2-0178,3622020,11721,target,1,INCREASE,True,Results,True,209,66,90,156,422,False,False,,False,False,,2,False
+G2-0178,3622020,11720,distractor,2,NO_DIFFERENCE,True,Results,True,64,56,7,63,192,False,False,,False,False,,0,False
+G2-0179,3503942,3176,distractor,0,NO_DIFFERENCE,True,Results > The Changes In Neck Range Of Motion,True,75,0,36,36,166,False,False,,False,False,,0,False
+G2-0179,3503942,3173,distractor,1,DECREASE,True,Abstract > Results,False,115,0,0,0,167,False,False,,False,False,,0,False
+G2-0179,3503942,3175,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,33,0,20,20,105,False,False,,False,False,,1,False
+G2-0179,3503942,3174,target,3,DECREASE,True,Abstract > Results,False,122,0,53,53,226,False,True,3175,False,False,,2,False
+G2-0180,4175246,1934,distractor,0,NO_DIFFERENCE,False,not located,False,20,0,0,0,66,False,False,,False,False,,0,False
+G2-0180,4175246,1931,distractor,1,INCREASE,False,not located,False,27,0,0,0,79,False,False,,False,False,,0,False
+G2-0180,4175246,1933,target,2,NO_DIFFERENCE,False,not located,False,21,0,0,0,73,False,False,,False,False,,0,False
+G2-0181,2361520,1514,target,0,NO_DIFFERENCE,True,Results > Quality Of Life,True,28,70,58,128,185,False,False,,False,False,,1,False
+G2-0181,2361520,1512,distractor,1,NO_DIFFERENCE,True,Results > Survival,True,86,53,69,122,235,False,False,,False,False,,2,False
+G2-0181,2361520,1515,distractor,2,NO_DIFFERENCE,True,Results > Time To Disease Progression,True,29,0,98,98,161,False,False,,False,False,,2,False
+G2-0181,2361520,1513,distractor,3,NO_DIFFERENCE,True,Abstract,False,61,71,54,125,211,False,False,,False,False,,1,False
+G2-0183,4280732,8771,distractor,0,INCREASE,True,Front,False,40,96,0,96,168,False,False,,False,False,,2,False
+G2-0183,4280732,8770,distractor,1,NO_DIFFERENCE,True,R,True,38,0,55,55,127,False,True,8774,False,False,,1,False
+G2-0183,4280732,8773,distractor,2,NO_DIFFERENCE,True,R,True,46,52,70,122,191,False,False,,False,False,,0,False
+G2-0183,4280732,8774,distractor,3,INCREASE,True,R,True,89,0,4,4,124,False,False,,False,False,,0,False
+G2-0183,4280732,8772,target,4,INCREASE,True,R,True,55,0,9,9,96,False,False,,False,False,,0,False
+G2-0184,3781545,3710,distractor,0,DECREASE,True,Abstract > Results,False,101,90,40,130,268,False,True,3707,False,True,3712 3711,3,True
+G2-0184,3781545,3708,distractor,1,DECREASE,True,Abstract > Results,False,37,90,103,193,266,False,True,3710 3707 3715,True,True,3712 3711,3,True
+G2-0184,3781545,3707,distractor,2,INCREASE,True,Abstract > Results,False,49,41,0,41,119,False,False,,False,False,,1,False
+G2-0184,3781545,3715,target,3,DECREASE,True,Abstract > Results,False,101,90,40,130,268,False,True,3707,False,True,3712 3711,3,True
+G2-0184,3781545,3709,distractor,4,DECREASE,True,Abstract > Results,False,37,90,103,193,266,False,True,3710 3707 3715,True,True,3712 3711,3,True
+G2-0185,5518918,7699,target,0,NO_DIFFERENCE,True,Results > Physical Fitness,True,54,0,57,57,143,False,False,,False,False,,1,False
+G2-0185,5518918,7696,distractor,1,INCREASE,True,Abstract > Methods And Results,False,24,34,85,119,174,False,True,7697,False,False,,2,False
+G2-0185,5518918,7701,distractor,2,NO_DIFFERENCE,True,Abstract > Conclusion,False,31,0,58,58,122,False,False,,False,False,,0,False
+G2-0185,5518918,7697,distractor,3,NO_DIFFERENCE,True,Abstract > Methods And Results,False,54,58,70,128,214,False,True,7696 7698,False,False,,3,False
+G2-0185,5518918,7698,distractor,4,NO_DIFFERENCE,True,Abstract > Methods And Results,False,83,85,41,126,241,False,True,7697,False,False,,2,False
+G2-0186,4569275,3475,distractor,0,INCREASE,True,Results,True,68,134,0,134,230,False,True,3474,False,False,,2,False
+G2-0186,4569275,3473,distractor,1,NO_DIFFERENCE,False,not located,False,117,0,0,0,146,False,False,,False,False,,0,False
+G2-0186,4569275,3474,distractor,2,INCREASE,True,Results,True,43,91,69,160,227,False,True,3475,False,False,,2,False
+G2-0186,4569275,3476,distractor,3,NO_DIFFERENCE,True,Results,True,129,95,87,182,345,False,False,,False,False,,0,False
+G2-0186,4569275,3472,target,4,INCREASE,False,not located,False,117,0,0,0,146,False,False,,False,False,,0,False
+G2-0188,3816860,6691,distractor,0,NO_DIFFERENCE,True,Results > Safety,True,38,17,59,76,140,False,False,,False,False,,0,False
+G2-0188,3816860,6689,distractor,1,DECREASE,True,Abstract > Results,False,74,80,41,121,223,False,False,,False,False,,1,False
+G2-0188,3816860,6690,distractor,2,DECREASE,True,Results > Efficacy,True,75,56,94,150,254,False,False,,False,False,,2,False
+G2-0188,3816860,6688,distractor,3,NO_DIFFERENCE,True,Results > Efficacy,True,73,0,64,64,175,False,False,,False,False,,1,False
+G2-0188,3816860,6687,target,4,DECREASE,True,Results > Efficacy,True,85,70,91,161,284,False,True,6688,False,False,,1,False
+G2-0190,5791397,13362,distractor,0,NO_DIFFERENCE,True,Results,True,30,94,40,134,213,False,True,13363,False,False,,2,False
+G2-0190,5791397,13364,target,1,DECREASE,True,Abstract > Results,False,43,99,9,108,198,False,False,,False,False,,1,False
+G2-0190,5791397,13363,distractor,2,NO_DIFFERENCE,True,Results,True,47,94,38,132,224,False,False,,False,False,,1,False
+G2-0191,4960789,3937,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,107,0,34,34,172,False,False,,False,False,,1,False
+G2-0191,4960789,3935,target,1,NO_DIFFERENCE,True,Abstract > Results,False,95,12,34,46,192,False,True,3937,False,False,,1,False
+G2-0191,4960789,3936,distractor,2,NO_DIFFERENCE,True,Results > Primary Endpoint,True,66,68,86,154,261,False,False,,False,False,,3,False
+G2-0194,3346674,3231,target,0,NO_DIFFERENCE,True,Abstract,False,25,0,14,14,64,False,False,,False,False,,0,False
+G2-0194,3346674,3229,distractor,1,DECREASE,True,Abstract,False,23,35,13,48,97,False,False,,False,False,,1,False
+G2-0194,3346674,3232,distractor,2,NO_DIFFERENCE,True,Abstract,False,81,0,0,0,116,False,False,,False,False,,0,False
+G2-0195,3716527,3647,target,0,INCREASE,True,Results,True,88,52,72,124,269,False,True,3648 3646,False,False,,2,False
+G2-0195,3716527,3648,distractor,1,NO_DIFFERENCE,True,Results,True,72,88,43,131,255,False,True,3647,True,False,,1,False
+G2-0195,3716527,3646,distractor,2,INCREASE,True,Results,True,52,59,88,147,249,False,True,3647,True,False,,2,False
+G2-0196,5520118,6172,distractor,0,NO_DIFFERENCE,True,Results > Demographic And Baseline Characteristics,True,87,20,55,75,195,False,False,,False,False,,1,False
+G2-0196,5520118,6170,distractor,1,DECREASE,True,Abstract > Results,False,25,35,0,35,95,False,True,6171,True,False,,1,False
+G2-0196,5520118,6171,target,2,DECREASE,True,Abstract > Results,False,19,0,40,40,92,False,True,6170,False,False,,1,False
+G2-0196,5520118,6169,distractor,3,INCREASE,True,Introduction,True,39,73,0,73,141,False,False,,False,False,,0,False
+G2-0200,5762815,12961,target,0,NO_DIFFERENCE,True,Results,True,81,0,22,22,142,False,False,,False,False,,0,False
+G2-0200,5762815,12958,distractor,1,NO_DIFFERENCE,True,Results,True,54,90,84,174,273,False,True,12960 12959,False,False,,2,False
+G2-0200,5762815,12960,distractor,2,INCREASE,True,Results,True,35,94,9,103,177,False,True,12958 12959,False,False,,2,False
+G2-0200,5762815,12962,distractor,3,NO_DIFFERENCE,True,Results,True,63,0,86,86,186,False,False,,False,False,,1,False
+G2-0200,5762815,12959,distractor,4,INCREASE,True,Results,True,40,54,44,98,185,False,True,12958 12960,False,False,,2,False
+G2-0201,3504298,10216,distractor,0,NO_DIFFERENCE,True,Results > The Effect Of Abm On Residual Symptoms,True,78,90,0,90,205,False,False,,False,False,,2,True
+G2-0201,3504298,10218,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,44,0,0,0,82,False,False,,False,False,,0,False
+G2-0201,3504298,10217,target,2,DECREASE,True,Results > The Effect Of Abm On Residual Symptoms,True,116,92,0,92,246,False,False,,False,False,,1,False
+G2-0201,3504298,10215,distractor,3,DECREASE,True,Results > The Effect Of Abm On Residual Symptoms,True,78,90,0,90,205,False,False,,False,False,,2,True
+G2-0201,3504298,10219,distractor,4,NO_DIFFERENCE,True,Results > The Effect Of Abm On Attentional Function,True,100,0,54,54,197,False,False,,False,False,,1,False
+G2-0202,5444773,2138,target,0,DECREASE,True,Abstract,False,27,89,50,139,214,False,True,2136 2134 2135,False,False,,0,False
+G2-0202,5444773,2136,distractor,1,INCREASE,True,Abstract,False,42,89,35,124,202,False,True,2134 2135,False,False,,0,False
+G2-0202,5444773,2134,distractor,2,DECREASE,True,Abstract,False,62,46,77,123,218,False,True,2138 2136,True,False,,0,True
+G2-0202,5444773,2135,distractor,3,DECREASE,True,Abstract,False,62,46,77,123,228,False,True,2138 2136,True,False,,0,True
+G2-0202,5444773,2137,distractor,4,NO_DIFFERENCE,True,Results,True,36,66,47,113,202,False,False,,False,False,,2,False
+G2-0204,3591547,4808,distractor,0,NO_DIFFERENCE,True,Results,True,49,85,87,172,296,False,True,4809 4810,True,False,,3,False
+G2-0204,3591547,4809,target,1,NO_DIFFERENCE,True,Results,True,29,56,91,147,258,False,True,4808 4810,False,False,,2,False
+G2-0204,3591547,4810,distractor,2,DECREASE,True,Results,True,58,85,33,118,242,False,True,4808 4809,True,False,,2,False
+G2-0205,5462369,9563,distractor,0,DECREASE,True,Results > Gametocyte Prevalence And Clearance,True,54,68,5,73,178,False,False,,False,False,,1,False
+G2-0205,5462369,9564,distractor,1,NO_DIFFERENCE,True,Results > Relationship Of Gametocytemia To Infectiousness,True,66,123,44,167,286,False,False,,False,False,,1,False
+G2-0205,5462369,9562,target,2,DECREASE,True,Results > Gametocyte Prevalence And Clearance,True,92,70,54,124,271,False,False,,False,False,,0,False
+G2-0206,5350209,4245,distractor,0,DECREASE,False,not located,False,62,0,0,0,89,False,False,,False,False,,0,False
+G2-0206,5350209,4246,distractor,1,NO_DIFFERENCE,False,not located,False,83,0,0,0,110,False,False,,False,False,,0,False
+G2-0206,5350209,4243,target,2,DECREASE,True,Results > Consumption Duration,True,27,5,64,69,127,False,True,4244,False,False,,1,False
+G2-0206,5350209,4242,distractor,3,DECREASE,False,not located,False,63,0,0,0,91,False,False,,False,False,,0,False
+G2-0206,5350209,4244,distractor,4,NO_DIFFERENCE,True,Results > Consumption Duration,True,39,5,51,56,129,False,False,,False,False,,0,False
+G2-0207,4171519,9494,distractor,0,NO_DIFFERENCE,False,not located,False,25,0,0,0,55,False,False,,False,False,,0,False
+G2-0207,4171519,9492,distractor,1,DECREASE,False,not located,False,63,0,0,0,90,False,False,,False,False,,0,False
+G2-0207,4171519,9491,target,2,INCREASE,True,Abstract,False,27,54,84,138,191,False,True,9490,False,False,,1,False
+G2-0207,4171519,9490,distractor,3,DECREASE,True,Abstract,False,54,37,80,117,196,False,True,9491,True,False,,0,False
+G2-0207,4171519,9495,distractor,4,NO_DIFFERENCE,False,not located,False,87,0,0,0,119,False,False,,False,False,,0,False
+G2-0208,3381083,6343,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,70,59,74,133,245,False,True,6344 6341,True,False,,4,False
+G2-0208,3381083,6344,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,43,90,49,139,220,False,True,6343,False,False,,4,False
+G2-0208,3381083,6345,distractor,2,DECREASE,True,Results,True,32,91,73,164,225,False,False,,False,False,,3,False
+G2-0208,3381083,6341,target,3,NO_DIFFERENCE,True,Abstract > Results,False,40,24,91,115,183,False,True,6343,False,False,,2,False
+G2-0209,3441280,8014,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,63,26,1,27,125,False,False,,False,False,,0,True
+G2-0209,3441280,8016,target,1,INCREASE,True,Results,True,45,66,56,122,197,False,False,,False,False,,1,False
+G2-0209,3441280,8017,distractor,2,INCREASE,True,Abstract > Results,False,63,26,1,27,125,False,False,,False,False,,0,True
+G2-0209,3441280,8015,distractor,3,INCREASE,True,Abstract > Results,False,63,26,1,27,128,False,False,,False,False,,0,True
+G2-0210,1868022,6428,distractor,0,NO_DIFFERENCE,True,Results > Quantification Of Total Protein Concentrations In Cvls,True,57,0,51,51,154,False,False,,False,False,,0,False
+G2-0210,1868022,6426,target,1,INCREASE,True,Abstract,False,54,66,0,66,149,False,False,,False,False,,0,True
+G2-0210,1868022,6424,distractor,2,NO_DIFFERENCE,True,Results > Effect Of Pap Smear On Cervical Concentrations Of Inflammatory Cytokines,True,144,0,84,84,290,False,False,,False,False,,1,False
+G2-0210,1868022,6427,distractor,3,NO_DIFFERENCE,True,Results > Description Of Participants And Randomization,True,66,55,62,117,217,False,False,,False,False,,1,False
+G2-0210,1868022,6425,distractor,4,INCREASE,True,Abstract,False,54,66,0,66,156,False,False,,False,False,,0,True
+G2-0211,5264222,10622,distractor,0,NO_DIFFERENCE,True,Results > Efficacy,True,29,23,75,98,211,False,False,,False,False,,0,True
+G2-0211,5264222,10623,distractor,1,NO_DIFFERENCE,True,Results > Efficacy,True,29,23,75,98,211,False,False,,False,False,,0,True
+G2-0211,5264222,10621,target,2,NO_DIFFERENCE,True,Abstract > Results,False,51,57,67,124,236,False,False,,False,False,,0,False
+G2-0211,5264222,10620,distractor,3,DECREASE,True,Results > Immunogenicity,True,68,0,33,33,172,False,False,,False,False,,0,False
+G2-0212,4535555,4847,distractor,0,INCREASE,True,Results > Patient And Procedural Data,True,54,48,88,136,241,False,False,,False,False,,2,False
+G2-0212,4535555,4846,target,1,NO_DIFFERENCE,True,Abstract > Methods And Results,False,67,53,50,103,215,False,True,4845,False,False,,2,False
+G2-0212,4535555,4845,distractor,2,INCREASE,True,Abstract > Methods And Results,False,37,74,67,141,216,False,True,4846,True,False,,2,False
+G2-0213,3698010,9254,target,0,DECREASE,True,Results > Systemic Reactions,True,95,0,0,0,124,False,False,,False,False,,0,False
+G2-0213,3698010,9251,distractor,1,DECREASE,True,Abstract > Results,False,67,0,30,30,125,False,False,,False,False,,1,False
+G2-0213,3698010,9249,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,101,0,67,67,196,False,True,9251,False,False,,1,False
+G2-0214,1852321,11667,target,0,INCREASE,True,Patient Characteristics,True,65,77,26,103,203,False,True,11666,False,False,,2,False
+G2-0214,1852321,11665,distractor,1,NO_DIFFERENCE,True,Patient Characteristics,True,68,95,82,177,283,False,False,,False,False,,1,False
+G2-0214,1852321,11664,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,63,10,84,94,191,False,False,,False,False,,1,False
+G2-0214,1852321,11666,distractor,3,NO_DIFFERENCE,True,Patient Characteristics,True,26,65,0,65,125,False,True,11667,True,False,,1,False
+G2-0215,4668172,10893,target,0,INCREASE,False,not located,False,46,0,0,0,72,False,False,,False,False,,0,False
+G2-0215,4668172,10892,distractor,1,INCREASE,False,not located,False,47,0,0,0,72,False,False,,False,False,,0,True
+G2-0215,4668172,10891,distractor,2,INCREASE,False,not located,False,47,0,0,0,72,False,False,,False,False,,0,True
+G2-0215,4668172,10895,distractor,3,INCREASE,False,not located,False,47,0,0,0,74,False,False,,False,False,,0,True
+G2-0215,4668172,10894,distractor,4,NO_DIFFERENCE,False,not located,False,29,0,0,0,58,False,False,,False,False,,0,False
+G2-0216,5534217,7566,target,0,NO_DIFFERENCE,True,Results,True,71,58,84,142,257,False,True,7567,False,False,,1,False
+G2-0216,5534217,7567,distractor,1,NO_DIFFERENCE,True,Results,True,84,87,41,128,253,False,True,7566,True,False,,2,False
+G2-0216,5534217,7565,distractor,2,NO_DIFFERENCE,True,Results,True,97,70,75,145,280,False,False,,False,False,,1,False
+G2-0216,5534217,7568,distractor,3,NO_DIFFERENCE,True,Results,True,64,36,31,67,167,False,False,,False,False,,2,False
+G2-0217,3657667,9267,distractor,0,NO_DIFFERENCE,True,Results > Analysis Of Costs,True,25,20,121,141,197,False,False,,False,False,,2,False
+G2-0217,3657667,9268,target,1,NO_DIFFERENCE,False,not located,False,134,0,0,0,165,False,False,,False,False,,0,False
+G2-0217,3657667,9263,distractor,2,INCREASE,True,Abstract > Results,False,41,0,54,54,122,False,False,,False,False,,1,False
+G2-0218,2992187,9427,distractor,0,NO_DIFFERENCE,True,Results,True,32,85,77,162,228,False,False,,False,False,,2,False
+G2-0218,2992187,9424,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,83,0,0,0,115,False,False,,False,False,,0,True
+G2-0218,2992187,9426,target,2,INCREASE,True,Abstract > Results,False,83,0,0,0,114,False,False,,False,False,,0,True
+G2-0218,2992187,9428,distractor,3,INCREASE,True,Abstract > Results,False,83,0,0,0,114,False,False,,False,False,,0,True
+G2-0219,3856598,8819,distractor,0,INCREASE,True,Abstract > Results,False,80,0,33,33,159,False,False,,False,False,,0,False
+G2-0219,3856598,8821,distractor,1,DECREASE,True,Abstract > Results,False,45,0,68,68,161,False,True,8819,False,False,,0,True
+G2-0219,3856598,8818,distractor,2,NO_DIFFERENCE,True,Results > Survival Curve,True,37,0,45,45,133,False,False,,False,False,,1,False
+G2-0219,3856598,8820,target,3,DECREASE,True,Abstract > Results,False,45,0,68,68,161,False,True,8819,False,False,,0,True
+G2-0219,3856598,8817,distractor,4,DECREASE,True,Abstract > Results,False,45,0,68,68,164,False,True,8819,False,False,,0,True
+G2-0221,5282794,6121,target,0,DECREASE,True,Abstract > Results,False,29,0,19,19,72,False,False,,False,False,,0,False
+G2-0221,5282794,6122,distractor,1,NO_DIFFERENCE,True,Results,True,65,48,32,80,183,False,False,,False,False,,0,False
+G2-0221,5282794,6124,distractor,2,NO_DIFFERENCE,True,Results,True,29,98,65,163,222,False,False,,False,False,,2,False
+G2-0222,2825665,12548,target,0,DECREASE,True,Title,False,22,61,42,103,160,False,True,12547,False,False,,1,False
+G2-0222,2825665,12547,distractor,1,INCREASE,True,Title,False,36,61,64,125,200,False,True,12548,True,False,,1,False
+G2-0222,2825665,12549,distractor,2,NO_DIFFERENCE,True,Cdr-Sob,True,82,32,0,32,164,False,False,,False,False,,0,False
+G2-0223,1540413,11314,distractor,0,INCREASE,True,Results,True,54,76,87,163,246,False,False,,False,False,,1,True
+G2-0223,1540413,11313,target,1,NO_DIFFERENCE,True,Results,True,32,44,76,120,195,False,False,,False,False,,2,False
+G2-0223,1540413,11315,distractor,2,INCREASE,True,Results,True,54,76,87,163,246,False,False,,False,False,,1,True
+G2-0224,4973627,4579,distractor,0,DECREASE,False,not located,False,199,0,0,0,224,False,False,,False,False,,0,False
+G2-0224,4973627,4577,distractor,1,NO_DIFFERENCE,False,not located,False,200,0,0,0,224,False,False,,False,False,,0,False
+G2-0224,4973627,4575,distractor,2,DECREASE,False,not located,False,199,0,0,0,225,False,False,,False,False,,0,False
+G2-0224,4973627,4578,target,3,DECREASE,False,not located,False,199,0,0,0,226,False,False,,False,False,,0,False
+G2-0225,3467590,2255,distractor,0,NO_DIFFERENCE,True,Abstract > Conclusions,False,48,0,0,0,95,False,False,,False,False,,0,False
+G2-0225,3467590,2256,distractor,1,INCREASE,True,"Results > Recruitment Scheme, Patient Characteristics And Web Utilisation",True,89,0,57,57,211,False,False,,False,False,,1,False
+G2-0225,3467590,2254,distractor,2,NO_DIFFERENCE,True,"Results > Recruitment Scheme, Patient Characteristics And Web Utilisation",True,131,86,78,164,350,False,False,,False,False,,1,False
+G2-0225,3467590,2253,target,3,NO_DIFFERENCE,True,Abstract > Results,False,24,0,64,64,125,True,False,,False,False,,1,False
+G2-0225,3467590,2252,distractor,4,INCREASE,True,"Results > Recruitment Scheme, Patient Characteristics And Web Utilisation",True,131,56,86,142,324,False,False,,False,False,,1,False
+G2-0227,4628236,2075,target,0,DECREASE,True,Results > Effects Of Diabetes Mellitus And Cinaciguat Treatment On Myocardial Nitro-Oxidative Stress,True,43,0,73,73,185,False,False,,False,False,,0,False
+G2-0227,4628236,2077,distractor,1,INCREASE,True,Results > Cinaciguat Protects Against Dm Related Alteration Of The No-Sgc-Cgmp-Pkg Signalling,True,67,59,0,59,196,True,False,,False,False,,1,False
+G2-0227,4628236,2082,distractor,2,INCREASE,True,Results > In Vivo Cardiac Function Is Improved By Cinaciguat In Dm,True,92,20,0,20,191,True,False,,False,False,,1,False
+G2-0227,4628236,2084,distractor,3,DECREASE,True,Abstract > Results,False,55,0,0,0,106,False,False,,False,False,,0,False
+G2-0227,4628236,2081,distractor,4,DECREASE,True,Results > In Vivo Cardiac Function Is Improved By Cinaciguat In Dm,True,42,46,16,62,168,False,False,,False,False,,2,False
+G2-0228,5781260,2805,distractor,0,NO_DIFFERENCE,True,Results > Biochemical Analyses > Glutathione Peroxidase,True,56,0,44,44,146,False,False,,False,False,,1,False
+G2-0228,5781260,2804,distractor,1,NO_DIFFERENCE,True,Results > Biochemical Analyses > Creatine Kinase,True,44,0,86,86,169,False,False,,False,False,,2,False
+G2-0228,5781260,2806,distractor,2,NO_DIFFERENCE,True,Results > Biochemical Analyses > Glutathione Peroxidase,True,38,0,0,0,77,False,False,,False,False,,0,False
+G2-0228,5781260,2803,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,69,20,17,37,135,False,False,,False,False,,1,False
+G2-0228,5781260,2802,target,4,DECREASE,True,Results > Muscle Function Testing - Maximal Voluntary Contraction,True,50,0,42,42,130,False,False,,False,False,,0,False
+G2-0229,4251615,8033,target,0,INCREASE,True,Front,False,37,98,0,98,175,False,True,8036 8037,False,False,,2,False
+G2-0229,4251615,8035,distractor,1,NO_DIFFERENCE,True,Results > Patients,True,28,0,75,75,130,False,False,,False,False,,0,False
+G2-0229,4251615,8036,distractor,2,INCREASE,True,Front,False,52,72,37,109,186,False,True,8033 8034,True,False,,4,True
+G2-0229,4251615,8034,distractor,3,DECREASE,True,Front,False,25,58,98,156,208,False,True,8036 8037,False,False,,2,False
+G2-0229,4251615,8037,distractor,4,INCREASE,True,Front,False,52,72,37,109,184,False,True,8033 8034,True,False,,4,True
+G2-0232,3432828,3789,distractor,0,NO_DIFFERENCE,True,Results > Apparent Absorption Of Ca,True,65,0,4,4,107,False,False,,False,False,,0,False
+G2-0232,3432828,3788,target,1,INCREASE,True,Results > Femoral Bone Strength,True,38,0,15,15,110,False,False,,False,False,,0,False
+G2-0232,3432828,3785,distractor,2,INCREASE,True,"Results > Serum Genistein, Daidzein And Equol Concentrations",True,44,52,0,52,152,False,False,,False,False,,1,False
+G2-0232,3432828,3787,distractor,3,INCREASE,False,not located,False,57,0,0,0,113,False,False,,False,False,,0,False
+G2-0232,3432828,3786,distractor,4,INCREASE,True,Results > Apparent Absorption Of Ca,True,48,0,21,21,125,False,True,3789,False,False,,1,False
+G2-0233,111183,11210,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,30,25,58,83,162,False,True,11212 11211,True,False,,3,False
+G2-0233,111183,11213,distractor,1,NO_DIFFERENCE,True,Patient Characteristics,True,75,50,0,50,217,False,False,,False,False,,1,False
+G2-0233,111183,11212,target,2,DECREASE,True,Abstract > Results,False,46,55,12,67,176,False,True,11210,False,False,,3,True
+G2-0233,111183,11211,distractor,3,DECREASE,True,Abstract > Results,False,46,55,12,67,165,False,True,11210,False,False,,3,True
+G2-0234,4330076,8809,distractor,0,NO_DIFFERENCE,True,Results > Study Subjects,True,40,20,65,85,165,False,False,,False,False,,0,True
+G2-0234,4330076,8810,distractor,1,NO_DIFFERENCE,True,Results > Study Subjects,True,40,20,65,85,162,False,False,,False,False,,0,True
+G2-0234,4330076,8807,target,2,INCREASE,True,Results > Study Subjects,True,87,4,80,84,246,False,False,,False,False,,0,False
+G2-0235,5370803,9097,distractor,0,NO_DIFFERENCE,True,Results > Results Of Pulmonary Function Tests,True,100,0,56,56,260,False,False,,False,False,,0,False
+G2-0235,5370803,9089,target,1,NO_DIFFERENCE,True,Results > Patient Disposition And Baseline Characteristics,True,66,0,40,40,187,False,False,,False,False,,0,False
+G2-0235,5370803,9098,distractor,2,NO_DIFFERENCE,True,Results > Hyperglycemic Rescue And Aes,True,45,89,60,149,254,False,False,,False,False,,3,False
+G2-0235,5370803,9090,distractor,3,DECREASE,True,"Results > Results Of Bp (Sbp, Dbp) And Blood-Fat (Tc, Hdl-C, Hdl-C, And Tg)",True,42,3,136,139,264,False,False,,False,True,9091 9092,3,False
+G2-0235,5370803,9087,distractor,4,NO_DIFFERENCE,True,Results > Patient Disposition And Baseline Characteristics,True,40,0,111,111,210,True,True,9089,True,True,9088,2,False
+G2-0236,4957966,10465,distractor,0,INCREASE,True,Results > Secondary End Points > Pulse Rate,True,30,86,34,120,180,False,False,,False,False,,1,False
+G2-0236,4957966,10466,distractor,1,NO_DIFFERENCE,True,"Results > Secondary End Points > Biochemistry, Oxygen Saturations, Venous Blood Gas, And N-Terminal Pro B-Type Natriuretic Peptide (Nt-Bnp)",True,45,15,0,15,138,False,False,,False,False,,0,False
+G2-0236,4957966,10463,target,2,INCREASE,True,"Results > Secondary End Points > Pressure-Based Haemodynamic Variables (Map, Sbp, And Dbp)",True,55,0,0,0,101,False,False,,False,False,,0,False
+G2-0236,4957966,10464,distractor,3,NO_DIFFERENCE,True,"Results > Secondary End Points > Flow-Based Haemodynamic Variables (Ci, Svri, Svi)",True,31,0,66,66,145,False,False,,False,False,,0,False
+G2-0236,4957966,10462,distractor,4,NO_DIFFERENCE,True,Results,True,19,98,21,119,161,False,False,,False,False,,2,False
+G2-0237,5101425,1015,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,52,44,41,85,167,False,True,1014 1016,True,False,,3,False
+G2-0237,5101425,1014,target,1,DECREASE,True,Abstract > Results,False,27,66,0,66,124,False,True,1015,False,False,,2,False
+G2-0237,5101425,1017,distractor,2,NO_DIFFERENCE,True,Abstract > Conclusions,False,40,0,82,82,149,False,False,,False,False,,2,False
+G2-0237,5101425,1016,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,44,0,66,66,137,False,True,1015,False,False,,2,False
+G2-0238,4562579,5802,distractor,0,INCREASE,False,not located,False,78,0,0,0,103,False,False,,False,False,,0,False
+G2-0238,4562579,5805,target,1,NO_DIFFERENCE,True,Results > Vascular Measures,True,69,9,0,9,104,True,False,,False,False,,0,False
+G2-0238,4562579,5807,distractor,2,NO_DIFFERENCE,True,Results > Plasma And Intracellular Free Phenylalanine Enrichments,True,101,29,0,29,170,False,False,,False,False,,1,False
+G2-0238,4562579,5806,distractor,3,NO_DIFFERENCE,True,Results > Vascular Measures,True,25,9,41,50,101,False,True,5805,True,False,,1,True
+G2-0238,4562579,5804,distractor,4,NO_DIFFERENCE,True,Results > Vascular Measures,True,25,9,41,50,102,False,True,5805,True,False,,1,True
+G2-0239,3626705,2833,distractor,0,INCREASE,True,Mek Inhibitors In Clinical Trials,True,57,95,42,137,265,False,True,2834,True,False,,1,False
+G2-0239,3626705,2834,target,1,INCREASE,True,Mek Inhibitors In Clinical Trials,True,42,57,0,57,171,False,True,2833,False,False,,1,False
+G2-0239,3626705,2835,distractor,2,NO_DIFFERENCE,True,Mek Inhibitors In Clinical Trials,True,62,71,44,115,229,False,False,,False,False,,1,False
+G2-0240,2784472,7970,distractor,0,NO_DIFFERENCE,True,Results And Discussion,True,49,0,41,41,159,False,False,,False,False,,1,True
+G2-0240,2784472,7966,target,1,NO_DIFFERENCE,True,Results And Discussion,True,49,0,41,41,156,False,False,,False,False,,1,True
+G2-0240,2784472,7969,distractor,2,INCREASE,True,Abstract > Results,False,66,0,25,25,155,False,False,,False,False,,1,True
+G2-0240,2784472,7968,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,66,0,25,25,158,False,False,,False,False,,1,True
+G2-0240,2784472,7967,distractor,4,INCREASE,True,Abstract > Results,False,66,0,25,25,157,False,False,,False,False,,1,True
+G2-0241,4914255,7339,target,0,DECREASE,True,"Results > Effect Of D-Serine Administration On Executive Function, Working Memory, Attention And Mood",True,54,0,88,88,187,False,False,,False,False,,2,False
+G2-0241,4914255,7335,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,31,74,0,74,128,False,False,,False,False,,2,False
+G2-0241,4914255,7338,distractor,2,NO_DIFFERENCE,True,"Results > Effect Of D-Serine Administration On Executive Function, Working Memory, Attention And Mood",True,67,35,40,75,183,False,False,,False,False,,2,True
+G2-0241,4914255,7337,distractor,3,NO_DIFFERENCE,True,"Results > Effect Of D-Serine Administration On Executive Function, Working Memory, Attention And Mood",True,52,35,55,90,186,False,True,7338 7336,False,False,,3,False
+G2-0241,4914255,7336,distractor,4,NO_DIFFERENCE,True,"Results > Effect Of D-Serine Administration On Executive Function, Working Memory, Attention And Mood",True,67,35,40,75,185,False,False,,False,False,,2,True
+G2-0242,5706318,10248,distractor,0,DECREASE,True,Title,False,24,0,0,0,54,False,False,,False,False,,0,True
+G2-0242,5706318,10251,distractor,1,NO_DIFFERENCE,True,Results,True,38,0,0,0,72,False,False,,False,True,10249,0,True
+G2-0242,5706318,10250,distractor,2,NO_DIFFERENCE,True,Results,True,38,0,0,0,72,False,False,,False,True,10249,0,True
+G2-0242,5706318,10246,target,3,DECREASE,True,Title,False,24,0,0,0,52,False,False,,False,False,,0,True
+G2-0242,5706318,10247,distractor,4,DECREASE,True,Title,False,24,0,0,0,52,False,False,,False,False,,0,True
+G2-0243,4996097,11145,distractor,0,NO_DIFFERENCE,True,Highlights,True,24,20,16,36,84,False,False,,False,False,,0,False
+G2-0243,4996097,11147,distractor,1,INCREASE,True,Results,True,73,41,66,107,205,False,True,11146,True,False,,4,False
+G2-0243,4996097,11146,target,2,NO_DIFFERENCE,True,Results,True,45,80,58,138,207,False,True,11147,False,False,,3,False
+G2-0244,5419060,6484,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,86,0,19,19,133,False,True,6485,True,False,,0,False
+G2-0244,5419060,6489,distractor,1,NO_DIFFERENCE,False,not located,False,109,0,0,0,138,False,False,,False,False,,0,False
+G2-0244,5419060,6488,distractor,2,NO_DIFFERENCE,False,not located,False,105,0,0,0,133,False,False,,False,False,,0,False
+G2-0244,5419060,6485,target,3,INCREASE,True,Abstract > Results,False,211,86,0,86,328,False,True,6484,False,False,,1,False
+G2-0245,4972969,2779,distractor,0,INCREASE,True,Results > Outcomes > Facility Performance,True,118,0,0,0,166,False,False,,False,False,,0,False
+G2-0245,4972969,2777,target,1,DECREASE,True,Results > Outcomes > Facility Performance,True,52,0,0,0,111,True,False,,False,False,,0,False
+G2-0245,4972969,2773,distractor,2,INCREASE,True,Results > Outcomes > Facility Performance,True,64,17,100,117,221,False,True,2774,False,False,,1,False
+G2-0245,4972969,2774,distractor,3,DECREASE,True,Results > Outcomes > Facility Performance,True,52,0,0,0,93,True,False,,False,False,,0,False
+G2-0245,4972969,2776,distractor,4,INCREASE,True,Results > Outcomes > Facility Performance,True,130,0,52,52,253,False,True,2777,True,False,,1,False
+G2-0246,4497726,12252,target,0,INCREASE,True,Cognitive Outcomes,True,22,0,39,39,102,False,False,,False,False,,0,False
+G2-0246,4497726,12255,distractor,1,INCREASE,True,Title,False,43,48,44,92,176,False,False,,False,False,,0,False
+G2-0246,4497726,12253,distractor,2,INCREASE,True,Adverse Events,True,81,41,50,91,216,False,False,,False,False,,0,False
+G2-0246,4497726,12254,distractor,3,INCREASE,True,Cognitive Outcomes,True,44,61,48,109,197,False,True,12251,False,False,,0,False
+G2-0246,4497726,12251,distractor,4,NO_DIFFERENCE,True,Cognitive Outcomes,True,48,85,0,85,179,False,True,12254,False,False,,0,False
+G2-0247,4144850,5526,distractor,0,NO_DIFFERENCE,True,Results > Anemia And Anthropometry,True,17,25,0,25,71,False,False,,False,False,,0,False
+G2-0247,4144850,5523,target,1,DECREASE,True,Results > Ihl Coverage And Sanitation-Related Behaviors,True,123,59,61,120,279,False,False,,False,True,5522,0,False
+G2-0247,4144850,5525,distractor,2,NO_DIFFERENCE,False,not located,False,152,0,0,0,179,False,False,,False,False,,0,False
+G2-0247,4144850,5524,distractor,3,NO_DIFFERENCE,True,Results > Drinking Water Quality,True,56,79,1,80,166,False,False,,False,False,,0,False
+G2-0247,4144850,5521,distractor,4,INCREASE,True,Results > Ihl Coverage And Sanitation-Related Behaviors,True,55,37,92,129,220,False,False,,False,True,5522,1,False
+G2-0248,3800406,8793,distractor,0,DECREASE,True,Front,False,34,0,53,53,152,False,False,,False,False,,2,True
+G2-0248,3800406,8794,distractor,1,DECREASE,True,Results,True,55,74,85,159,289,False,True,8791 8795,True,False,,4,False
+G2-0248,3800406,8791,distractor,2,DECREASE,True,Results,True,39,41,35,76,187,False,True,8795,True,False,,2,False
+G2-0248,3800406,8795,target,3,NO_DIFFERENCE,True,Results,True,73,41,0,41,183,False,False,,False,False,,1,False
+G2-0248,3800406,8792,distractor,4,DECREASE,True,Front,False,34,0,53,53,152,False,False,,False,False,,2,True
+G2-0249,5440538,5569,distractor,0,NO_DIFFERENCE,True,Introduction,True,64,50,51,101,197,False,False,,False,False,,0,False
+G2-0249,5440538,5565,distractor,1,DECREASE,True,Abstract > Results,False,42,52,69,121,189,False,True,5564,False,False,,1,False
+G2-0249,5440538,5566,distractor,2,INCREASE,True,Introduction,True,64,37,51,88,179,False,False,,False,False,,1,False
+G2-0249,5440538,5564,distractor,3,INCREASE,True,Abstract > Results,False,40,81,97,178,249,False,True,5565,False,False,,1,False
+G2-0249,5440538,5567,target,4,NO_DIFFERENCE,True,Introduction,True,68,0,57,57,148,False,False,,False,False,,0,False
+G2-0250,4749757,2341,distractor,0,NO_DIFFERENCE,True,Results,True,33,95,76,171,232,False,False,,False,False,,1,False
+G2-0250,4749757,2338,distractor,1,INCREASE,True,Front,False,98,48,9,57,201,False,True,2339 2340,True,False,,0,False
+G2-0250,4749757,2339,target,2,INCREASE,True,Front,False,35,13,98,111,188,False,True,2338 2340,False,False,,1,False
+G2-0250,4749757,2342,distractor,3,INCREASE,True,Results,True,57,58,41,99,185,False,False,,False,False,,1,False
+G2-0250,4749757,2340,distractor,4,INCREASE,True,Front,False,48,0,98,98,186,False,True,2338,False,False,,1,False
+G2-0252,2409647,2617,distractor,0,DECREASE,True,Results > Efficacy,True,38,0,101,101,183,False,True,2618,False,True,2620,3,False
+G2-0252,2409647,2623,distractor,1,DECREASE,True,Results > Efficacy,True,60,80,16,96,198,False,True,2622,True,False,,2,False
+G2-0252,2409647,2621,distractor,2,DECREASE,False,not located,False,58,0,0,0,94,False,False,,False,False,,0,False
+G2-0252,2409647,2622,target,3,DECREASE,True,Results > Efficacy,True,80,37,76,113,228,False,True,2623,False,False,,2,False
+G2-0252,2409647,2618,distractor,4,DECREASE,True,Results > Efficacy,True,42,71,78,149,225,False,True,2617,False,True,2620,3,False
+G2-0254,5336430,1439,distractor,0,INCREASE,True,Results > Efficacy,True,88,0,71,71,224,False,True,1440,False,False,,1,False
+G2-0254,5336430,1437,distractor,1,INCREASE,True,Abstract > Results,False,136,32,53,85,284,False,True,1442,True,False,,0,False
+G2-0254,5336430,1442,target,2,INCREASE,True,Abstract > Results,False,53,55,0,55,159,False,True,1437,False,False,,1,False
+G2-0254,5336430,1435,distractor,3,INCREASE,True,Results > Efficacy,True,149,0,27,27,246,False,False,,False,True,1436,1,False
+G2-0254,5336430,1440,distractor,4,NO_DIFFERENCE,True,Results > Efficacy,True,45,88,93,181,282,False,True,1439,False,False,,1,False
+G2-0256,4282128,6243,distractor,0,NO_DIFFERENCE,True,Abstract > Conclusion,False,29,0,24,24,89,False,False,,False,False,,0,True
+G2-0256,4282128,6239,target,1,NO_DIFFERENCE,True,Abstract > Findings,False,51,0,94,94,175,False,True,6240,False,False,,1,False
+G2-0256,4282128,6241,distractor,2,NO_DIFFERENCE,True,Results > Outcomes,True,116,13,86,99,269,False,False,,False,False,,2,False
+G2-0256,4282128,6240,distractor,3,NO_DIFFERENCE,True,Abstract > Findings,False,69,0,76,76,188,False,False,,False,False,,1,False
+G2-0256,4282128,6242,distractor,4,NO_DIFFERENCE,True,Abstract > Conclusion,False,29,0,24,24,92,False,False,,False,False,,0,True
+G2-0257,5136709,7189,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,65,90,11,101,201,False,True,7187 7184 7186 7188,True,False,,1,False
+G2-0257,5136709,7187,target,1,DECREASE,True,Abstract > Results,False,90,0,76,76,195,False,True,7189 7188,False,False,,1,True
+G2-0257,5136709,7184,distractor,2,DECREASE,True,Abstract > Results,False,89,0,77,77,197,False,True,7189 7187 7186 7188,True,False,,1,False
+G2-0257,5136709,7186,distractor,3,DECREASE,True,Abstract > Results,False,90,0,76,76,195,False,True,7189 7188,False,False,,1,True
+G2-0257,5136709,7188,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,76,90,0,90,197,False,True,7187 7184 7186,True,False,,1,False
+G2-0258,3563445,12821,distractor,0,NO_DIFFERENCE,True,Analysis Of The Intestinal Microbiota Composition In Relation To The Health Status,True,49,0,41,41,141,False,True,12822,False,False,,0,False
+G2-0258,3563445,12822,distractor,1,INCREASE,True,Analysis Of The Intestinal Microbiota Composition In Relation To The Health Status,True,164,51,93,144,359,False,True,12821 12823,True,False,,2,False
+G2-0258,3563445,12823,target,2,DECREASE,True,Analysis Of The Intestinal Microbiota Composition In Relation To The Health Status,True,59,0,34,34,145,False,False,,False,False,,0,False
+G2-0259,5761719,8088,distractor,0,INCREASE,True,Abstract > Results,False,64,75,73,148,239,False,False,,False,False,,2,False
+G2-0259,5761719,8086,distractor,1,DECREASE,True,Results,True,41,29,36,65,135,False,True,8085,True,False,,1,False
+G2-0259,5761719,8085,target,2,DECREASE,True,Results,True,77,29,0,29,137,False,False,,False,False,,0,False
+G2-0259,5761719,8087,distractor,3,NO_DIFFERENCE,True,Results,True,54,55,1,56,138,False,False,,False,False,,1,False
+G2-0262,3726903,10917,distractor,0,NO_DIFFERENCE,True,Front,False,25,28,28,56,111,False,True,10918,False,False,,1,True
+G2-0262,3726903,10920,distractor,1,NO_DIFFERENCE,True,Results,True,32,36,43,79,139,False,False,,False,False,,1,True
+G2-0262,3726903,10918,distractor,2,INCREASE,True,Front,False,28,35,0,35,95,False,True,10917 10921,True,False,,1,False
+G2-0262,3726903,10921,target,3,NO_DIFFERENCE,True,Front,False,25,28,28,56,109,False,True,10918,False,False,,1,True
+G2-0262,3726903,10919,distractor,4,NO_DIFFERENCE,True,Results,True,32,36,43,79,136,False,False,,False,False,,1,True
+G2-0263,4312979,12775,target,0,DECREASE,True,Abstract > Results,False,93,0,46,46,173,False,False,,False,False,,2,False
+G2-0263,4312979,12776,distractor,1,NO_DIFFERENCE,True,Secondary End-Points,True,50,33,0,33,121,False,False,,False,False,,0,False
+G2-0263,4312979,12777,distractor,2,NO_DIFFERENCE,True,Secondary End-Points,True,38,0,0,0,77,False,False,,False,False,,0,False
+G2-0264,5836873,12333,distractor,0,NO_DIFFERENCE,True,Intervention Effectiveness,True,26,22,0,22,78,False,False,,False,False,,0,False
+G2-0264,5836873,12332,distractor,1,NO_DIFFERENCE,True,Intervention Health Service Costs,True,27,62,0,62,116,False,False,,False,False,,0,False
+G2-0264,5836873,12335,distractor,2,NO_DIFFERENCE,True,Intervention Effectiveness,True,30,7,45,52,121,False,True,12334,True,False,,1,False
+G2-0264,5836873,12334,target,3,INCREASE,True,Intervention Effectiveness,True,124,48,40,88,269,False,True,12333 12335,False,False,,2,False
+G2-0265,2721929,385,distractor,0,INCREASE,True,Abstract,False,59,98,51,149,246,False,False,,False,False,,2,True
+G2-0265,2721929,387,distractor,1,NO_DIFFERENCE,True,Results,True,86,0,68,68,192,False,False,,False,False,,0,True
+G2-0265,2721929,384,distractor,2,INCREASE,True,Abstract,False,59,98,51,149,243,False,False,,False,False,,2,True
+G2-0265,2721929,386,target,3,NO_DIFFERENCE,True,Results,True,86,0,68,68,193,False,False,,False,False,,0,True
+G2-0266,4610927,3287,target,0,DECREASE,True,Abstract > Results,False,23,63,0,63,158,False,True,3286 3285 3284,False,False,,2,False
+G2-0266,4610927,3286,distractor,1,INCREASE,True,Abstract > Results,False,35,28,23,51,167,False,True,3287,True,False,,2,True
+G2-0266,4610927,3285,distractor,2,INCREASE,True,Abstract > Results,False,35,28,23,51,154,False,True,3287,True,False,,2,True
+G2-0266,4610927,3284,distractor,3,INCREASE,True,Abstract > Results,False,35,28,23,51,154,False,True,3287,True,False,,2,True
+G2-0266,4610927,3283,distractor,4,NO_DIFFERENCE,True,Results,True,59,8,57,65,191,False,False,,False,False,,2,False
+G2-0268,4724125,6831,target,0,NO_DIFFERENCE,True,Results > Changes In Cardiovascular Risk Factors,True,22,0,112,112,165,False,True,6833,False,False,,1,False
+G2-0268,4724125,6833,distractor,1,NO_DIFFERENCE,True,Results > Changes In Cardiovascular Risk Factors,True,39,0,95,95,164,False,False,,False,False,,1,False
+G2-0268,4724125,6830,distractor,2,INCREASE,False,not located,False,136,0,0,0,162,False,False,,False,False,,0,False
+G2-0269,5380277,6469,distractor,0,DECREASE,True,Results > Comparison Of Postoperative Outcomes Between Control Group And Warming Infusion Group,True,124,32,66,98,263,False,True,6472,False,False,,2,True
+G2-0269,5380277,6471,target,1,DECREASE,True,Results > Comparison Of Postoperative Outcomes Between Control Group And Warming Infusion Group,True,124,32,66,98,262,False,True,6472,False,False,,2,True
+G2-0269,5380277,6468,distractor,2,DECREASE,True,Results > Comparison Of Intraoperative Outcomes Between Control Group And Warming Infusion Group,True,54,45,15,60,153,False,False,,False,True,6467,1,False
+G2-0269,5380277,6472,distractor,3,DECREASE,True,Results > Comparison Of Postoperative Outcomes Between Control Group And Warming Infusion Group,True,52,0,34,34,125,False,False,,False,False,,1,False
+G2-0269,5380277,6470,distractor,4,DECREASE,True,Results > Comparison Of Postoperative Outcomes Between Control Group And Warming Infusion Group,True,124,32,66,98,261,False,True,6472,False,False,,2,True
+G2-0270,4365564,1365,target,0,NO_DIFFERENCE,True,Results > Infection,True,46,32,42,74,154,False,False,,False,False,,0,False
+G2-0270,4365564,1363,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,30,28,39,67,129,False,False,,False,False,,0,False
+G2-0270,4365564,1364,distractor,2,NO_DIFFERENCE,False,not located,False,101,0,0,0,136,False,False,,False,False,,0,False
+G2-0271,3549413,2613,distractor,0,NO_DIFFERENCE,False,not located,False,129,0,0,0,168,False,False,,False,False,,0,False
+G2-0271,3549413,2611,distractor,1,INCREASE,True,Results > Bone Mineral Density,True,56,0,64,64,161,False,True,2610,True,False,,2,False
+G2-0271,3549413,2612,distractor,2,DECREASE,True,Results > Safety,True,32,58,80,138,206,False,False,,False,False,,3,False
+G2-0271,3549413,2610,target,3,DECREASE,True,Results > Bone Mineral Density,True,75,0,44,44,155,False,False,,False,False,,1,False
+G2-0272,5330006,1424,distractor,0,NO_DIFFERENCE,True,Results,True,31,71,110,181,251,False,False,,False,False,,3,False
+G2-0272,5330006,1423,target,1,INCREASE,True,Results,True,30,47,52,99,168,False,False,,False,False,,3,False
+G2-0272,5330006,1426,distractor,2,NO_DIFFERENCE,True,Results,True,25,0,60,60,117,False,False,,False,False,,2,False
+G2-0273,5863413,10119,distractor,0,DECREASE,True,Front,False,51,0,36,36,112,False,True,10120 10118 10117 10116,True,False,,1,False
+G2-0273,5863413,10120,distractor,1,NO_DIFFERENCE,True,Front,False,35,52,0,52,116,False,True,10119,False,False,,1,True
+G2-0273,5863413,10118,distractor,2,NO_DIFFERENCE,True,Front,False,35,52,0,52,114,False,True,10119,False,False,,1,True
+G2-0273,5863413,10117,distractor,3,NO_DIFFERENCE,True,Front,False,35,52,0,52,113,False,True,10119,False,False,,1,True
+G2-0273,5863413,10116,target,4,NO_DIFFERENCE,True,Front,False,33,54,0,54,109,False,True,10119 10120 10118 10117,False,False,,1,False
+G2-0274,5747107,13198,target,0,NO_DIFFERENCE,True,Participants And Baseline Characteristics,True,38,130,9,139,233,False,True,13196 13197,False,False,,3,False
+G2-0274,5747107,13196,distractor,1,NO_DIFFERENCE,True,Participants And Baseline Characteristics,True,67,0,28,28,148,False,False,,False,False,,1,False
+G2-0274,5747107,13197,distractor,2,NO_DIFFERENCE,True,Participants And Baseline Characteristics,True,70,95,12,107,228,False,True,13198 13196,True,False,,2,False
+G2-0275,5393542,9056,distractor,0,INCREASE,True,Results,True,60,0,57,57,142,False,False,,False,False,,2,False
+G2-0275,5393542,9054,target,1,DECREASE,True,Results,True,32,20,34,54,113,False,True,9055,False,False,,2,False
+G2-0275,5393542,9057,distractor,2,INCREASE,True,Results,True,35,57,0,57,117,False,False,,False,False,,2,False
+G2-0275,5393542,9055,distractor,3,NO_DIFFERENCE,True,Results,True,20,0,49,49,92,False,True,9054,True,False,,2,False
+G2-0276,4045368,1696,distractor,0,NO_DIFFERENCE,True,Abstract,False,48,26,35,61,136,False,False,,False,False,,0,False
+G2-0276,4045368,1699,distractor,1,INCREASE,True,Abstract,False,50,61,76,137,217,False,True,1700,False,False,,1,False
+G2-0276,4045368,1700,distractor,2,DECREASE,True,Abstract,False,49,73,27,100,178,False,True,1699 1698,True,False,,1,False
+G2-0276,4045368,1698,target,3,INCREASE,True,Abstract,False,54,71,93,164,248,False,False,,False,False,,2,False
+G2-0276,4045368,1697,distractor,4,NO_DIFFERENCE,True,Abstract,False,51,52,76,128,210,False,False,,False,False,,0,False
+G2-0277,4687242,6335,distractor,0,NO_DIFFERENCE,True,Results,True,36,50,0,50,123,False,True,6334,False,False,,1,False
+G2-0277,4687242,6334,distractor,1,NO_DIFFERENCE,True,Results,True,31,92,55,147,221,False,True,6335,False,False,,1,False
+G2-0277,4687242,6333,distractor,2,INCREASE,True,Front,False,36,78,0,78,157,False,True,6332,True,False,,1,False
+G2-0277,4687242,6332,target,3,INCREASE,True,Front,False,62,0,52,52,162,False,True,6333,False,False,,1,False
+G2-0278,4149239,4586,distractor,0,NO_DIFFERENCE,True,Results > The Primary Endpoint,True,31,45,0,45,108,False,False,,False,False,,1,False
+G2-0278,4149239,4590,distractor,1,NO_DIFFERENCE,True,Results > Secondary Efficacy Measures,True,42,0,4,4,82,False,False,,False,False,,0,True
+G2-0278,4149239,4591,distractor,2,INCREASE,True,Results > Secondary Efficacy Measures,True,32,0,11,11,75,False,False,,False,False,,0,False
+G2-0278,4149239,4589,distractor,3,NO_DIFFERENCE,True,Results > Secondary Efficacy Measures,True,42,0,4,4,83,False,False,,False,False,,0,True
+G2-0278,4149239,4588,target,4,NO_DIFFERENCE,True,Results > Secondary Efficacy Measures,True,42,0,4,4,82,False,False,,False,False,,0,True
+G2-0279,5331731,4818,distractor,0,INCREASE,True,Results > Job Satisfaction,True,48,50,56,106,191,False,True,4819,False,False,,2,False
+G2-0279,5331731,4819,distractor,1,NO_DIFFERENCE,True,Results > Job Satisfaction,True,103,50,44,94,239,False,False,,False,False,,0,False
+G2-0279,5331731,4817,distractor,2,INCREASE,True,Results > Job Satisfaction,True,41,0,65,65,145,False,False,,False,False,,2,False
+G2-0279,5331731,4821,distractor,3,DECREASE,True,Results > Worker Attrition,True,41,44,51,95,181,False,True,4820,True,False,,2,False
+G2-0279,5331731,4820,target,4,DECREASE,True,Results > Worker Attrition,True,34,58,92,150,229,False,True,4821,False,False,,2,False
+G2-0281,5808396,1995,distractor,0,DECREASE,True,Results > The Effect Of Cognitive Processing Therapy (Cpt) On Felt Stigma,True,53,54,0,54,149,False,False,,False,False,,1,True
+G2-0281,5808396,1993,target,1,DECREASE,True,Results > The Effect Of Cognitive Processing Therapy (Cpt) On Felt Stigma,True,53,54,0,54,147,False,False,,False,False,,1,True
+G2-0281,5808396,1994,distractor,2,NO_DIFFERENCE,True,Results > The Effect Of Cognitive Processing Therapy (Cpt) On Felt Stigma,True,36,78,0,78,158,True,True,1995 1993,True,False,,2,False
+G2-0283,3637243,6512,distractor,0,NO_DIFFERENCE,True,Results > Long-Term Injury Induced By A Transient Ischemia Reperfusion,True,22,55,36,91,158,False,False,,False,False,,1,False
+G2-0283,3637243,6510,target,1,NO_DIFFERENCE,True,Results > Acute Ischemia Reperfusion Injury In Isolated Rat Hearts,True,66,75,72,147,253,False,True,6511 6508,False,False,,2,True
+G2-0283,3637243,6509,distractor,2,NO_DIFFERENCE,True,Results > Acute Ischemia Reperfusion Injury In Isolated Rat Hearts,True,66,75,72,147,253,False,True,6511 6508,False,False,,2,True
+G2-0283,3637243,6511,distractor,3,DECREASE,True,Results > Acute Ischemia Reperfusion Injury In Isolated Rat Hearts,True,28,66,79,145,218,False,True,6510 6509,True,False,,0,False
+G2-0283,3637243,6508,distractor,4,DECREASE,True,Results > Acute Ischemia Reperfusion Injury In Isolated Rat Hearts,True,48,47,100,147,235,False,True,6510 6509 6511,True,False,,1,False
+G2-0284,5308129,2212,distractor,0,DECREASE,True,Results,True,33,0,50,50,193,False,False,,False,False,,1,False
+G2-0284,5308129,2214,target,1,NO_DIFFERENCE,True,Results,True,30,0,34,34,163,False,False,,False,False,,1,False
+G2-0284,5308129,2213,distractor,2,DECREASE,True,Abstract,False,59,29,0,29,187,False,True,2212,False,False,,1,False
+G2-0285,4681902,10370,distractor,0,NO_DIFFERENCE,False,not located,False,30,0,0,0,70,False,False,,False,False,,0,True
+G2-0285,4681902,10369,distractor,1,NO_DIFFERENCE,False,not located,False,30,0,0,0,70,False,False,,False,False,,0,True
+G2-0285,4681902,10371,target,2,INCREASE,False,not located,False,56,0,0,0,94,False,False,,False,False,,0,False
+G2-0285,4681902,10368,distractor,3,NO_DIFFERENCE,False,not located,False,30,0,0,0,70,False,False,,False,False,,0,True
+G2-0286,3009979,8332,target,0,NO_DIFFERENCE,False,not located,False,68,0,0,0,100,False,False,,False,False,,0,False
+G2-0286,3009979,8330,distractor,1,NO_DIFFERENCE,True,Results,True,62,69,85,154,246,False,False,,False,False,,2,False
+G2-0286,3009979,8331,distractor,2,NO_DIFFERENCE,False,not located,False,67,0,0,0,104,False,False,,False,False,,0,False
+G2-0287,3112403,5210,distractor,0,NO_DIFFERENCE,True,Results,True,77,94,77,171,270,False,True,5209 5212,False,False,,2,False
+G2-0287,3112403,5209,distractor,1,NO_DIFFERENCE,True,Results,True,72,87,30,117,210,False,True,5210 5212,False,True,5208,3,False
+G2-0287,3112403,5211,target,2,DECREASE,True,Results,True,82,46,49,95,199,False,False,,False,False,,3,False
+G2-0287,3112403,5213,distractor,3,NO_DIFFERENCE,True,Results,True,34,0,26,26,83,True,False,,False,False,,1,False
+G2-0287,3112403,5212,distractor,4,NO_DIFFERENCE,True,Results,True,22,72,77,149,194,False,True,5210 5209,False,False,,1,False
+G2-0289,4301837,4087,distractor,0,DECREASE,True,Results > Human Pharmacokinetic And Pharmacodynamic Studies > Safety And Tolerability,True,62,21,94,115,220,False,True,4088,False,False,,1,False
+G2-0289,4301837,4084,distractor,1,INCREASE,True,Results > Human Pharmacokinetic And Pharmacodynamic Studies > Safety And Tolerability,True,69,0,53,53,169,False,False,,False,False,,0,False
+G2-0289,4301837,4085,target,2,DECREASE,True,Results > Human Pharmacokinetic And Pharmacodynamic Studies > Safety And Tolerability,True,49,26,79,105,196,False,False,,False,False,,0,False
+G2-0289,4301837,4083,distractor,3,DECREASE,True,Results > Human Pharmacokinetic And Pharmacodynamic Studies > Safety And Tolerability,True,67,52,0,52,158,False,False,,False,False,,1,False
+G2-0289,4301837,4088,distractor,4,INCREASE,True,Results > Human Pharmacokinetic And Pharmacodynamic Studies > Safety And Tolerability,True,94,83,0,83,221,False,True,4087,False,False,,1,False
+G2-0290,4060171,5747,distractor,0,NO_DIFFERENCE,True,Abstract,False,28,46,0,46,104,False,False,,False,False,,1,False
+G2-0290,4060171,5744,distractor,1,NO_DIFFERENCE,True,Abstract,False,42,22,44,66,137,False,False,,False,False,,2,False
+G2-0290,4060171,5745,target,2,INCREASE,True,Abstract,False,38,0,51,51,113,False,False,,False,False,,0,False
+G2-0290,4060171,5743,distractor,3,NO_DIFFERENCE,True,Abstract,False,30,34,44,78,132,False,True,5744,False,False,,2,False
+G2-0291,3718763,12023,distractor,0,DECREASE,True,Abstract > Results,False,111,33,48,81,270,False,True,12025,True,False,,1,True
+G2-0291,3718763,12025,target,1,NO_DIFFERENCE,True,Abstract > Results,False,29,19,0,19,146,False,False,,False,False,,0,False
+G2-0291,3718763,12022,distractor,2,DECREASE,True,Abstract > Results,False,111,33,48,81,347,False,True,12025,True,False,,1,True
+G2-0291,3718763,12024,distractor,3,DECREASE,True,Abstract > Results,False,111,33,48,81,267,False,True,12025,True,False,,1,True
+G2-0292,3921228,2072,distractor,0,INCREASE,True,Abstract > Results,False,23,17,41,58,132,False,False,,False,False,,0,False
+G2-0292,3921228,2074,target,1,DECREASE,True,Results > Associated Mood Effects,True,180,63,23,86,320,False,True,2073,False,False,,2,False
+G2-0292,3921228,2073,distractor,2,NO_DIFFERENCE,True,Results > Associated Mood Effects,True,31,121,0,121,208,False,False,,False,False,,2,False
+G2-0293,4540107,4404,distractor,0,DECREASE,True,Front,False,26,0,50,50,108,False,True,4405 4407,False,False,,2,True
+G2-0293,4540107,4405,distractor,1,NO_DIFFERENCE,True,Front,False,28,47,0,47,117,False,True,4404 4407 4403,True,False,,2,False
+G2-0293,4540107,4407,distractor,2,NO_DIFFERENCE,True,Front,False,30,45,0,45,110,False,True,4404 4403,True,False,,2,False
+G2-0293,4540107,4403,target,3,INCREASE,True,Front,False,26,0,50,50,105,False,True,4405 4407,False,False,,2,True
+G2-0294,4663570,10397,target,0,NO_DIFFERENCE,True,Abstract,False,65,0,86,86,177,False,True,10396,False,False,,1,True
+G2-0294,4663570,10396,distractor,1,NO_DIFFERENCE,True,Abstract,False,127,0,102,102,252,False,False,,False,False,,1,False
+G2-0294,4663570,10399,distractor,2,INCREASE,False,not located,False,88,0,0,0,115,False,False,,False,False,,0,False
+G2-0294,4663570,10395,distractor,3,NO_DIFFERENCE,True,Abstract,False,65,0,86,86,178,False,True,10396,False,False,,1,True
+G2-0294,4663570,10398,distractor,4,NO_DIFFERENCE,True,Abstract,False,65,0,86,86,176,False,True,10396,False,False,,1,True
+G2-0295,4440033,3959,distractor,0,NO_DIFFERENCE,True,Discussion,True,68,58,29,87,181,False,False,,False,False,,0,True
+G2-0295,4440033,3960,distractor,1,NO_DIFFERENCE,False,not located,False,108,0,0,0,140,False,False,,False,False,,0,False
+G2-0295,4440033,3956,distractor,2,NO_DIFFERENCE,True,Discussion,True,68,58,29,87,189,False,False,,False,False,,0,True
+G2-0295,4440033,3957,target,3,INCREASE,True,Discussion,True,41,52,46,98,166,False,False,,False,False,,0,False
+G2-0296,4092926,1525,distractor,0,NO_DIFFERENCE,True,Abstract,False,257,40,27,67,349,False,False,,False,False,,0,False
+G2-0296,4092926,1527,distractor,1,NO_DIFFERENCE,True,Results And Discussion,True,47,89,0,89,165,False,False,,False,False,,0,False
+G2-0296,4092926,1526,target,2,NO_DIFFERENCE,True,Results And Discussion,True,31,28,60,88,154,False,False,,False,False,,1,False
+G2-0297,2911596,1593,distractor,0,NO_DIFFERENCE,True,Abstract,False,45,34,45,79,168,False,False,,False,False,,1,False
+G2-0297,2911596,1595,target,1,NO_DIFFERENCE,True,Abstract,False,74,63,67,130,246,False,True,1596,False,False,,2,False
+G2-0297,2911596,1596,distractor,2,NO_DIFFERENCE,True,Abstract,False,21,46,0,46,111,False,False,,False,False,,1,False
+G2-0298,5986505,9400,target,0,INCREASE,True,Abstract,False,45,21,75,96,191,False,False,,False,False,,2,False
+G2-0298,5986505,9399,distractor,1,NO_DIFFERENCE,True,Abstract,False,59,47,21,68,170,False,False,,False,False,,1,False
+G2-0298,5986505,9398,distractor,2,NO_DIFFERENCE,True,Abstract,False,28,0,4,4,76,False,False,,False,False,,0,False
+G2-0300,4007144,5797,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,46,0,59,59,132,False,True,5796,False,False,,1,False
+G2-0300,4007144,5801,distractor,1,NO_DIFFERENCE,True,Results > Impact On Trial Outcomes,True,67,0,0,0,104,True,False,,False,False,,0,False
+G2-0300,4007144,5799,distractor,2,INCREASE,True,Abstract > Results,False,70,58,0,58,155,False,False,,False,False,,1,True
+G2-0300,4007144,5796,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,46,0,58,58,131,False,False,,False,False,,1,False
+G2-0300,4007144,5798,target,4,DECREASE,True,Abstract > Results,False,70,58,0,58,156,False,False,,False,False,,1,True
+G2-0302,5447816,8921,target,0,DECREASE,True,Results > Neo-Ffi And Time To Complete,True,39,71,67,138,212,False,True,8917,False,False,,2,False
+G2-0302,5447816,8919,distractor,1,INCREASE,True,Results > Final Product Score,True,104,93,0,93,239,False,True,8918,False,False,,1,False
+G2-0302,5447816,8920,distractor,2,DECREASE,True,Abstract,False,44,31,47,78,148,False,False,,False,False,,1,False
+G2-0302,5447816,8917,distractor,3,NO_DIFFERENCE,True,Results > Neo-Ffi And Time To Complete,True,41,39,25,64,140,False,True,8921,True,False,,2,False
+G2-0302,5447816,8918,distractor,4,NO_DIFFERENCE,True,Results > Final Product Score,True,93,0,74,74,206,False,True,8919,False,False,,1,False
+G2-0303,4112798,7302,distractor,0,NO_DIFFERENCE,True,Results > Efficacy,True,69,47,76,123,222,False,False,,False,False,,1,False
+G2-0303,4112798,7305,target,1,NO_DIFFERENCE,True,Results > Quality Of Life,True,31,0,11,11,69,False,False,,False,False,,0,False
+G2-0303,4112798,7303,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,52,66,98,164,240,False,False,,False,False,,1,False
+G2-0304,4794540,2359,distractor,0,INCREASE,False,not located,False,72,0,0,0,102,False,False,,False,False,,0,True
+G2-0304,4794540,2358,distractor,1,INCREASE,False,not located,False,72,0,0,0,106,False,False,,False,False,,0,True
+G2-0304,4794540,2360,target,2,INCREASE,False,not located,False,72,0,0,0,106,False,False,,False,False,,0,True
+G2-0304,4794540,2362,distractor,3,NO_DIFFERENCE,False,not located,False,22,0,0,0,54,False,False,,False,False,,0,False
+G2-0305,4727391,12014,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,122,0,0,0,167,False,False,,False,False,,0,True
+G2-0305,4727391,12016,target,1,NO_DIFFERENCE,True,Abstract > Results,False,122,0,0,0,163,False,False,,False,False,,0,True
+G2-0305,4727391,12015,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,122,0,0,0,184,False,False,,False,False,,0,True
+G2-0306,3917884,9316,distractor,0,NO_DIFFERENCE,True,Results > Main And Interaction Effects Of Treatments On Cardiovascular Risk Outcomes,True,51,67,20,87,171,False,False,,False,False,,2,False
+G2-0306,3917884,9312,distractor,1,DECREASE,True,Abstract > Results,False,66,0,58,58,147,False,True,9311,False,False,,1,True
+G2-0306,3917884,9313,target,2,DECREASE,True,Abstract > Results,False,66,0,58,58,147,False,True,9311,False,False,,1,True
+G2-0306,3917884,9311,distractor,3,DECREASE,True,Abstract > Results,False,111,0,13,13,147,False,False,,False,False,,0,False
+G2-0306,3917884,9314,distractor,4,DECREASE,True,Abstract > Results,False,66,0,58,58,148,False,True,9311,False,False,,1,True
+G2-0307,5319516,13658,target,0,NO_DIFFERENCE,True,Abstract > Abstract,False,20,122,0,122,210,False,False,,False,False,,1,False
+G2-0307,5319516,13657,distractor,1,NO_DIFFERENCE,True,Abstract > Abstract,False,103,0,0,0,191,False,False,,False,False,,0,False
+G2-0307,5319516,13656,distractor,2,NO_DIFFERENCE,True,Abstract > Abstract,False,80,4,76,80,227,False,False,,False,False,,1,False
+G2-0308,3085176,1952,distractor,0,NO_DIFFERENCE,True,Abstract,False,42,99,38,137,226,False,True,1950,False,False,,1,False
+G2-0308,3085176,1949,distractor,1,INCREASE,True,Abstract,False,33,43,99,142,214,False,True,1950,False,False,,1,False
+G2-0308,3085176,1948,target,2,INCREASE,True,Results,True,37,42,79,121,192,False,False,,False,False,,0,False
+G2-0308,3085176,1950,distractor,3,INCREASE,True,Abstract,False,57,61,84,145,251,False,True,1952 1949,False,False,,0,False
+G2-0308,3085176,1953,distractor,4,NO_DIFFERENCE,True,Results,True,95,52,0,52,197,False,False,,False,False,,1,False
+G2-0309,5579675,2783,distractor,0,NO_DIFFERENCE,True,Abstract,False,27,45,27,72,125,False,False,,False,False,,1,False
+G2-0309,5579675,2780,distractor,1,INCREASE,True,Abstract,False,38,0,22,22,92,False,False,,False,False,,1,False
+G2-0309,5579675,2784,distractor,2,DECREASE,True,Abstract,False,70,0,38,38,157,False,False,,False,False,,1,False
+G2-0309,5579675,2785,target,3,DECREASE,True,Abstract,False,42,38,32,70,140,False,False,,False,False,,1,False
+G2-0310,4085217,9065,distractor,0,NO_DIFFERENCE,False,not located,False,57,0,0,0,92,False,False,,False,False,,0,False
+G2-0310,4085217,9067,distractor,1,NO_DIFFERENCE,False,not located,False,24,0,0,0,47,False,False,,False,False,,0,False
+G2-0310,4085217,9066,distractor,2,INCREASE,False,not located,False,23,0,0,0,48,False,False,,False,False,,0,False
+G2-0310,4085217,9064,target,3,DECREASE,False,not located,False,41,0,0,0,78,False,False,,False,False,,0,False
+G2-0311,1618957,5981,distractor,0,DECREASE,True,Results > Symptom Control,True,29,47,71,118,186,False,True,5980,True,False,,0,False
+G2-0311,1618957,5982,distractor,1,NO_DIFFERENCE,True,Results > Hormonal Control And Drug Levels,True,87,58,34,92,221,False,False,,False,False,,0,False
+G2-0311,1618957,5980,target,2,INCREASE,True,Results > Symptom Control,True,59,17,71,88,183,False,False,,False,False,,0,False
+G2-0311,1618957,5979,distractor,3,DECREASE,True,Abstract > Results,False,51,39,74,113,197,False,False,,False,False,,1,False
+G2-0312,2039813,10783,target,0,NO_DIFFERENCE,True,Abstract > Results,False,76,92,0,92,202,False,False,,False,False,,1,False
+G2-0312,2039813,10784,distractor,1,NO_DIFFERENCE,True,Results,True,52,31,0,31,110,False,False,,False,False,,0,False
+G2-0312,2039813,10782,distractor,2,NO_DIFFERENCE,True,Results,True,60,77,45,122,214,False,False,,False,False,,1,False
+G2-0313,3489577,1662,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,26,35,0,35,97,False,False,,False,False,,2,True
+G2-0313,3489577,1663,distractor,1,DECREASE,True,Results > Serum Lipids And Plasma Glucose,True,32,2,43,45,122,False,False,,False,False,,1,False
+G2-0313,3489577,1661,target,2,DECREASE,True,Results > Anthropometric Measures And Blood Pressure,True,25,2,6,8,73,False,False,,False,False,,1,False
+G2-0313,3489577,1660,distractor,3,INCREASE,True,Abstract > Results,False,25,0,35,35,94,False,False,,False,False,,2,False
+G2-0313,3489577,1659,distractor,4,NO_DIFFERENCE,True,Abstract > Results,False,26,35,0,35,103,False,False,,False,False,,2,True
+G2-0314,5358282,7109,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,69,59,48,107,208,False,True,7111,True,False,,1,True
+G2-0314,5358282,7113,distractor,1,INCREASE,False,not located,False,94,0,0,0,125,False,False,,False,False,,0,False
+G2-0314,5358282,7110,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,69,59,48,107,203,False,True,7111,True,False,,1,True
+G2-0314,5358282,7114,distractor,3,NO_DIFFERENCE,False,not located,False,93,0,0,0,125,False,False,,False,False,,0,False
+G2-0314,5358282,7111,target,4,INCREASE,True,Abstract > Results,False,37,69,11,80,145,False,True,7109 7110,False,False,,1,False
+G2-0315,3751553,12181,distractor,0,INCREASE,True,Results,True,29,44,55,99,197,False,True,12182,False,False,,1,False
+G2-0315,3751553,12183,target,1,DECREASE,True,Abstract > Results,False,58,0,41,41,169,False,True,12184,False,False,,2,False
+G2-0315,3751553,12182,distractor,2,NO_DIFFERENCE,True,Results,True,55,51,0,51,172,False,True,12181,False,False,,2,False
+G2-0315,3751553,12184,distractor,3,NO_DIFFERENCE,True,Results,True,26,21,15,36,137,False,False,,False,False,,1,False
+G2-0316,5689110,7626,distractor,0,DECREASE,True,Results,True,48,24,85,109,191,False,False,,False,False,,2,True
+G2-0316,5689110,7623,distractor,1,DECREASE,True,Methods > Randomization And Masking,True,89,23,37,60,189,False,False,,False,False,,0,False
+G2-0316,5689110,7625,distractor,2,DECREASE,True,Results,True,96,0,0,0,132,True,False,,False,False,,0,False
+G2-0316,5689110,7628,target,3,INCREASE,True,Results,True,30,132,79,211,271,False,False,,False,True,7627,3,False
+G2-0316,5689110,7624,distractor,4,DECREASE,True,Results,True,48,24,85,109,191,False,False,,False,False,,2,True
+G2-0317,4511442,13213,target,0,DECREASE,True,Abstract > Results,False,63,87,67,154,277,False,True,13214,False,False,,2,False
+G2-0317,4511442,13214,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,67,63,41,104,222,False,True,13213 13215,True,False,,2,False
+G2-0317,4511442,13215,distractor,2,INCREASE,True,Abstract > Results,False,41,67,0,67,152,False,True,13214,False,False,,1,False
+G2-0317,4511442,13212,distractor,3,NO_DIFFERENCE,True,Results,True,59,0,30,30,147,False,False,,False,False,,0,False
+G2-0318,2853089,7008,distractor,0,NO_DIFFERENCE,True,Results,True,60,67,80,147,261,False,False,,False,False,,2,True
+G2-0318,2853089,7007,distractor,1,NO_DIFFERENCE,True,Results,True,60,67,80,147,264,False,False,,False,False,,2,True
+G2-0318,2853089,7005,distractor,2,NO_DIFFERENCE,True,Front,False,30,48,27,75,162,False,True,7006,True,False,,1,False
+G2-0318,2853089,7004,distractor,3,NO_DIFFERENCE,True,Results,True,60,67,80,147,260,False,False,,False,False,,2,True
+G2-0318,2853089,7006,target,4,INCREASE,True,Front,False,56,48,0,48,159,False,False,,False,False,,0,False
+G2-0319,4319071,9526,distractor,0,NO_DIFFERENCE,False,not located,False,134,0,0,0,166,False,False,,False,False,,0,False
+G2-0319,4319071,9521,target,1,DECREASE,True,Abstract > Results,False,66,0,37,37,134,False,False,,False,False,,0,True
+G2-0319,4319071,9523,distractor,2,INCREASE,True,Results > Intervention Effects > Fruit Intake,True,55,14,77,91,178,False,False,,False,False,,2,False
+G2-0319,4319071,9522,distractor,3,DECREASE,True,Abstract > Results,False,66,0,37,37,132,False,False,,False,False,,0,True
+G2-0319,4319071,9524,distractor,4,INCREASE,True,Abstract > Results,False,64,65,28,93,191,False,False,,False,False,,0,False
+G2-0320,3483098,12047,target,0,INCREASE,True,Abstract > Results,False,41,54,102,156,241,False,True,12049,False,False,,2,False
+G2-0320,3483098,12048,distractor,1,INCREASE,True,Insulin Treatment Patterns,True,124,0,0,0,178,False,False,,False,False,,0,False
+G2-0320,3483098,12045,distractor,2,DECREASE,True,Abstract > Results,False,88,31,54,85,218,False,False,,False,False,,1,False
+G2-0320,3483098,12049,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,29,0,0,0,73,False,False,,False,False,,0,False
+G2-0320,3483098,12046,distractor,4,DECREASE,True,Primary And Secondary Endpoints,True,94,0,98,98,237,False,False,,False,False,,1,False
+G2-0321,4636858,4145,target,0,NO_DIFFERENCE,True,Front,False,64,11,73,84,180,False,True,4146 4147,False,False,,2,False
+G2-0321,4636858,4146,distractor,1,NO_DIFFERENCE,True,Front,False,32,43,72,115,187,False,True,4145 4147 4144,True,False,,3,False
+G2-0321,4636858,4147,distractor,2,NO_DIFFERENCE,True,Front,False,40,64,32,96,172,False,True,4145 4146 4144,True,False,,3,False
+G2-0321,4636858,4144,distractor,3,NO_DIFFERENCE,True,Front,False,32,11,72,83,151,False,True,4145 4146 4147,True,False,,2,False
+G2-0322,3525560,12360,distractor,0,DECREASE,True,Clinical Efficacy,True,104,0,93,93,252,False,False,,False,False,,1,False
+G2-0322,3525560,12362,distractor,1,NO_DIFFERENCE,True,Adverse Events,True,61,15,14,29,136,False,False,,False,False,,0,False
+G2-0322,3525560,12363,target,2,DECREASE,True,Clinical Efficacy,True,92,0,0,0,140,False,False,,False,False,,0,False
+G2-0322,3525560,12359,distractor,3,NO_DIFFERENCE,True,Clinical Efficacy,True,103,0,88,88,238,False,False,,False,False,,0,False
+G2-0322,3525560,12361,distractor,4,NO_DIFFERENCE,True,Clinical Efficacy,True,182,0,45,45,284,False,False,,False,False,,1,False
+G2-0323,5079604,2797,distractor,0,INCREASE,True,Abstract > Results,False,43,53,0,53,153,False,True,2796,False,False,,1,False
+G2-0323,5079604,2796,distractor,1,DECREASE,True,Abstract > Results,False,53,64,43,107,200,False,True,2797,False,False,,2,False
+G2-0323,5079604,2790,target,2,INCREASE,True,Results,True,38,36,53,89,167,False,False,,False,True,2791,1,False
+G2-0323,5079604,2795,distractor,3,NO_DIFFERENCE,True,Results,True,84,78,69,147,269,False,True,2793,False,True,2792,2,False
+G2-0323,5079604,2793,distractor,4,INCREASE,True,Results,True,40,98,87,185,268,False,True,2795,False,True,2792,3,False
+G2-0324,3357231,11132,distractor,0,NO_DIFFERENCE,True,Results,True,31,96,85,181,238,False,False,,False,False,,2,True
+G2-0324,3357231,11131,target,1,DECREASE,True,Abstract > Results,False,44,86,10,96,170,False,True,11130,False,False,,2,False
+G2-0324,3357231,11130,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,86,0,54,54,171,False,True,11131,True,False,,2,False
+G2-0324,3357231,11133,distractor,3,NO_DIFFERENCE,True,Results,True,31,96,85,181,239,False,False,,False,False,,2,True
+G2-0324,3357231,11134,distractor,4,NO_DIFFERENCE,True,Results,True,31,96,85,181,240,False,False,,False,False,,2,True
+G2-0325,5738810,2509,distractor,0,INCREASE,True,Results > Tolerance,True,55,97,46,143,264,False,True,2507,True,False,,2,False
+G2-0325,5738810,2507,target,1,NO_DIFFERENCE,True,Results > Tolerance,True,97,34,84,118,268,False,True,2509,False,False,,2,False
+G2-0325,5738810,2506,distractor,2,NO_DIFFERENCE,True,Conclusions,True,27,66,54,120,211,False,False,,False,False,,2,False
+G2-0325,5738810,2502,distractor,3,NO_DIFFERENCE,True,Results > Tolerance,True,22,8,23,31,109,False,False,,False,False,,0,False
+G2-0325,5738810,2503,distractor,4,NO_DIFFERENCE,True,Results > Tolerance,True,41,48,93,141,241,False,False,,False,True,2504,1,False
+G2-0326,4391304,12993,distractor,0,INCREASE,True,Abstract > Results,False,36,104,1,105,206,False,False,,False,False,,0,False
+G2-0326,4391304,12992,distractor,1,NO_DIFFERENCE,True,Clinical Study Of Fecal Fat Excretion,True,82,0,84,84,234,False,True,12994,True,False,,2,False
+G2-0326,4391304,12994,target,2,INCREASE,True,Clinical Study Of Fecal Fat Excretion,True,34,82,50,132,239,False,True,12992,False,False,,2,False
+G2-0328,1468428,445,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,45,0,0,0,81,False,False,,False,False,,0,False
+G2-0328,1468428,443,target,1,NO_DIFFERENCE,True,Abstract > Results,False,113,36,76,112,260,False,True,445 444,False,False,,2,False
+G2-0328,1468428,444,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,144,36,45,81,255,False,True,445,False,False,,1,False
+G2-0329,3648394,9721,target,0,INCREASE,True,Abstract > Results,False,26,56,86,142,194,False,True,9720 9719 9724,False,False,,2,False
+G2-0329,3648394,9720,distractor,1,DECREASE,True,Abstract > Results,False,56,0,32,32,115,False,True,9721,True,False,,1,False
+G2-0329,3648394,9719,distractor,2,INCREASE,True,Abstract > Results,False,50,0,38,38,119,False,True,9721 9720,True,False,,1,False
+G2-0329,3648394,9724,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,80,32,0,32,139,False,True,9721,True,False,,1,False
+G2-0329,3648394,9725,distractor,4,NO_DIFFERENCE,True,Results > Outcome Measures > Psychological Health Status,True,47,0,41,41,121,False,False,,False,False,,1,False
+G2-0330,3842830,1359,distractor,0,DECREASE,True,Abstract,False,67,20,77,97,198,False,False,,False,False,,0,False
+G2-0330,3842830,1362,target,1,NO_DIFFERENCE,True,Results,True,31,95,70,165,239,False,True,1361,False,False,,3,False
+G2-0330,3842830,1361,distractor,2,NO_DIFFERENCE,True,Results,True,85,0,76,76,198,True,False,,False,False,,1,False
+G2-0331,4232915,13045,distractor,0,NO_DIFFERENCE,False,not located,False,63,0,0,0,95,False,False,,False,False,,0,False
+G2-0331,4232915,13044,target,1,INCREASE,False,not located,False,65,0,0,0,106,False,False,,False,False,,0,False
+G2-0331,4232915,13043,distractor,2,NO_DIFFERENCE,False,not located,False,54,0,0,0,89,False,False,,False,False,,0,False
+G2-0331,4232915,13042,distractor,3,INCREASE,False,not located,False,49,0,0,0,84,False,False,,False,False,,0,False
+G2-0332,2836470,11836,distractor,0,NO_DIFFERENCE,True,Secondary Endpoints,True,76,0,0,0,124,False,False,,False,False,,0,False
+G2-0332,2836470,11834,distractor,1,NO_DIFFERENCE,True,Primary Endpoint On Therapy Efficacy,True,84,0,0,0,137,False,False,,False,False,,0,False
+G2-0332,2836470,11838,distractor,2,NO_DIFFERENCE,True,Secondary Endpoints,True,58,0,36,36,143,False,False,,False,False,,0,False
+G2-0332,2836470,11835,target,3,NO_DIFFERENCE,True,Secondary Endpoints,True,80,44,0,44,177,False,False,,False,False,,0,False
+G2-0333,3131514,12756,target,0,DECREASE,True,Abstract > Results,False,68,87,53,140,254,False,True,12753 12757,False,False,,2,False
+G2-0333,3131514,12753,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,42,85,68,153,229,False,True,12756 12755,True,False,,2,False
+G2-0333,3131514,12757,distractor,2,NO_DIFFERENCE,True,Abstract > Results,False,43,68,19,87,179,False,True,12756 12755,True,False,,1,False
+G2-0333,3131514,12755,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,27,87,95,182,256,False,True,12756 12753 12757,True,False,,2,False
+G2-0334,1550608,7453,distractor,0,NO_DIFFERENCE,True,Results,True,46,75,71,146,219,False,True,7454 7452,False,False,,2,False
+G2-0334,1550608,7454,distractor,1,NO_DIFFERENCE,True,Results,True,35,83,69,152,216,False,True,7453 7452,False,False,,3,False
+G2-0334,1550608,7450,target,2,INCREASE,True,Results,True,20,66,48,114,162,False,False,,False,False,,1,False
+G2-0334,1550608,7452,distractor,3,NO_DIFFERENCE,True,Results,True,37,38,81,119,183,False,True,7453 7454,False,False,,2,False
+G2-0335,5610684,1444,distractor,0,NO_DIFFERENCE,True,Results > Effect Of Facebook Use On Psychosocial Stress Recovery,True,141,44,12,56,237,False,False,,False,False,,0,False
+G2-0335,5610684,1443,distractor,1,INCREASE,True,Results > Effect Of Facebook Use On Physiological Stress Recovery,True,122,34,69,103,271,False,False,,False,False,,0,False
+G2-0335,5610684,1445,target,2,NO_DIFFERENCE,True,Results > Effect Of Facebook Use On Psychosocial Stress Recovery,True,39,0,18,18,95,False,False,,False,False,,0,False
+G2-0336,4823408,4298,distractor,0,NO_DIFFERENCE,True,Abstract > Results,False,26,0,60,60,131,False,True,4297 4300,True,False,,0,True
+G2-0336,4823408,4297,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,26,60,0,60,139,False,True,4298 4300 4299,True,False,,0,False
+G2-0336,4823408,4300,target,2,INCREASE,True,Results,True,29,29,97,126,203,False,False,,False,False,,0,False
+G2-0336,4823408,4299,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,26,0,60,60,134,False,True,4297 4300,True,False,,0,True
+G2-0337,4947329,8271,distractor,0,NO_DIFFERENCE,True,Results > Effect Of Prednisone On Markers Of Safety And Efficacy > Metabolism,True,28,60,0,60,128,True,False,,False,False,,0,False
+G2-0337,4947329,8269,distractor,1,INCREASE,True,Results > Effect Of Prednisone On Markers Of Safety And Efficacy > Bone Metabolism,True,31,0,20,20,103,False,False,,False,False,,0,False
+G2-0337,4947329,8267,distractor,2,DECREASE,True,Abstract > Results,False,40,0,40,40,105,False,False,,False,False,,0,False
+G2-0337,4947329,8268,target,3,DECREASE,True,Results > Effect Of Prednisone On Markers Of Safety And Efficacy > Bone Metabolism,True,54,78,26,104,206,False,False,,False,False,,2,False
+G2-0338,3712263,9879,distractor,0,NO_DIFFERENCE,True,Abstract,False,29,3,21,24,91,False,True,9878 9880,True,False,,1,True
+G2-0338,3712263,9878,distractor,1,NO_DIFFERENCE,True,Abstract,False,30,3,20,23,89,False,True,9880,True,False,,1,False
+G2-0338,3712263,9877,distractor,2,NO_DIFFERENCE,True,Abstract,False,29,3,21,24,88,False,True,9878 9880,True,False,,1,True
+G2-0338,3712263,9880,target,3,DECREASE,True,Abstract,False,50,3,0,3,89,False,False,,False,False,,0,False
+G2-0339,4737269,5590,distractor,0,DECREASE,True,Results > Full Vs Intermediate Multifocals,True,112,0,37,37,187,False,False,,False,False,,1,True
+G2-0339,4737269,5593,target,1,NO_DIFFERENCE,True,Results > Intermediate Pals Vs Distance Single Vision Lenses,True,86,0,126,126,251,False,False,,False,False,,1,True
+G2-0339,4737269,5591,distractor,2,DECREASE,True,Results > Full Vs Intermediate Multifocals,True,112,0,37,37,184,False,False,,False,False,,1,True
+G2-0339,4737269,5594,distractor,3,NO_DIFFERENCE,True,Results > Intermediate Pals Vs Distance Single Vision Lenses,True,86,0,126,126,249,False,False,,False,False,,1,True
+G2-0340,3302141,6531,distractor,0,NO_DIFFERENCE,True,Front,False,23,86,42,128,174,False,True,6529 6530 6527,False,False,,2,False
+G2-0340,3302141,6528,target,1,DECREASE,True,Results,True,58,70,64,134,214,False,False,,False,False,,1,False
+G2-0340,3302141,6529,distractor,2,INCREASE,True,Front,False,86,0,65,65,173,False,True,6531 6527,False,True,6532,2,True
+G2-0340,3302141,6530,distractor,3,DECREASE,True,Front,False,86,0,65,65,174,False,True,6531 6527,False,True,6532,2,True
+G2-0340,3302141,6527,distractor,4,DECREASE,True,Front,False,151,0,0,0,175,False,False,,False,False,,0,False
+G2-0341,4555162,8749,distractor,0,NO_DIFFERENCE,True,Abstract,False,19,93,80,173,222,False,True,8748 8747,True,False,,0,False
+G2-0341,4555162,8746,distractor,1,NO_DIFFERENCE,True,Abstract,False,18,93,81,174,217,False,True,8749 8748 8747,True,False,,0,False
+G2-0341,4555162,8748,distractor,2,INCREASE,True,Abstract,False,93,59,76,135,256,False,True,8749 8746,False,False,,0,False
+G2-0341,4555162,8747,target,3,INCREASE,True,Abstract,False,69,59,100,159,256,False,True,8749 8746 8748,False,False,,0,False
+G2-0341,4555162,8745,distractor,4,NO_DIFFERENCE,True,Abstract,False,40,47,42,89,164,False,False,,False,False,,0,False
+G2-0342,4845107,7013,distractor,0,NO_DIFFERENCE,False,not located,False,167,0,0,0,221,False,False,,False,False,,0,False
+G2-0342,4845107,7015,distractor,1,DECREASE,True,Results > Effect On Lipids And Apolipoproteins,True,54,0,56,56,175,False,False,,False,True,7009,1,False
+G2-0342,4845107,7010,distractor,2,DECREASE,True,Abstract > Methods And Results,False,62,44,67,111,227,False,False,,False,False,,1,False
+G2-0342,4845107,7014,distractor,3,INCREASE,True,Results > Effect On Lipids And Apolipoproteins,True,32,76,44,120,221,False,False,,False,False,,2,False
+G2-0342,4845107,7011,target,4,NO_DIFFERENCE,True,Results > Effect On Lipids And Apolipoproteins,True,75,46,0,46,188,False,False,,False,False,,1,False
+G2-0343,4304200,8736,distractor,0,INCREASE,True,Abstract > Results,False,27,0,166,166,229,False,True,8735 8737,True,False,,1,False
+G2-0343,4304200,8735,target,1,INCREASE,True,Abstract > Results,False,124,0,69,69,231,False,False,,False,False,,0,False
+G2-0343,4304200,8738,distractor,2,NO_DIFFERENCE,True,Results,True,60,31,80,111,202,False,True,8734,False,False,,2,False
+G2-0343,4304200,8737,distractor,3,NO_DIFFERENCE,True,Abstract > Results,False,46,0,147,147,229,False,True,8735,True,False,,1,False
+G2-0343,4304200,8734,distractor,4,INCREASE,True,Results,True,119,31,21,52,225,False,False,,False,False,,2,False
+G2-0344,3580298,11940,distractor,0,INCREASE,True,Results,True,97,0,0,0,175,False,False,,False,False,,0,False
+G2-0344,3580298,11938,distractor,1,NO_DIFFERENCE,True,Results,True,147,0,0,0,212,False,False,,False,False,,0,False
+G2-0344,3580298,11939,target,2,NO_DIFFERENCE,True,Results,True,54,0,43,43,176,False,True,11940,False,False,,1,False
+G2-0346,5404516,8631,distractor,0,NO_DIFFERENCE,True,Results > Safety,True,68,99,29,128,245,False,True,8633,True,False,,0,False
+G2-0346,5404516,8634,distractor,1,NO_DIFFERENCE,True,Discussion,True,43,64,77,141,225,False,False,,False,False,,1,False
+G2-0346,5404516,8633,target,2,INCREASE,True,Results > Safety,True,50,88,41,129,223,False,True,8632,False,False,,0,False
+G2-0346,5404516,8632,distractor,3,INCREASE,True,Results > Safety,True,45,0,133,133,223,False,True,8633,True,False,,0,False
+G2-0355,5976307,13099,distractor,0,DECREASE,True,Abstract > Abstract,False,38,75,86,161,240,False,True,13098,False,False,,3,False
+G2-0355,5976307,13101,target,1,INCREASE,True,Abstract > Abstract,False,45,86,0,86,168,False,False,,False,False,,2,False
+G2-0355,5976307,13098,distractor,2,DECREASE,True,Abstract > Abstract,False,49,0,64,64,153,False,True,13099,False,False,,1,False
+G2-0355,5976307,13097,distractor,3,NO_DIFFERENCE,True,Abstract > Abstract,False,40,93,0,93,172,False,False,,False,False,,2,False
+G2-0356,4469426,12400,distractor,0,NO_DIFFERENCE,False,not located,False,135,0,0,0,192,False,False,,False,False,,0,True
+G2-0356,4469426,12399,distractor,1,NO_DIFFERENCE,False,not located,False,135,0,0,0,185,False,False,,False,False,,0,True
+G2-0356,4469426,12397,distractor,2,DECREASE,True,Nutrient Intake And Status,True,62,82,19,101,206,False,False,,False,False,,1,True
+G2-0356,4469426,12396,target,3,INCREASE,True,Nutrient Intake And Status,True,62,82,19,101,206,False,False,,False,False,,1,True
+G2-0356,4469426,12398,distractor,4,NO_DIFFERENCE,True,Biochemical Biomarkers,True,87,0,47,47,198,False,False,,False,False,,0,False
+G2-0359,1804280,11562,distractor,0,NO_DIFFERENCE,True,Economic Data,True,29,0,58,58,133,False,False,,False,False,,0,False
+G2-0359,1804280,11561,distractor,1,NO_DIFFERENCE,True,Abstract > Results,False,24,48,35,83,167,False,True,11558,False,False,,2,False
+G2-0359,1804280,11560,distractor,2,NO_DIFFERENCE,True,Patient Reported Outcome Data,True,71,40,0,40,161,False,False,,False,False,,0,False
+G2-0359,1804280,11563,target,3,INCREASE,True,Abstract > Results,False,124,0,72,72,258,False,True,11561 11558,False,False,,1,False
+G2-0359,1804280,11558,distractor,4,DECREASE,True,Abstract > Results,False,34,14,40,54,134,False,True,11561,False,False,,1,False

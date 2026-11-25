@@ -1,0 +1,280 @@
+sample_id,prompt_id,intervention,comparator,outcome,gold_label,exp,claim_label,direction,certainty,supported
+G2-0002,6100,facial affect training (FAT) in 20 daily 1-hour sessions,baseline,alpha power,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0004,5528,Singing Training,Control,Neuropsychiatric Inventory score,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0005,10954,Ropivacaine-fentanyl-clonidine,Ropivacaine-fentanyl,Hemodynamic parameters,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0006,3501,High glycemic index intervention,Low glycemic index intervention,Glycemic response after lunch,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0007,3856,Caudal Sufentanil + neostigmine,Caudal Sufentanil,Dipyrone needed,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0008,2199,transillumination-assisted technique group (T group),midline approach technique group (R group),"The intubation success rates at the first, second, and third attempt",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0009,2237,laryngeal Mask (PLMA) or endotracheal intubation (ETT),baseline,cortisol levels 20 minutes after CO2 insufflation,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0010,2670,Hope-promoting interventions based on religious beliefs,No interventions,Baseline characteristics,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0011,11228,butoconazole nitrate 2% Site Release vaginal cream (Gynazole-1),oral fluconazole 150 mg tablets (Diflucan),The median time to first relief of symptoms,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0012,2879,Vit D as 50 000 IU/week,placebo,"fasting blood sugar (FBS), glycosylated hemoglobin (HbA1C), erythrocyte sedimentation rate (ESR) and C-Reactive Protein (CRP) levels",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0014,560,"lifestyle physical activity (LPA) - 30 minutes of self-selected moderate-intensity LPA, five to seven days per week",fibromyalgia (FM) education control (FME) group - received information and support,pain,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0015,5412,Green tea,Placebo,Post-exercise fat oxidation,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0016,9432,initial trial,final trial,over the course of the exposure period maximum perpendicular error (MPE) decrease - cursor color (red or blue),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0017,1200,"BZA/CE combines bazedoxifene (BZA), a selective estrogen receptor modulator, with conjugated estrogens (CE),",placebo,breast tenderness,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0018,6680,Diet and physical activity,Control,African/Caribbean food intake,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0021,8293,Regular activity breaks,Prolonged sitting,Appetite area under the curve at day 1,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0022,522,Artemether-lumefantrine,Mefloquine-artesunate,P. vivax parasitaemia diagnosed during follow up,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0023,4189,Thyroidectomy via BABA,Conventional open thyroidectomy,Visual analogue scale,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0024,13149,lightwand only;,lightwand with WEI JET under direct laryngoscopy,successful tracheal intubation attempts,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0025,4430,Vitamin D plus calcium supplementation,Placebo,25(OH)D levels,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0026,12789,"cilostazol group (50 mg for 2 weeks, 100 mg for 6 weeks)",placebo,soluble vascular cellular adhesion molecule-1 (sVCAM-1) level,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0028,9477,Computer assisted learning,Control,Level of enjoyment,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0029,12706,Spiromax,Easyhaler and Turbuhaler,"‘overall ease of use’, ‘quality of PIL instructions’, ‘preparing the dose’,  ‘clarity of dose counter’",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0030,7030,Monovisc,saline,pain reduction up to 3 weeks in patients with knee osteoarthritis - anteromedial subgroup,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0031,876,"phone calls"" group","""no phone calls"" group",discontinued treatment,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0032,11813,skin-to-skin contact during the breastfeeding,no skin-to-skin contact during the breastfeeding,registered time when infants began latching on,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0033,10898,Internet-based self-management support,Control,Inhaled corticosteroid dosage,NO_DIFFERENCE,e16_leak,DECREASE,DECREASE,ASSERTED,False
+G2-0034,1041,Enhanced weight loss maintenance program,Basic weight loss maintenance program,Weight rebound after 12 months,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0035,12338,single sustained inflation (SI),"conventional ventilation, consecutive sustained inflation (SI)",numbers of blood vessel profiles with plasma protein extravasation,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0038,4724,Language Enhanced Attention and Focus MI training condition (MI-LEAF),baseline,"""sustain talk� (ST)",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0039,10558,treatment - low-level laser therapy (LLLT),placebo,Transient-Evoked Otoacoustic Emissions (TEOAE) pure-tone average (PTA),NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0040,5434,Vildagliptin,Placebo,Glycated hemoglobin,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0041,6585,Paricalcitol,Calcifediol,Serum iPTH levels,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0042,1447,nebivolol,atenolol,plaque components and number of TCFAs per vessel,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0043,4113,2 mg of melatonin given 4 days for tetraplegic patients and placebo for tetraplegic patients,able-bodied men without any intervention,circadian variation of F1+2,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0044,1771,"Sachets of ""Sprinkles� with vitamin A","Sachets of ""Sprinkles� without vitamin A",Baseline MRDR values,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0045,1908,Ciclesonide (CIC),Fluticasone propionate (FLP),Preferred intranasal corticosteroid,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0046,8617,"Superion® (63/120, 52.5%)","X-STOP® (49/129, 38.0%)",subjects achieving the primary composite endpoint - moderate degenerative lumbar spinal stenosis.,INCREASE,e16_leak,INCREASE,INCREASE,ASSERTED,True
+G2-0047,7739,Vonoprazan 10 and 20 mg,Lansoprazole 15 mg,Erosive esophagitis recurrence rate after 24 weeks,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0048,11653,"formoterol/budesonide (FBC, Symbicort™, AstraZeneca, UK)","salmeterol/fluticasone propionate (SFC, Seretide™ GSK, UK)",the median number of days with no use of relief medication,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0049,7247,Andrographis paniculata,Placebo,Fatigue Severity Scores,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0050,3581,more extensive hyperdense artery sign (HAS),less extensive hyperdense artery sign (HAS),6-month outcome (Oxford Handicap Scale [OHS]),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0051,8473,Drug-eluting balloon + bare metal stent,Zotarolimus-eluting stent,Binary restenosis,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0052,11767,nutrition psychoeducation (NPC),usual care (UC),triglyceride level,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0053,12551,10-mm transumbilical group,5-mm transabdominal group,intact tubes,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0054,7416,specially designed molding titanium clips,control,Ventilator time and overall hospital stay,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0055,4357,Gait training with constrained induced movement therapy,Gait training alone,Dynamic balance improvement,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0059,12392,apremilast 20 mg or 30 mg,placebo,pruritus VAS scores,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0060,12917,the aprepitant regimen (aprepitant plus tropisetron and dexamethasone),the standard regimen (tropisetron and dexamethasone),complete response (CR) in the delay phase (DP),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0061,2030,ch14.18-UTC,ch14.18-NCI,adverse events,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0062,8639,Johannesburg,Durban and Harare,"vaginal practices: washing, at baseline",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0063,1775,Chlorhexidine gluconate dressing,Transparent dressings,Catheter-related bloodstream infection,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0064,1653,Noninvasive ventilation (NIV),Pressure support ventilation (PSV),duration of weaning,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0065,11593,case-based discussions,standardized patient case,total scores in the third rotation scored,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0067,3312,Hydrodistension plus intravesical resiniferatoxin (RTX),Hydrodistension only,Voiding symptoms,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0068,7867,paravertebral block (PVB),control,Numerical Rating Scale (NRS) pain scores,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0069,3339,Home Monitoring facilitated FU (HM ON),regular in-office FU (HM OFF),follow-up (FU) visits,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0070,2956,Calcitriol,Placebo,Adverse events,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0072,5832,Vitamin D + Calcium,Placebo,Vitamin D level,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0073,6149,classic cigarette,two type e-cigarettes,craving,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0074,8902,28 days of oral SRT2104 (2.0 g/day),placebo,body weight in people with type 2 diabetes mellitus (T2DM),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0076,13669,"oestradiol group, 2 mg of oestradiol valerate was initiated orally with progesterone",the control group received vaginal administration of progesterone supplementation alone starting on the day after oocyte retrieval and continued until the tenth week if the chemical pregnancy test was positive,The mean duration of infertility,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0077,10778,Paracetamol,Ibuprofen,Surfactant therapy,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0079,6633,Speed endurance training,Small-sided game,Citrate synthase maximal activity,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0080,3227,Prefrontal rTMS,Sham rTMS,Face and scalp sensations,NO_DIFFERENCE,e16_leak,INCREASE,INCREASE,ASSERTED,False
+G2-0081,4924,"H1(haloperidol 1 mg), and H2 (haloperidol 2 mg)",H0 (saline),the incidence of postoperative nausea and vomiting (PONV),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0082,12697,sipuleucel-T alone followed by intradermal immunization with pTVG-HP DNA vaccine,sipuleucel-T alone,overall survival,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0085,5758,SP-based scenarios,mannequin-based scenarios,realism score,INCREASE,e16_leak,INCREASE,INCREASE,ASSERTED,True
+G2-0087,9292,Sulphadoxine-pyrimethamine + azithromycin,Control,Risk of active placental malaria,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0088,4221,Sevoflurane + Ondansetron,Sevoflurane alone,Vomiting,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0089,11086,Posterior lamellar tarsal rotation surgery,Bilamellar tarsal rotation surgery,Pain between surgery and stitches removal,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0091,5131,Dovitinib,Placebo,Des-continuation due to rash,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0093,7747,Vitamin D3 40.000 IU (DD group) or Vitamin D3 20.000 IU (DP group),Placebo (PP group),Rate of adverse events,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0094,6969,intervention group with added low-intensity power ultrasound treatment (LIPUS),standard implant protocol treatment,FD mesial values after six months of follow-up,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0095,1088,single serving of curry meal,spice-free control meal,flow-mediated vasodilation (FMD),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0098,3538,NBUVB - 9 J/cm2 for 6 weeks,prednisolon 0.3 mg/kg for 6 weeks,duration of the disease,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0099,13367,Exercise,Control,Beck Anxiety Inventory (BAI),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0100,3746,200 mg/day palmvitee smokers,200 mg/day palmvitee nonsmokers,The percentage of NK cells,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0103,13862,Group Support Lifestyle Modification (GSLiM),dietary counseling,Physical Discomfort,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0104,2132,Intensified anticipatory guidance program,Routine anticipatory guidance program,Baseline characteristics,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0105,5520,Gallium maltolate,clarithromycin + rifampin,Resolving lesions >27 mm,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0106,2849,The mini-open anterior approach focal cleaning combined with posterior internal fixation in period I - group A,conventional anterior extraperitoneal approach focal cleaning combined with posterior internal fixation in period I - group B,Anal exsufflation time,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0107,542,fibrin glue group (glue sprayed onto the axillary dissection site),control group,overall drain output,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0109,467,plasma exchange (PE),intravenous immunoglobulin (IVIG),negative correlation between CSF protein and duration of mechanical ventilation,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0110,6346,Positive psychology-based intervention,Wait-list control,Subjective well-being,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0111,4006,"Get Healthy, Stay Healthy' (GHSH)",no continued contact,accelerometer-assessed moderate to vigorous physical activity (MVPA),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0112,7106,"relevant computer tutorial = ""in sequence""","non-relevant tutorial = ""out of sequence""",Oral Rehydration Solutions (ORS) topic,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0113,5186,Cinacalcet,Control,iPTH target (150 to 300),NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0114,11010,Aequasyal®,DC161‐DP0292,Safety,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0115,4637,CYP3A4 Intermediate metabolizers,CYP3A4 Extensive metabolizers,Sildenafil levels,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0117,3687,two CN54rgp140/GLA-AF immunizations,baseline,ADCC-mediating antibody response,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0118,9887,Biosimilar adalimumab,Reference adalimumab,Bilirubin,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0120,9371,MSDC-0160,Control,Cognitive test battery global cognitive score,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0121,7098,"JinqiJiangtang tablets (JQJT tablets, a traditional Chinese patent medicine)",placebo,risk of converting from pre-diabetes to diabetes,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0123,4064,group A ('non-selective'—clopidogrel 600 mg >6 h before CAG;,"group B ('selective'—clopidogrel 600 mg in the cath-lab after CAG, only in case of PCI;",Bleeding complications,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0125,10737,Daikenchuto,Control,Indigestion and constipation scores,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0126,3893,α-MSH,controls,Urine flow,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0127,11658,telemonitored clinical care (TCC),usual clinical care,Patients rated their likelihood to continue using CPAP,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0128,6364,Usual care,Manual therapy,"Reduction in headache frequency, pain intensity, medication intake, absenteeism, and use of additional professional help (secondary outcomes)",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0129,7089,frovatriptan,rizatriptan,cumulative hazard of recurrence during the follow-up - menstrually related migraine,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0132,1666,video-assisted remote consultations,standard consultation (UNN),The mean consultation duration in the subgroup patients who required casting,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0133,5283,Pro Taper universal retreatment,Mani NRT-GPR,Remaining filling material,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0134,417,Prostaglandin gel plus hygroscopic cervical dilators,Prostaglandin gel,Changes in Bishop score after 6 hours,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0135,4854,Sonas programme,control,Mini-Mental State Examination (MMSE) scores,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0136,9240,Radiofrequency ablation,Hepatic resection,5-year disease-free survival,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0137,1264,Pomegranate juice (PJ),baseline,"Systolic blood pressure (SBP), diastolic blood pressure (DBP)",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0138,2934,Recombinant- follicle stimulating hormone (r-FSH) plus recombinant-luteinizing hormone (rLH),Human menopausal gonadotropin (HMG) plus r-FSH,Number of oocytes or M2 oocytes,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0139,11890,Endobutton,Rigidfix,the mean scores of satisfaction with surgery by using a subjective questionnaire IKDC 2000,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0140,7774,Follow-up invitation by telephone,Follow-up invitation by mail,Age of the participants,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0141,1955,received implants immediately after extraction,implants were placed in healed sites,maxillary CFV at time points 2 and 3,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0142,6774,Misoprostol + celecoxib,Vehicle alone,Potassium excretion,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0143,10454,Neuromuscular blocking agent (Group A),Atracurium infusion (Group B),Heart rate 30 minutes after extubation,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0144,2972,Exercise at 1657 m of altitude plus Pomegranate extract (ALTPOMx),Exercise at 1657 m of altitude plus Placebo (ALTPLAC),Level of VO2 max after 5 minutes into cycling time trial to exhaustion at 100%VO2max,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0146,10437,Selfmanagement group,Treatment as usual,Rate of re-hospitalizations,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0148,10172,Artificial tear single dose,Artificial tear multiple dose,Ocular surface disease index,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0149,2763,telephone intervention was performed for 10 weeks,three times of telephone call was established to record blood sugar levels,"mean level of blood glucose, 2 hours after lunch at 28 weeks of pregnancy",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0150,1599,Patients receiving text message–based feedback,Patients not receiving text message assistance during follow-up,PHQ-9 (depressive symptoms) scores,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0152,1297,provided with written information about the electrodiagnostic testing,control,Overall scores for anxiety,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0153,11389,"cefepime (C group), cefepime with amikacin (C-A group)",cefepime with levofloxacin (C-L group),length of stay in the intensive care unit after infection,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0154,285,Irinotecan with high-dose 5-fluorouracil plus leucovorin (ILF),Etoposide with 5-fluorouracil plus leucovorin (ELF),Grade 3/4 digestive system toxic events,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0155,5698,maraviroc intensification,unchanged cART regimen,CCR5 expression in CD8+ T cells,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0156,9038,intensive sound masking therapy on tinnitus in effective subgroup,baseline,The Tinnitus Handicap Inventory (THI),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0157,10947,Levonorgestrel-releasing intrauterine system,Oral norethisterone acetate,Regression rate at 3 months,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0158,9060,a combination of calcium carbonate and calcitriol group,calcitriol only group,serum calcium level,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0159,8671,"MgSO4 - Group I, II, III: 30. 40/ 50 mg/kg",normal saline as a control group (S),"(SBP) systolic blood pressures at 1, 3, and 5 minutes after intubation",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0160,1032,Tranexamic acid,Placebo,Risk of unfavorable outcome on the Glasgow Outcome Score,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0162,5326,Bifidobacterium lactis,Galacto-oligosaccharides,Monocytes engaged in phagocytosis,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0163,1873,assistance from a patient navigator,usual care,adherence rates for patients who attended two or more follow-up appointments,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0164,6734,Trichloroacetic acid,Potassium hydroxide,Skin texture improvement,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0166,1942,receive 4–6 cycles of neoadjuvant chemotherapy with tri-weekly 5-fluorouracil–epirubicin–cyclophosphamide (FEC) regimen,weekly paclitaxel–epirubicin (PE) regimen,The frequency of neutropenia,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0167,11702,bimatoprost 0.03% preservative-free (PF),bimatoprost 0.03% (Lumigan),Intraocular pressure,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0168,6288,T-EO formulation and Af-EO formulation,Sterile water,Overall effectiveness after 4 days,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0170,1901,Vitamin D supplement,Placebo,Baseline levels of high-density lipoprotein cholesterol (HDL-C) and vitamin D,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0171,4360,Nanoparticles,Placebo,Neutrophils in blood,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0172,3644,conventional treatment (CT),"salutogenic dialogue (IT), therapeutic acupuncture","SF-36 mental component summary (MCS), sense of coherence (SOC)",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0173,6069,oral glutamine suspension daily 2h before radiation in the study arm (10 g in 1000 ml of water),baseline,The mean duration of grade 3 mucositis or worse (grade 3 and grade 4),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0174,8928,DCS D-cycloserine first,PCB placebo first,duration of illness (schizophrenia patients),NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0175,550,received standard therapy for sepsis and physiological-dose steroid therapy for 10 days;,received only standard therapy for sepsis,The 28-day mortality,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0176,5737,scaling and root planning (SRP) in combination with amoxicillin plus metronidazole,scaling and root planning (SRP) alone (control),TIMP-1/MMP-1 balance,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0177,3799,Aerobic interval training (PP),Walking,VO2max,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0178,11721,5 %  glucose acetated Ringer’s solution infusion during cesarean delivery,"0 % or 1 %, glucose acetated Ringer’s solution infusion during cesarean delivery",maternal blood glucose levels,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0179,3174,extracorporeal shock wave therapy (ESWT),trigger point injections (TPI)+transcutaneous electrical nerve stimulation (TENS),The changes in visual analog scale,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0180,1933,"task-oriented training program with WBV, which was performed for 15 minutes, five times per week, for four weeks and control",baseline,average velocity and total path length of COP,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0181,1514,receive immediate treatment,receive delayed treatment,overall QoL,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0183,8772,couples: educational workshop,control: no educational workshop,Most preferred method; normal vaginal delivery,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0184,3715,liraglutide 1.8 mg,placebo,"systolic blood pressure, fasting glucose , and triglyceride",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0185,7699,Home-based training with telemonitoring,Centre-based training,PeakVO2,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0186,3472,Vaccine group,Placebo group,Estimated infection hazard ratios for men,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0188,6687,Linagliptin,Control,Urinary albumin-to-creatinine ratio at 24 weeks,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0190,13364,transurethral nephroscope via resectoscope outer sheath,conventional percutaneous cystolithotripsy (PCCL) technique,Duration of hospital stay,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0191,3935,0.9 % sodium chloride 10 mL flush,0.9 % sodium chloride 3 mL flush,Peripheral intravenous catheter failure rates per 1000 hours,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0194,3231,Aloe cream,Calendula ointment,Baseline characteristics,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0195,3647,"intervention group (where mood, stress and daily activities were monitored with program mobiletype)",attention-comparison group (where only daily activities were monitored),"helping to diagnosed and communication, specific medical and mental health problems",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0196,6171,meditation awareness training (MAT),control group,workaholism symptomatology,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0200,12961,neonatal bag and mask resuscitation and oral antibiotic therapy,routine care through the existing national programme,rates of early fetal loss,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0201,10217,Face-based attentional bias modification,Placebo,Anxious symptoms,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0202,2138,Pressure support ventilation (PSV),Pressure-controlled ventilation (PCV),"Alveolar collapse, interstitial edema, or DAD score in animals with IAH",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0204,4809,"10 μg/kg of Alfentanil, infusion of Alfentanil 1 μg/kg/min","Remifentanil 0.5 μg/kg, infusion of Remifentanil 0.1 μg/kg/min","stopping the anesthesia drugs up to opening eyes, return to verbal response, and discharge from the recovery",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0205,9562,Dihydroartemisin-piperaquine + primaquine,Dihydroartemisin-piperaquine,Rate of gametocyte carriage,DECREASE,e16_leak,DECREASE,DECREASE,ASSERTED,True
+G2-0206,4243,Visual warning (text),No warning,Speed of alcohol consumption,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0207,9491,Raloxifene,Control,Femoral toughness,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0208,6341,Alcohol-assisted epithelial removal,Mechanical epithelial removal,Mean spherical equivalent,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0209,8016,administration via proximal-release pellets,administration via distal-release pellets,increase in plasma lithium,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0210,6426,Pap smear at enrollment,No intervention at enrollment,Levels of IL-10,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0211,10621,SB4 (an etanercept biosimilar),etanercept (ETN),therapeutic equivalence - Patients with moderate to severe rheumatoid arthritis (RA) despite methotrexate (MTX) treatment,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0212,4846,robotic-assisted navigation (Hansen Sensei® X),standard navigation,mean LGE encirclement at 6 months follow-up,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0213,9254,Paracetamol 250 mg,Control,Activity,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0214,11667,Nutrilon Omneo (new formula; NF),standard formula,The frequency of soft stools,INCREASE,e16_leak,DECREASE,DECREASE,ASSERTED,False
+G2-0215,10893,Kegel exercises program,Control,Peak expiratory flow,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0216,7566,peramivir (Rapiacta),oseltamivir (Tamiflu),The numbers of days required for the disappearance of influenza symptoms,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0217,9268,Hypertension telemonitoring-based service,Control,Accident and emergency visits costs,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0218,9426,antidepressant users (ADM),non users,diabetes risk - lifestyle arm,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0219,8820,cecal ligation and puncture (CLP) - bone marrow-derived mononuclear cells (BMDMC),Control mice,alveolar collapse,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0221,6121,plastic cap,metal cup,pain response,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0222,12548,synthetic amyloid-β peptide (Aβ42) (AN1792),placebo,Dependence Scale,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0223,11313,40 μg HB vaccine intramuscularly,20 μg HB vaccine intradermally,the percent of seroconversion rate,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0225,2253,"web-based continuing medical education (CME), performance feedback and quality improvement tools",control group,incremental benefit,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0227,2075,the sGC activator cinaciguat (10 mg/kg/day) orally for 8 weeks,placebo orally for 8 weeks,nitro-oxidative stress,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0228,2802,lemon verbena extract,placebo,exercise-related loss of muscle strength,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0229,8033,arformoterol,placebo,improvements in quality of life (overall St. George's Hospital Respiratory Questionnaire and Clinical COPD Questionnaire),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0232,3788,Fructooligosaccharides diet (GF) and Isoflavone + Fructooligosaccharides diet (GIF),Control diet (GC),Bone strength of femur,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0233,11212,nebulized albuterol (0.15 mg/kg in 3 ml saline),saline (3 ml),ratio of the tidal expiratory flow at 25% of the remaining tidal volume to PTEF (25/PT),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0234,8807,bisoprolol,losartan/ amlodipine/ hydrochlorothiazide,"SNPs on chromosome 11 (rs2514036, rs948445, and rs2514037) provided evidence for association reaching genome‐wide significance for ASBP (systolic blood pressure) response",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0235,9089,"metformin (500 mg, bid po) combined with alogliptin (25 mg, qd po)","metformin (1000 mg, bid po)",proportion of patients with glycosylated hemoglobinA1c (HbA1c) ≤7.0%,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0236,10463,FAST treatment,SLOW treatment,Pressure-based haemodynamic variables,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0237,1014,Desmopressin,Placebo,Thrombocytopenia rate,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0238,5805,Resistance exercise,Control,Leg blood flow,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0239,2834,oral trametinib (2 mg once daily),"intravenous chemotherapy consisting of either dacarbazine (1000mg/m2) or paclitaxel (175mg/m2), every 3weeks","At 6 months, the rate of overall survival",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0240,7966,Digestive AdvantageTM Gas Defense Formula (GD) group,Placebo group,Improvement in GSRS (Gastrointestinal Symptom Rating Scale) VAS-Gas score - in adults with post prandial intestinal gas-related symptoms and no GI diagnoses,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0241,7339,D-serine,Control,Groton Maze Learning Test legal errors,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0242,10246,Chlorhexidine mouth rinse,Control,Streptococcus mutans count,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0243,11146,Septoplasty,Control,"""a"" vowel improvement",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0244,6485,Phlebotomy training programme,Control,Phlebotomy questionnaire score,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0245,2777,on-site support (OSS),Control,proportion of patients with a negative malaria test result prescribed an antimalarial in integrated management of infectious diseases (IMID)- mid-level practitioners (MLP) group,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0246,12252,Aerobic Exercise 150 min/wk or  225 min/wk,no physical exercise,VO2 peak (% change),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0247,5523,Total Sanitation Campaign,Control,Open defecation,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0248,8795,group III used hydrogen peroxide (H2O2) 1.5% followed by chlorhexidine (CHX),group I rinsed with chlorhexidine (CHX) 0.2% alone,amount of plaque formed at end of week 3,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0250,2339,Prolonged-release fampridine,Placebo,Improvement in Timed Up and Go (TUG) speed during 24 weeks,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0254,1442,5-fluorouracil (5-FU) 0.5%/salicylic acid 10%,vehicle,Treatment-emergent adverse events,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0256,6239,bupropion,nicotine replacement therapy (NRT),smoking cessation,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0257,7187,FIFA 11 for Health' programme,Control,Body fat percentage,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0258,12823,Lactobacillus rhamnosus GG,placebo,Clostridium difficile et rel at 18 months of age,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0259,8085,patients with minimal-risk,remainder of the cohort,pre-test probability of obstructive CAD,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0262,10921,Partial matrix excision,Segmental phenolization,Postoperative complications,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0263,12775,kinetic oscillation stimulation (KOS) in the nasal cavity,placebo treatment,pain scores,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0264,12334,community‐based intervention,usual care,"12‐item Short‐Form Health Survey (SF‐12), Mental Component Summary (MCS), Summary of Diabetes Self‐Care Activities (SDSCA)",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0266,3287,Remifentanil 0.3 (group RH),Remifentanil 0.3 + ketamine 0.5 (group KRH) or remifentanil 0.05 (Group RL),Value of the Touch-Test sensory evaluation after surgery,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0268,6831,Exercise training,Control,High density lipoprotein,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0269,6471,Heated infusions,Control,Consciousness recovery time,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0270,1365,Charité artificial disc,ALIF with BAK cages,Rate of superficial wound infection,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0271,2610,placebo,baseline,bone mineral density (BMD) At the 6-month time point,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0272,1423,receiving 1200 mg of cranberry extract for 6 weeks,placebo group,Values of total antioxidant capacity (TAC),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0273,10116,Propolis gel,No treatment,Pain,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0274,13198,ESM-I consisting of six weeks of ESM combined with weekly feedback regarding the individual’s positive affective experiences,"(ii) six weeks of ESM without feedback,",rate of symptomatic remission,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0275,9054,hyaluronic acid (HA),baseline,Salivary TF,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0276,1698,Locking plate fixation,Nonlocking plate fixation,Mean knee scores at follow-up,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0277,6332,Ashwagandha (Withania somnifera [L.] Dunal),Placebo,Increase from baseline in the mean VO2 max after 8 weeks,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0278,4588,Sitagliptin,Voglibose,Gastric inhibitory polypeptide,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0279,4820,Performance-based financing (PBF),control 1 (C1; enhanced financing) group,administrators on average who left health centers,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0281,1993,Cognitive Processing Therapy,individual support,felt stigma after treatment,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0283,6510,Lixisenatide,Control,Left ventricular risk area,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0284,2214,"PEG–lactulose group received the 20-30 grams of lactulose of oral or rectal lactulose, plus 280 grams of PEG in 4 liters of water orally as a single dose in 30-120 minutes","20-30 grams of lactulose orally or by a nasogastric tube, or 200 grams of lactulose enema by a rectal tube",blood level of ammonia,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0285,10371,80% maximal voluntary isometric contraction,10% maximal voluntary isometric contraction,Longus colli thickness,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0286,8332,Ampicillin/sulbactam,Cefuroxime,Duration of hospitalization,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0287,5211,Flaxseed,Wheat,Fasting plasma glucose,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0289,4085,LCI699,placebo,plasma aldosterone concentration at 12 h,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0290,5745,system-oriented therapy,reference intervention,completed follow-up,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0292,2074,rtfMRI-nf from left amygdala (LA),rtfMRI-nf from the horizontal segment of the intraparietal sulcus (HIPS,state anxiety,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0293,4403,Dextromethorphan (DM60),Placebo,Treatment retention,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0294,10397,Agave derived fructans,Formula,C-Reactive Protein,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0295,3957,Vitamin D + Calcium,Calcium,Serum interleukin-10,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0296,1526,sunflower cake,soybean meal,"Weights, carcass yields, rib eye area of goats",NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0297,1595,Sevoflurane-fentanyl anesthesia,Isoflurane-fentanyl anesthesia,MAC and SE values before fentanyl boluses,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0298,9400,Virgin olive oil (VOO) and Optimized virgin olive oil (OVOO),Functional olive oil (FOO),Fasting plasma triacylglycerol levels,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0300,5798,Intimate partner prevention intervention,Control,Hostility when managing conflicts,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0302,8921,high E scores,average E scores,suturing test completion time,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0303,7305,Erlotinib,Placebo,Quality of life,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0304,2360,Yogic intervention and medication,Prescribed medication without yogic intervention,Positive well-being and vitality scores,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0305,12016,laryngeal mask (LM) ventilation,endotracheal intubation (ETI),Adverse effects,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0306,9313,Diet intervention,Control,LDL cholesterol,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0307,13658,zhibitai 480 mg + atorvastatin 10 mg (ZA10 group),atorvastatin 20 mg (A20 group) or atorvastatin 40 mg (A40 group),creatine kinase,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0308,1948,p-synephrine (50 mg) alone,placebo,Resting metabolic rates (RMR),INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0309,2785,2 g of YM,placebo (PLC),prospective eating score,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0310,9064,underwater treadmill group and control,baseline,"anteroposterior, mediolateral and total postural sway",DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0311,5980,lanreotide Autogel® 120 mg,lanreotide microparticles,symptom control,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0312,10783,Perindopril,Placebo,Flow-mediated vasodilatation after 6 months,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0313,1661,100 grams of instant oat cereal,100 grams of wheat flour-based noodles,Waist circumference,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0314,7111,Diazepam + chlorpheniramine,Control,Local pain,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0315,12183,4 weeks before Ramadan while performing the Islamic fasting for 1 week (baseline fasting) (BLF) or during the second week of Ramadan while fasting (Ramadan),1 week before Ramadan (non-fasting baseline) (BL),REM sleep percentages,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0316,7628,Aripiprazole high-dose,Placebo,Discontinuation rate,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0317,13213,progressive discontinuation of pressure support ventilation (PSV) with SmartCare™,respiratory physiotherapy–driven weaning,pressure support ventilation (PSV)  and positive end-expiratory pressure (PEEP),DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0318,7006,Internet group (who received the letter of invitation),control group (who did not receive it),accurately understanding the results - Breast cancer patients participating in a trial on the efficacy of Trastuzumab,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0319,9521,Individual cognition and self-regulation processes intervention,Control,High-energy snack intake,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0320,12047,continuous glucose monitoring (CGM) Sensor On,continuous glucose monitoring (CGM) Sensor Off arm,The mean number of daily boluses,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0321,4145,Mitoxantrone + methylprednisolone,No treatment,Multiple sclerosis plaques,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0323,2790,"metformin 1,000 mg daily, sitagliptin 100 mg daily",placebo,Hyperglycemia relapse-free survival,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0324,11131,Isomaltulose,Sucrose,Triglycerides,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0325,2507,"an experimental diet supplemented with Curcuminoids extract, hydrolyzed COllagen and green Tea extract (CCOT)",an experimental diet (control),Pain interference change,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0326,12994,100&amp;amp;nbsp;g of fermented milk (FM) + Lactobacillus gasseri SBT2055 (LG2055),100&amp;amp;nbsp;g of fermented milk (FM),fecal fat levels,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0328,443,1 litre saline enema,no enema,Puerperal and neonatal infection rates,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0329,9721,10-week yoga program,Control,Flexibility,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0330,1362,Istradefylline 20 mg,Istradefylline 40 mg,Daily ON time with problematic dyskinesia,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0331,13044,oral liarozole (150 mg),placebo,"‘daily activities’, ‘leisure’, and ‘symptoms and feelings’",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0332,11835,15-pulse anti-tachycardia pacing (ATP),eight-pulse anti-tachycardia pacing (ATP),Syncope and near-syncope episodes,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0333,12756,"prednisolone 30 mg once daily and  prednisolone 7,5 mg once daily",placebo,insulin-mediated suppression of lipolysis,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0335,1445,use their own Facebook profile,quietly read,Subjective stress markers,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0336,4300,8 cm pillow during tracheal intubation,4 cm pillow during tracheal intubation,Discomfort score for tracheal intubation,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0337,8268,Daily prednisone,Placebo,Procollagen type 1 N-propeptide,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0338,9880,Gutta-percha + new endodontic cement,Gutta-percha + AH26,Coronal dye penetration,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0339,5593,Intermediate progressive addition lenses,Distance single vision lenses,Ascent vertical toe clearance,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0340,6528,Behavioral lifestyle intervention,Control,Waist circumference,DECREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0341,8747,participants in the current study,national average,dietary intakes before intervention,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0342,7011,combination ezetimibe/simvastatin 10/20mg (ES10/20),rosuvastatin 10mg (R10),low‐density lipoprotein‐particle number,NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0343,8735,weight management intervention targeting diet and physical activity plus usual care,usual care,fiber intake at 12r months,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0344,11939,maintain the 0.2 mg/d tamsulosin dosage (nonescalators),increase their dose to 0.4 mg once daily (escalators),International Index of Erectile Function (IIEF-5)  in patients who showed no improvement of lower urinary tract symptoms (LUTS),NO_DIFFERENCE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0346,8633,"1,800 mg gepotidacin Healthy Volunteers","1,000 mg gepotidacin Healthy Volunteers","Adverse events, moderate",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0355,13101,etomidate,propofol based on midazolam,The incidence rate of myoclonus,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0356,12396,CON diet with almonds (85 g/day) (ALM),CON diet,value of plasma α-tocopherol,INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False
+G2-0359,11563,"area-wide, computerised diabetes register incorporating a full structured recall and individualised patient management system",standard structured and recall management system,"Frequency of at least one diabetes appointment, a foot check, receiving dietary advice, recording of blood pressure",INCREASE,e16_leak,NOT_MENTIONED,NOT_MENTIONED,NONE,False

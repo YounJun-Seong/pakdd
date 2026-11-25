@@ -1,0 +1,37 @@
+rater,measure,value,kappa,n
+A,label_agreement_memory M4,74.67,0.51,150
+A,label_agreement_final answer,94.67,0.93,150
+B,label_agreement_memory M4,74.67,0.52,150
+B,label_agreement_final answer,96.0,0.95,150
+A,wp_false_negative,23.28,,116
+A,wp_false_positive,14.71,,34
+A,elr_false_positive,3.51,,114
+A,elr_false_negative,2.78,,36
+B,wp_false_negative,23.28,,116
+B,wp_false_positive,11.76,,34
+B,elr_false_positive,1.75,,114
+B,elr_false_negative,5.56,,36
+both raters,wp_false_negative,21.55,,116
+both raters,wp_false_positive,11.76,,34
+both raters,elr_false_positive,1.75,,114
+both raters,elr_false_negative,2.78,,36
+A,wp0elr1_a_warrant_in_memory,30.0,,80
+B,wp0elr1_a_warrant_in_memory,28.75,,80
+A,wp0elr1_b_inferred_from_partial,35.0,,80
+B,wp0elr1_b_inferred_from_partial,48.75,,80
+A,wp0elr1_c_misattributed,15.0,,80
+B,wp0elr1_c_misattributed,6.25,,80
+A,wp0elr1_d_ungrounded,16.25,,80
+B,wp0elr1_d_ungrounded,13.75,,80
+A,wp0elr1_e_answer_not_correct,3.75,,80
+B,wp0elr1_e_answer_not_correct,2.5,,80
+A,wp0elr1_f_other,0.0,,80
+B,wp0elr1_f_other,0.0,,80
+both,wp_adjusted_qwen3-8b_100,47.81,,294
+both,masking_without_warrant_qwen3-8b_100,13.49,,294
+both,wp_adjusted_qwen3-8b_200,60.71,,294
+both,masking_without_warrant_qwen3-8b_200,8.62,,294
+both,wp_adjusted_qwen3-14b_100,50.99,,294
+both,masking_without_warrant_qwen3-14b_100,12.16,,294
+both,wp_adjusted_qwen3-14b_200,60.29,,294
+both,masking_without_warrant_qwen3-14b_200,9.06,,294

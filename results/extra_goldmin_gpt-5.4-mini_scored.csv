@@ -1,0 +1,295 @@
+sample_id,memory,gold_label,claim_label,supported
+G2-0002,[alpha power | facial affect vs baseline | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0004,[Neuropsychiatric Inventory score | Singing Training vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0005,[Hemodynamic parameters | Ropiv vs Ropiv | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0006,[Glycemic response after lunch | High glycemic vs Low glycemic | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0007,[Dipyrone needed | Caudal S vs Caudal S | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0008,[The intubation success rates at | transillumination vs midline approach | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0009,[cortisol levels 20 minutes | laryngeal vs baseline | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0010,[Baseline characteristics | Hope-promoting vs No interventions | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0011,[The median time to first relief of | butoconazole vs oral flucon | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0012,[fasting blood sugar (FBS | Vit D as vs placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0014,[pain | lifestyle physical vs fibromyalgia ( | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0015,[Post-exercise fat oxidation | Green tea vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0016,[over the course of the exposure period | initial trial vs final trial | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0017,[breast tenderness | BZA/ vs placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0018,[African/Caribbean food intake | Diet and physical vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0020,[Need for Ibuprofen | Resveratrol vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0021,[Appetite area under the curve at | Regular activity breaks vs Prolonged | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0022,[P. vivax parasitaemia | Artemether vs Meflo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0023,[Visual analogue scale | Thyroid vs Conventional open | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0024,[successful tracheal intubation | lightwand only vs lightwand with | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0025,[25(OH)D levels | Vitamin D plus vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0026,[soluble vascular cellular adhesion molecule- | cilostazol vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0028,[Level of enjoyment | Computer assisted learning vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0029,"[‘overall ease of use’, ‘ | Spiromax vs Easyhaler | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0030,[pain reduction up to 3 weeks | Monovisc vs saline | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0031,"[discontinued treatment | phone calls"" vs ""no phone | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0032,[registered time when infants began latching | skin-to-s vs no skin-to | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0033,[Inhaled corticosteroid dosage | Internet-based self vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0034,[Weight rebound after 12 months | Enhanced weight loss vs Basic weight loss | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0035,[numbers of blood vessel profiles with plasma | single sustained inflation vs conventional ventilation | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0038,"[""sustain talk� (ST) | Language Enhanced Attention vs baseline | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0039,[Transient-Evoked Otoac | treatment - vs placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0040,[Glycated hemoglobin | Vildagl vs Placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0041,[Serum iPTH levels | Paricalc vs Calcifedi | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0042,[plaque components and number of T | nebivol vs atenolol | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0043,[circadian variation of F1+ | 2 mg of vs able-bodied men | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0044,[Baseline MRDR values | Sachets vs Sachets | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0045,[Preferred intranasal corticosteroid | Cicleson vs Fluticas | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0046,[subjects achieving the primary composite endpoint - | Superion® vs X-STOP | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0047,[Erosive esophagitis | Vonopraz vs Lansop | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0048,[the median number of days with no | formoterol vs salmeter | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0049,[Fatigue Severity Scores | Andrograph vs Placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0050,[6-month outcome (Oxford Handicap Scale | more extensive hyper vs less extensive hyper | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0051,[Binary restenosis | Drug-eluting vs Zotarol | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0052,[triglyceride level | nutrition psychoeducation vs usual care ( | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0053,[intact tubes | 10-mm trans vs 5-mm trans | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0054,[Ventilator time and overall hospital stay | specially designed vs control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0055,[Dynamic balance improvement | Gait training vs Gait training | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0059,[pruritus VAS scores | apremil vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0060,[complete response (CR) in the | the aprep vs the standard regimen | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0061,[adverse events | ch14. vs ch14. | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0062,"[vaginal practices: washing, | Johannesburg vs Durban and | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0063,[Catheter-related bloodstream infection | Chlorhex vs Transparent dressings | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0064,[duration of weaning | Noninvasive vs Pressure support ventilation | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0065,[total scores in the third rotation scored | case-based discussions vs standardized patient | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0067,[Voiding symptoms | Hydrodist vs Hydrodist | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0068,[Numerical Rating Scale (NRS | paraverte vs control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0069,[follow-up (FU) visits | Home Monitoring facilitated vs regular in-office | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0070,[Adverse events | Calcitriol vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0072,[Vitamin D level | Vitamin D + vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0073,[craving | classic cigarette vs two type e | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0074,[body weight in people with type  | 28 days of vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0075,[Progression�free survival | Cyclophosph vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0076,[The mean duration of infertility | oestradi vs the control group | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0077,[Surfactant therapy | Paracetamol vs Ibuprofen | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0079,[Citrate synthase maximal activity | Speed endurance training vs Small-sided game | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0080,[Face and scalp sensations | Prefrontal vs Sham r | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0081,[the incidence of postoperative nausea and vomiting | H1( vs H0 ( | dir=down | sig=y],DECREASE,NOT_MENTIONED,False
+G2-0082,[overall survival | sipuleuc vs sipuleuc | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0083,[Soluble vascular endothelial growth factor receptor | Selenium vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0084,[Elective Caesarean | Natural childbirth preparation vs Standard antenatal | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0085,[realism score | SP-based scenarios vs mannequin | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0087,[Risk of active placental malaria | Sulphadox vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0088,[Vomiting | Sevofl vs Sevofl | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0089,[Pain between surgery and stitches removal | Posterior lam vs Bilamellar | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0091,[Des-continuation due to rash | Dovitin vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0093,[Rate of adverse events | Vitamin D3 vs Placebo ( | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0094,[FD mesial values after six months | intervention group vs standard implant protocol | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0095,[flow-mediated vasodilation (F | single serving of vs spice-free | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0097,[Costs | Inflixim vs Ciclos | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0098,[duration of the disease | NBUVB vs prednisolon | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0099,[Beck Anxiety Inventory (BAI | Exercise vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0100,[The percentage of NK cells | 200 mg/day vs 200 mg/day | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0101,[total GLP-1 | Active Body Control vs baseline | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0103,[Physical Discomfort | Group Support Lifestyle vs dietary counseling | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0104,[Baseline characteristics | Intensified vs Routine anticipatory | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0105,[Resolving lesions >27 mm | Gallium malt vs clarithromycin | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0106,[Anal exsufflation time | The mini-open vs conventional anterior | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0107,[overall drain output | fibrin vs control group | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0109,[negative correlation between CSF protein and | plasma exchange vs intravenous | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0110,[Subjective well-being | Positive psychology-based vs Wait-list control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0111,"[accelerometer-assessed moderate to vigorous | Get Healthy, vs no continued contact | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0112,[Oral Rehydration Solutions ( | relevant computer vs non-relevant | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0113,[iPTH target (150 to | Cinacalc vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0114,[Safety | Aequasy vs DC161‐ | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0115,[Sildenafil levels | CYP3 vs CYP3 | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0117,[ADCC-mediating antibody response | two CN54 vs baseline | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0118,[Bilirubin | Biosim vs Reference adal | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0120,[Cognitive test battery global cognitive score | MSDC- vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0121,[risk of converting from pre-diabetes | Jinqi vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0123,[Bleeding complications | group A (' vs group B (' | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0125,[Indigestion and constipation scores | Daikench vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0126,[Urine flow | α-MSH vs controls | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0127,[Patients rated their likelihood to continue using | telemonitored vs usual clinical care | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0128,"[Reduction in headache frequency, pain intensity | Usual care vs Manual therapy | dir=none | sig=n]",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0129,[cumulative hazard of recurrence during the | frovatr vs rizatript | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0132,[The mean consultation duration in the subgroup | video-assisted remote vs standard consultation ( | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0133,[Remaining filling material | Pro Taper vs Mani N | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0134,[Changes in Bishop score after 6 | Prostagland vs Prostagland | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0135,[Mini-Mental State Examination (MM | Sonas programme vs control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0136,[5-year disease-free survival | Radiofrequency ab vs Hepatic | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0137,[Systolic blood pressure (SB | Pomegranate juice vs baseline | dir=down | sig=y],DECREASE,NOT_MENTIONED,False
+G2-0138,[Number of oocytes or M2 | Recombinant vs Human menopausal | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0139,[the mean scores of satisfaction with surgery | Endobutton vs Rigidfix | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0140,[Age of the participants | Follow-up invitation vs Follow-up invitation | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0141,[maxillary CFV at time points | received implants immediately vs implants were | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0142,[Potassium excretion | Misoprost vs Vehicle alone | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0143,[Heart rate 30 minutes after ext | Neuromus vs Atracur | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0144,[Level of VO2 max after  | Exercise at  vs Exercise at  | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0146,[Rate of re-hospitalizations | Selfmanagement group vs Treatment as usual | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0148,[Ocular surface disease index | Artificial tear single vs Artificial tear multiple | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0149,"[mean level of blood glucose,  | telephone intervention was vs three times of | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0150,[PHQ-9 (depressive | Patients receiving text vs Patients not receiving | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0151,[Heart rate | Bio-active peptide vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0152,[Overall scores for anxiety | provided with written vs control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0153,[length of stay in the intensive care | cefepime vs cefepime | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0154,[Grade 3/4 digestive system | Irinotec vs Etopos | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0155,[CCR5 expression in CD8+ | maraviro vs unchanged c | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0156,[The Tinnitus Handicap Inventory (TH | intensive sound vs baseline | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0157,[Regression rate at 3 months | Levonorg vs Oral nore | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0158,[serum calcium level | a combination of vs calcitriol | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0159,[(SBP) systolic blood pressures | MgSO4 vs normal saline as | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0160,[Risk of unfavorable outcome on the Glasgow | Tranexamic vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0161,[Amyloid betas 1- | Urinary kall vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0162,[Monocytes engaged in phagocyt | Bifid vs Galacto- | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0163,[adherence rates for patients who attended | assistance from vs usual care | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0164,[Skin texture improvement | Trichl vs Potassium hydrox | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0166,[The frequency of neutropenia | receive 4 vs weekly paclit | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0167,[Intraocular pressure | bimatop vs bimatop | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0168,[Overall effectiveness after 4 days | T-EO vs Sterile water | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0170,[Baseline levels of high-density lipoprote | Vitamin D supplement vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0171,[Neutrophils in blood | Nanoparticles vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0172,[SF-36 mental component summary ( | conventional treatment vs salutogenic | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0173,[The mean duration of grade 3 | oral glutamine vs baseline | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0174,[duration of illness (schizoph | DCS D vs PCB placebo first | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0175,[The 28-day mortality | received standard therapy vs received only standard | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0176,[TIMP-1/MMP- | scaling and vs scaling and | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0177,[VO2max | Aerobic interval vs Walking | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0178,[maternal blood glucose levels | 5 %  vs 0 % or | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0179,[The changes in visual analog scale | extracorp vs trigger point injections | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0180,[average velocity and total path length of | task-oriented training vs baseline | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0181,[overall QoL | receive immediate treatment vs receive delayed treatment | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0183,[Most preferred method; normal vaginal delivery | couples: vs control: no | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0184,"[systolic blood pressure, fasting | liraglut vs placebo | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0185,[PeakVO2 | Home-based training vs Centre-based training | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0186,[Estimated infection hazard ratios for men | Vaccine group vs Placebo group | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0188,[Urinary albumin-to-creatin | Linaglipt vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0190,[Duration of hospital stay | transureth vs conventional per | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0191,[Peripheral intravenous catheter failure rates per  | 0.9 vs 0.9 | dir=none | sig=n,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0194,[Baseline characteristics | Aloe cream vs Calendula oint | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0195,"[helping to diagnosed and communication, | intervention group vs attention-comparison | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0196,[workaholism symptomatology | meditation awareness vs control group | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0200,[rates of early fetal loss | neonatal vs routine care through | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0201,[Anxious symptoms | Face-based attent vs Placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0202,"[Alveolar collapse, interstitial | Pressure support ventilation vs Pressure-controlled ventilation | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0204,[stopping the anesthesia drugs up to | 10 μg vs Remifentan | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0205,[Rate of gametocyte carriage | Dihydro vs Dihydro | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0206,[Speed of alcohol consumption | Visual warning ( vs No warning | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0207,[Femoral toughness | Raloxif vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0208,[Mean spherical equivalent | Alcohol-assisted epithelial vs Mechanical epithelial removal | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0209,[increase in plasma lithium | administration via vs administration via | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0210,[Levels of IL-10 | Pap smear at vs No intervention at | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0211,[therapeutic equivalence - Patients | SB4 ( vs etanercept | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0212,[mean LGE encirclement at | robotic-assisted vs standard navigation | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0213,[Activity | Paracetamol vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0214,[The frequency of soft stools | Nutrilon vs standard formula | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0215,[Peak expiratory flow | Kegel exercises vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0216,[The numbers of days required for the | peramivir vs oseltam | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0217,[Accident and emergency visits costs | Hypertension tele vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0218,[diabetes risk - lifestyle arm | antidepressant vs non users | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0219,[alveolar collapse | cecal lig vs Control mice | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0221,[pain response | plastic cap vs metal cup | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0222,[Dependence Scale | synthetic amy vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0223,[the percent of seroconversion rate | 40 μg vs 20 μg | dir=none | sig=n,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0224,[Cardiovascular mortality | Physical activity + vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0225,[incremental benefit | web-based continuing vs control group | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0227,[nitro-oxidative stress | the sGC vs placebo orally | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0228,[exercise-related loss of muscle strength | lemon verb vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0229,[improvements in quality of life ( | arformoter vs placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0232,[Bone strength of femur | Fructool vs Control diet ( | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0233,[ratio of the tidal expiratory flow | nebulized vs saline ( | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0234,[SNPs on chromosome 11 | bisoprol vs losartan/ | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0235,[proportion of patients with glycos | metformin ( vs metformin ( | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0236,[Pressure-based haemodynamic variables | FAST treatment vs SLOW treatment | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0237,[Thrombocytopenia rate | Desmop vs Placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0238,[Leg blood flow | Resistance exercise vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0239,"[At 6 months, the rate | oral trametin vs intravenous | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0240,[Improvement in GSRS (G | Digestive Advantage vs Placebo group | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0241,[Groton Maze Learning Test legal errors | D-serine vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0242,[Streptococcus mutans count | Chlorhex vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0243,"[""a"" vowel improvement | Septoplasty vs Control | dir=none | sig=n]",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0244,[Phlebotomy questionnaire score | Phlebot vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0245,[proportion of patients with a negative | on-site support vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0246,[VO2 peak (% change) | Aerobic Exercise vs no physical exercise | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0247,[Open defecation | Total Sanitation vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0248,[amount of plaque formed at end of | group III used vs group I rins | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0249,[Calcium levels | Paricalc vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0250,[Improvement in Timed Up and | Prolonged vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0252,[risk reduction for a skeletal event | oral iband vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0254,[Treatment-emergent adverse events | 5-flu vs vehicle | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0256,[smoking cessation | buprop vs nicotine replacement | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0257,[Body fat percentage | FIFA  vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0258,[Clostridium difficile et rel at | Lactob vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0259,[pre-test probability of obstructive CAD | patients with minimal vs remainder of | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0262,[Postoperative complications | Partial matrix exc vs Segmental phen | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0263,[pain scores | kinetic oscill vs placebo treatment | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0264,[12‐item Short‐Form Health | community‐based vs usual care | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0265,[Micturition frequency | Bladder training vs Tolterod | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0266,[Value of the Touch-Test sensory evaluation | Remifentan vs Remifentan | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0268,[High density lipoprotein | Exercise training vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0269,[Consciousness recovery time | Heated inf vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0270,[Rate of superficial wound infection | Charité vs ALIF with | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0271,[bone mineral density (BMD) | placebo vs baseline | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0272,[Values of total antioxidant capacity (T | receiving  vs placebo group | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0273,[Pain | Propolis gel vs No treatment | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0274,[rate of symptomatic remission | ESM-I vs (ii) six | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0275,[Salivary TF | hyalur vs baseline | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0276,[Mean knee scores at follow-up | Locking plate vs Nonlocking plate | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0277,[Increase from baseline in the mean VO | Ashwagand vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0278,[Gastric inhibitory polypeptide | Sitagl vs Voglib | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0279,[administrators on average who left health | Performance-based financing vs control 1 | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0281,[felt stigma after treatment | Cognitive Processing vs individual support | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0283,[Left ventricular risk area | Lixisen vs Control | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0284,[blood level of ammonia | PEG–l vs 20-30 | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0285,[Longus colli thickness | 80% maximal vs 10% maximal | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0286,[Duration of hospitalization | Ampicillin/s vs Cefuro | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0287,[Fasting plasma glucose | Flaxseed vs Wheat | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0289,[plasma aldosterone concentration at  | LCI699 vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0290,[completed follow-up | system-oriented therapy vs reference intervention | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0291,"[fasting plasma glucose, A1 | IPE (4 vs placebo | dir=none | sig=n]",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0292,[state anxiety | rtfMRI vs rtfMRI | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0293,[Treatment retention | Dextrom vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0294,[C-Reactive Protein | Agave derived vs Formula | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0295,[Serum interleukin-10 | Vitamin D + vs Calcium | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0296,"[Weights, carcass yields, rib | sunflower cake vs soybean meal | dir=none | sig=n]",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0297,[MAC and SE values before fentanyl | Sevofl vs Isoflur | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0298,[Fasting plasma triacylg | Virgin olive oil vs Functional olive oil | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0300,[Hostility when managing conflicts | Intimate partner vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0302,[suturing test completion time | high E scores vs average E scores | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0303,[Quality of life | Erlotin vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0304,[Positive well-being and vitality scores | Yogic vs Prescribed medication | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0305,[Adverse effects | laryngeal vs endotrache | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0306,[LDL cholesterol | Diet intervention vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0307,[creatine kinase | zhibitai vs atorvastatin | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0308,[Resting metabolic rates (RMR | p-syne vs placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0309,[prospective eating score | 2 g of vs placebo ( | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0310,"[anteroposterior, mediol | underwater treadmill vs baseline | dir=down | sig=y]",DECREASE,DECREASE,True
+G2-0311,[symptom control | lanreotide vs lanreotide | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0312,[Flow-mediated vasodilatation after | Perindop vs Placebo | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0313,[Waist circumference | 100 grams of vs 100 grams of | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0314,[Local pain | Diazepam vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0315,[REM sleep percentages | 4 weeks before vs 1 week before | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0316,[Discontinuation rate | Aripip vs Placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0317,[pressure support ventilation (PSV) | progressive discontinu vs respiratory | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0318,[accurately understanding the results - Breast | Internet group ( vs control group ( | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0319,[High-energy snack intake | Individual cognition and vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0320,[The mean number of daily boluses | continuous glucose monitoring vs continuous glucose monitoring | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0321,[Multiple sclerosis plaques | Mitoxan vs No treatment | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0322,[median FCT | artesunate vs quinine plus | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0323,[Hyperglycemia relapse-free survival | metformin  vs placebo | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0324,[Triglycerides | Isomalt vs Sucrose | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0325,[Pain interference change | an experimental diet vs an experimental diet | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0326,[fecal fat levels | 100&amp;amp vs 100&amp;amp | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0328,[Puerperal and neonatal infection | 1 litre saline vs no enema | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0329,[Flexibility | 10-week yoga vs Control | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0330,[Daily ON time with problematic dysk | Istrade vs Istrade | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0331,"[‘daily activities’, ‘leisure | oral liaroz vs placebo | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0332,[Syncope and near-syncope | 15-pulse vs eight-pulse | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0333,[insulin-mediated suppression of lipol | prednisolone vs placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0334,[the subjects who were married | questionnaires online vs mailed paper | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0335,[Subjective stress markers | use their own vs quietly read | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0336,[Discomfort score for tracheal | 8 cm pillow vs 4 cm pillow | dir=up | sig=y,INCREASE,INCREASE,True
+G2-0337,[Procollagen type 1 N | Daily prednisone vs Placebo | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0338,[Coronal dye penetration | Gutta-per vs Gutta-per | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0339,[Ascent vertical toe clearance | Intermediate progressive addition vs Distance single vision | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0340,[Waist circumference | Behavioral lifestyle vs Control | dir=down | sig=y],DECREASE,DECREASE,True
+G2-0341,[dietary intakes before intervention | participants in the vs national average | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0342,[low‐density lipoprotein‐ | combination ez vs rosuvast | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0343,[fiber intake at 12r months | weight management intervention vs usual care | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0344,[International Index of Erectile Function (II | maintain the vs increase their dose | dir=none | sig=n],NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0346,"[Adverse events, moderate | 1,800 vs 1,000 | dir=up | sig=y]",INCREASE,INCREASE,True
+G2-0355,[The incidence rate of myoclon | etomidate vs propofol | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0356,[value of plasma α-tocopher | CON diet with vs CON diet | dir=up | sig=y],INCREASE,INCREASE,True
+G2-0359,"[Frequency of at least one diabetes appointment | area-wide, vs standard structured and | dir=up | sig=y]",INCREASE,INCREASE,True

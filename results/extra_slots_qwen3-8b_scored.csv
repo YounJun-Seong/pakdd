@@ -1,0 +1,295 @@
+sample_id,memory,gold_label,claim_label,supported
+G2-0011,The median time to first:-*; number of patients reported first:+*; time to total relief of:0(ns),DECREASE,NOT_MENTIONED,False
+G2-0020,Need for Ibuprofen:0(ns); CA-125:0(ns); Pain:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0028,Level of confidence:0(ns); Co-mor:+*; Level of enjoyment:+*; Treatment retention performance:+*,INCREASE,INCREASE,True
+G2-0004,Raven's:-*; Sleep time:+*; Neuropsych:-*; Barthel:0(ns),DECREASE,DECREASE,True
+G2-0017,mean daily:-*; lum:+*; risk for:0(ns); breast:0(ns); reduction:+*,NO_DIFFERENCE,DECREASE,False
+G2-0026,"soluble vascular cellular ad:-*; Brachial-ank:0(ns); lipid profiles, high:0(ns)",DECREASE,DECREASE,True
+G2-0002,MCCB:0(ns); MCCB:+*; alpha power:+*; alpha power:+*,INCREASE,INCREASE,True
+G2-0015,Post-ex:+*; Epine:+*; Pre-ex:+*; Epine:+*; VO2:0(ns,INCREASE,INCREASE,True
+G2-0025,Glucose:0(ns); Lip:0(ns); 25:+*; Metabolic:0(ns); Changes in,INCREASE,INCREASE,True
+G2-0016,increase in force:0(ns); increase in force:0(ns); over the course:-*; over the course:-*,DECREASE,NO_DIFFERENCE,False
+G2-0005,Hem:0(ns); Nause:-*; Hem:0(ns); Analges:0(ns); Analges:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0024,successful tracheal int:0(ns); the intubation time:-*; successful tracheal int:+*,INCREASE,NO_DIFFERENCE,False
+G2-0010,Quality of life score regarding:+*; Quality of life score regarding:+*; Baseline characteristics:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0023,Numerical:+*; Amount of:0(ns); Complications:0(ns); Surgery:+*; Visual analogue:-*,DECREASE,INCREASE,False
+G2-0006,Mean amplitude:+*; Gly:0(ns); Gly:+*; Gly:+*; Area under:+*,INCREASE,INCREASE,True
+G2-0007,Isofl:0(ns); Time needed:+*; Dip:-*; VAS sed:-*; Anest:-*,DECREASE,NO_DIFFERENCE,False
+G2-0018,Processed food intake:-*; Fruit and:0(ns); African/:0(ns); Snacks intake:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0009,"cortisol levels :+*; adrenalin, nor:0(ns); serum cortisol levels after:-*",INCREASE,NO_DIFFERENCE,False
+G2-0021,Food consumed:0(ns); Appetite:0(ns); Appetite:0(ns); Appetite:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0029,‘quality of:+*; level of device:+*; ‘inhaling:0(ns); ‘overall ease:+*,INCREASE,INCREASE,True
+G2-0022,Decrease:-*; PCR-adjust:0(ns); New P:0(ns); Adverse:0(ns); P.,INCREASE,NO_DIFFERENCE,False
+G2-0014,pain:-*; Center for:0(ns); Number of:0(ns); Body mass:0(ns); Fatigue:,DECREASE,NO_DIFFERENCE,False
+G2-0012,serums Vit D level:+*; mean level of proteinuria:-*; fasting blood sugar (:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0031,The percentage of patients with:0(ns); percentage of patients with controlled:0(ns); discontinued treatment:-*,DECREASE,NO_DIFFERENCE,False
+G2-0008,The int:0(ns); the frequencies:+*; intub:0(ns); success rate:0(ns); The int,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0030,pain reduction up:0(ns); improvement:+*; pain reduction up:+*; pain reduction up:+*,NO_DIFFERENCE,INCREASE,False
+G2-0040,Suppression:0(ns); Alanine:-*; Gly:-*; Fasting:-*; Fasting:-*,DECREASE,NO_DIFFERENCE,False
+G2-0038,"Motiv:+*; reflections:-*; ""sustain:-*; Frequency of:0(ns); Motiv:0",DECREASE,NO_DIFFERENCE,False
+G2-0032,registered time when:-*; The proportion of:0(ns); The mean scores:+*; The median age:0(ns,DECREASE,DECREASE,True
+G2-0039,Transient-Ev:0(ns); pure-tone average:0(ns); Transient-Ev:0(ns); high-frequency average,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0034,Attrition after 1:0(ns); Weight rebound after 1:0(ns); Change in body mass index:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0041,Bone alkal:0(ns); Oste:0(ns); Serum:0(ns); Serum:-*; Achieving:0,DECREASE,NO_DIFFERENCE,False
+G2-0033,Asthma:+*; Asthma:+*; FEV :0(ns); Inhaled cort:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0035,numbers of blood:+*; cerebral:0(ns); carotid:0(ns); carotid:+*,INCREASE,INCREASE,True
+G2-0042,excessive:-*; constrict:+*; plaque:0(ns); plaque:0(ns); external elastic:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0055,Baseline characteristics (except age:0(ns); Overall balance ability:+*; Dynamic balance improvement:+*,INCREASE,INCREASE,True
+G2-0053,"overall satisfaction with surgery,:0(ns); The specimen retrieval time:-*; intact tubes:+*",INCREASE,INCREASE,True
+G2-0049,Expanded Disability Status:0(ns); Fatigue Severity:-*; Relapse rate:0(ns); Inflammatory parameters:0,DECREASE,DECREASE,True
+G2-0043,circadian:0(ns); The absolute:+*; the plasma:0(ns); circadian:0(ns); circadian,INCREASE,NO_DIFFERENCE,False
+G2-0046,leg pain - moderate deg:-*; degradation in clinical success:0(ns); subjects achieving the primary composite:+*,INCREASE,INCREASE,True
+G2-0054,"ICU stay:0(ns); Ventilator time and:-*; injury severity score,:0(ns)",DECREASE,DECREASE,True
+G2-0050,HAS shrinkage:0(ns); 6-month outcome:+*; 6-month outcome:0(ns); HAS shrinkage,INCREASE,INCREASE,True
+G2-0070,Adverse events:0(ns); A1C:0(ns); Insulin requirements:0(ns); C-peptide:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0052,BDI:-*; Satisfaction:+*; trig:0(ns); BDI:0(ns); trig:-*,DECREASE,NO_DIFFERENCE,False
+G2-0048,forced expiratory volume:+*; the median number of days:0(ns); the median number of nights:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0063,Number of days:0(ns); Number of days:0(ns); Mean cost per:0(ns); Catheter:-*,DECREASE,NO_DIFFERENCE,False
+G2-0044,Vitamin:0(ns); Anaemia:0(ns); Total body:0(ns); Anthrop:0(ns); Baseline,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0059,prur:-*; physical component:0(ns); ≥minimum:+*; mean :-*; mental component:+*,DECREASE,DECREASE,True
+G2-0051,Acute gain:-*; Binary resten:0(ns); Late luminal:+*; Minimal luminal:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0047,Safety profiles:0(ns); Eros:-*; Changes in:0(ns); Baseline characteristics:0(ns); E,DECREASE,DECREASE,True
+G2-0061,AUCinf:0(ns); Cmax:0(ns); adverse events:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0064,time spent on:0(ns); days spend in:0(ns); duration of we:0(ns); Mortality at:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0062,vag:+*; vag:+*; washing:+*; vag:0(ns); wiping:+*,INCREASE,NO_DIFFERENCE,False
+G2-0065,total scores:0(ns); examined the 1:0(ns); total scores in the third:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0069,non-office:+*; follow-up:-*; clinically:+*; in-cl:+*; unscheduled:+*,DECREASE,INCREASE,False
+G2-0068,Numerical:-*; The total:-*; postoperative:0(ns); nurse:-*; first anal:+*,DECREASE,NO_DIFFERENCE,False
+G2-0045,Preferred intranasal cort:-*; Urge to snee:0(ns); Sensory attributes:-*,DECREASE,NO_DIFFERENCE,False
+G2-0067,Improvement in:+*; Voiding symptoms:0(ns); Uroflow:0(ns); Severity of IC:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0060,complete response (CR):+*; complete response (CR):0(ns); complete response (CR):+*,INCREASE,NO_DIFFERENCE,False
+G2-0075,Overall survival:+*; Peptide:0(ns); Progression:+*; IL�:-*; IFN:0,INCREASE,INCREASE,True
+G2-0072,Vitamin D level:+*; Vitamin D level:+*; Calcium level:0(ns),INCREASE,INCREASE,True
+G2-0076,The mean number:0(ns); The mean duration:0(ns); serum level:0(ns); lutein:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0073,craving:+*; Measures of:0(ns); cognitive measures:0(ns); rituals:0(ns),INCREASE,NO_DIFFERENCE,False
+G2-0085,post-test:+*; realism:+*; post-test:+*; pre-test:0(ns); post-test:+*,INCREASE,INCREASE,True
+G2-0077,Primary closure:0(ns); Seps:0(ns); Mortality:0(ns); Surfact:0(ns); Pul,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0087,Risk of:-*; Mean birth:+*; Risk of:-*; Risk of:-*; Risk of:-*,DECREASE,DECREASE,True
+G2-0074,body weight:-*; brady:-*; platelet:0(ns); Lip:0(ns); Hb:+*,DECREASE,NO_DIFFERENCE,False
+G2-0079,Phosph:0(ns); Na+:0(ns); HAD:0(ns); Citrate:+*; GLUT:-*,INCREASE,INCREASE,True
+G2-0081,The sedation:0(ns); the incidence of:0(ns); the incidence of:-*; The sedation:+*,DECREASE,NO_DIFFERENCE,False
+G2-0080,Hours elapsed since the participant:0(ns); Face and scalp sensations:0(ns); Inhibition of food cravings:0(ns,NO_DIFFERENCE,NOT_MENTIONED,False
+G2-0088,Nause:0(ns); Vom:-*; Vom:-*; Vom:-*; Nause:-*,DECREASE,DECREASE,True
+G2-0083,sFlt-1:0(ns); Placental growth factor:0(ns); Soluble vascular endothelial:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0089,Pain:-*; Pain:0(ns); Recurrence:-*; Cosmetic:0(ns); Patient satisfaction:0(ns,DECREASE,NO_DIFFERENCE,False
+G2-0084,Spont:0(ns); Emergency Ca:0(ns); Parental:0(ns); Elective:0(ns); Experience,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0093,Rate of adverse:0(ns); Changes in B:0(ns); Serum oste:0(ns); Changes in receptor:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0082,Th1-b:0(ns); overall survival:0(ns); median time to:0(ns); PSA doubling:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0097,Crohn:0(ns); Costs:+*; Quality-adjust:0(ns); Colect:0(ns); Adverse:,INCREASE,INCREASE,True
+G2-0091,On-treatment:0(ns); Des-contin:+*; Des-contin:+*; Des-contin:+*,INCREASE,INCREASE,True
+G2-0095,postprandial F:+*; flow-mediated vasodilation:+*; systemic and forearm hem:0(ns),INCREASE,INCREASE,True
+G2-0103,Physical Discomfort:-*; Negative emotions:-*; Systolic blood pressure:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0104,Nonurgent ED visit:0(ns); Change on knowledge scores:0(ns); Baseline characteristics:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0099,Subjective Units:0(ns); Panic Disorder:0(ns); Beck Anxiety:-*; Beck Depression:0(ns),DECREASE,DECREASE,True
+G2-0101,total GL:0(ns); CDCA:-*; Bile:-*; syst:-*; total GL:-*,DECREASE,NO_DIFFERENCE,False
+G2-0094,FD mesial:+*; mean RF measured:0(ns); FD analysis:0(ns); effect size after:+*,INCREASE,NO_DIFFERENCE,False
+G2-0105,Mortality:0(ns); Resolving disease:0(ns); Resolving lesions >2:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0100,The percentage:+*; The percentage:-*; serum:+*; Urine:+*; tocopher:+*,DECREASE,INCREASE,False
+G2-0106,Postoperative nerve:0(ns); the VAS:-*; The visual analog:0(ns); Anal exs:-*,DECREASE,NO_DIFFERENCE,False
+G2-0113,Patients reaching primary endpoint:0(ns); iPTH target (1:0(ns); Intact parathyroid:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0109,Pediatric:0(ns); side effects:0(ns); negative correlation:+*; Period of:-*; could walk:,INCREASE,INCREASE,True
+G2-0112,Fever Without:0(ns); Oral Re:+*; time spent on:0(ns); post-test scores:+*,INCREASE,INCREASE,True
+G2-0114,Safety:0(ns); Safety:0(ns); Safety:0(ns); Safety:0(ns); Safety:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0098,duration of the disease:0(ns); effectiveness according to chi:+*; Patient satisfaction:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0110,Positive emotions:+*; Subjective:+*; Negative emotions:0(ns); Prosocial:+*; Positive learning:+*,INCREASE,INCREASE,True
+G2-0107,The mean drainage duration:0(ns); drainage duration:0(ns); overall drain output:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0111,waist:0(ns); weekly moderate:+*; weight loss:+*; FFB:+*; acceler:+*,INCREASE,INCREASE,True
+G2-0115,Sildenafil:0(ns); Sildenafil:0(ns); Sildenafil:0(ns); Sildenafil:+*; Sildenafil,INCREASE,INCREASE,True
+G2-0117,ADCC-m:0(ns); adverse events:0(ns); The median tit:+*; The concentration of:+*,NO_DIFFERENCE,INCREASE,False
+G2-0125,Abdom:0(ns); Indigest:-*; Diarr:0(ns); Total G:-*; Acid:0,DECREASE,DECREASE,True
+G2-0132,number of operated:0(ns); The mean consultation:+*; number of ':0(ns); numbers of consultations:0(ns,INCREASE,NO_DIFFERENCE,False
+G2-0126,Urine flow:-*; short-term graft function:0(ns); primary dysfunction after kidney transplant:+*,DECREASE,NO_DIFFERENCE,False
+G2-0118,ACR:0(ns); Hem:0(ns); ACR:0(ns); Bil:0(ns); ACR:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0133,Perfor:0(ns); Creation of:0(ns); Remaining filling:-*; Fract:0(ns); Obstructions,DECREASE,NOT_MENTIONED,False
+G2-0120,Pons glucose:0(ns); Cognitive test:0(ns); Executive Function battery:0(ns); ADAS-C:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0127,Patients rated their likelihood to:+*; used CPAP( hours:0(ns); Apnea-Hypop:0(ns,INCREASE,NO_DIFFERENCE,False
+G2-0123,Bleeding:+*; Periproced:0(ns); death/peripro:0(ns); Bleeding:+*,INCREASE,INCREASE,True
+G2-0134,Infection:+*; Induction time:0(ns); Changes in Bishop score after:+*,INCREASE,INCREASE,True
+G2-0121,increase in:-*; probability of:+*; incidence:0(ns); mean age:+*; risk of:-*,DECREASE,DECREASE,True
+G2-0129,cumulative hazard of recurrence:-*; Pain relief at :0(ns); Pain relief at :0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0128,Reduction in headache frequency:0(ns); Baseline headache characteristics:0(ns); Global perceived effect and Head:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0135,Holden:0(ns); level of:+*; level of:+*; Mini-M:0(ns); Holden:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0140,Age of the participants:0(ns); Enrollment into the randomized:+*; Attendance for eligibility screening:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0142,Diast:+*; Potassium:-*; Mean blood:+*; Ald:0(ns); Kidney:0(ns,DECREASE,INCREASE,False
+G2-0150,PHQ:0(ns); Number of:0(ns); Freib:0(ns); PTQ:0(ns); S,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0141,Ging:0(ns); maxillary:+*; Modified ging:0(ns); mean peri:0(ns); Bone loss,INCREASE,INCREASE,True
+G2-0149,Mean±:0(ns); Mean±:0(ns); mean level:-*; Mean±:+*; Rate of:+,DECREASE,DECREASE,True
+G2-0137,Systolic blood pressure:-*; flow-mediated dilation (F:0(ns); C-reactive protein (:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0146,Medication:0(ns); Rate of:-*; Medication:+*; Medication:+*; Baseline characteristics:,DECREASE,DECREASE,True
+G2-0148,Conj:0(ns); Tear:0(ns); Ocular:0(ns); Corne:0(ns); Schir,NO_DIFFERENCE,NOT_MENTIONED,False
+G2-0139,knee:0(ns); The knee:0(ns); the mean:+*; tib:0(ns); The ability,INCREASE,NO_DIFFERENCE,False
+G2-0143,Heart rate 30:-*; Heart rate during surgery:0(ns); Recovery characteristics:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0152,Overall scores for anxiety:-*; levels of pain:0(ns); Overall pain scores:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0138,Number of follic:0(ns); Fertility outcomes:-*; Number of o:0(ns); Quality of fet:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0136,Overall survival:0(ns); Disease:-*; 5-year:-*; Disease:0(ns); 5-year:,DECREASE,NO_DIFFERENCE,False
+G2-0151,Syst:0(ns); Blood chemistry:0(ns); Complete blood:0(ns); Heart rate:0(ns); Met,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0154,Clinical response:0(ns); Overall response:+*; Time to:0(ns); Grade :+*; Overall survival:,INCREASE,INCREASE,True
+G2-0153,ventilator free days:0(ns); the time course of temperature:0(ns); length of stay in the:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0161,Cognitive status improvement:+*; Amyloid betas :-*; Amyloid betas :0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0155,endoth:+*; D-d:0(ns); flow-mediated:+*; CCR5:+*; CCR5,INCREASE,INCREASE,True
+G2-0160,Risk of throm:0(ns); Intrac:0(ns); Risk of death:0(ns); Risk of unfavorable:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0156,The Tinnitus Handicap:-*; The Tinnitus Handicap:0(ns); The Tinnitus Handicap:0(ns,DECREASE,DECREASE,True
+G2-0157,Median time:0(ns); Regression rate:+*; Regression rate:+*; Hyster:-*; Regression rate:+*,INCREASE,INCREASE,True
+G2-0159,(SBP:-*; percentage of:+*; (DBP:-*; mean arterial:-*; heart rate:0,DECREASE,DECREASE,True
+G2-0163,"Appointment adherence, exemplified:0(ns); number of follow-up appointments:0(ns); adherence rates for patients:0(ns",NO_DIFFERENCE,NOT_MENTIONED,False
+G2-0162,Monocytes engaged in ph:+*; Monocytes engaged in ph:+*; Monocytes and granul:0(ns),INCREASE,NO_DIFFERENCE,False
+G2-0144,Syst:0(ns); Level of:+*; Performance:+*; Level of:0(ns); Levels of:+*,INCREASE,INCREASE,True
+G2-0158,concent:0(ns); serum:0(ns); serum:0(ns); serum:0(ns); serum:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0171,Coagulation:0(ns); Adverse events:0(ns); Leukocytes:0(ns); Neutroph:+,INCREASE,INCREASE,True
+G2-0168,Reduction of:-*; Overall effectiveness after:+*; Reduction of:0(ns); Bacterial viability:0(ns),INCREASE,INCREASE,True
+G2-0166,pCR (:0(ns); The clinical response:-*; The frequency of:-*; the post-:+*,DECREASE,INCREASE,False
+G2-0164,Hydration:0(ns); Elastic:0(ns); Skin texture:+*; Hydration:0(ns); Hydration:,INCREASE,INCREASE,True
+G2-0170,Baseline levels of high-density:0(ns); Mean serum levels of vitamin:+*; Mean serum levels of high:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0173,number of:0(ns); Grade :-*; number of:-*; the mean:+*; The mean:-*,DECREASE,NO_DIFFERENCE,False
+G2-0172,SF-36 mental:+*; SF-36 mental:-*; SF-36 mental:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0177,VO2:0(ns); VO2:+*; Reported:0(ns); VO2:+*; Body mass:0,INCREASE,INCREASE,True
+G2-0167,Intra:0(ns); Adverse:0(ns); cup/disc:0(ns); intra:0(ns); cup/disc,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0174,overall effect of:0(ns); improvement:0(ns); improvement:0(ns); duration of illness:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0175,Sequential Organ Failure Assessment (:0(ns); The median stay in hospital:0(ns); The 28-day:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0183,Most preferred:+*; mean scores:0(ns); age:0(ns); mean score:+*; Most preferred:+*,INCREASE,NO_DIFFERENCE,False
+G2-0185,PeakVO:0(ns); Satisfaction:+*; Health-related:0(ns); Physical fitness:0(ns); Healthcare:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0179,neck range of:0(ns); pain threshold (:-*; The changes in:0(ns); The changes in:-*,DECREASE,NOT_MENTIONED,False
+G2-0186,Annualized:+*; Estimated infection:0(ns); Infections:+*; Reported:0(ns); Estimated infection:+*,INCREASE,NO_DIFFERENCE,False
+G2-0181,overall Qo:0(ns); Median survival:0(ns); time to disease:0(ns); progression-free:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0184,syst:-*; steady-state:-*; weight loss:+*; syst:-*; steady-state:-*,DECREASE,DECREASE,True
+G2-0180,"total length of COP:0(ns); anterior, non-p:+*; average velocity and total path:0(ns)",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0178,The minimum neonatal blood:+*; maternal blood glucose levels:+*; No. of neonates:0(ns),INCREASE,NO_DIFFERENCE,False
+G2-0176,periodontal:0(ns); clinical healing:+*; TIMP-:+*; Total MMP-:0(ns),INCREASE,INCREASE,True
+G2-0190,terms of transureth:0(ns); Duration of hospital stay:-*; Operative time:0(ns),DECREASE,DECREASE,True
+G2-0188,Adverse:0(ns); Gly:-*; Fasting:-*; Urinary:0(ns); Urinary:-*,DECREASE,NO_DIFFERENCE,False
+G2-0207,Dual-energy:0(ns); Cumulative:-*; Fem:+*; Blood glucose:-*; Fem:0(ns),INCREASE,INCREASE,True
+G2-0201,Depressive:0(ns); Difference of:0(ns); Anxious:-*; Depressive:-*; Attentional:,DECREASE,DECREASE,True
+G2-0196,job performance:0(ns); hours spent working:-*; workahol:-*; Therapeutic:+*,DECREASE,DECREASE,True
+G2-0211,ACR7:0(ns); ACR5:0(ns); therapeutic equivalence:0(ns); incidence of:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0194,Baseline characteristics:0(ns); Improvement of rash sites:-*; History of diseases or disorders:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0213,Activity:-*; Fever ≥39:-*; Fever ≥38:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0218,diabetes risk:0(ns); diabetes risk:0(ns); diabetes risk:+*; diabetes risk:+*,INCREASE,UNCERTAIN,False
+G2-0200,rates of:0(ns); proport:0(ns); Clean delivery:+*; Stillbirth:0(ns); home deliveries:+,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0206,Acceptance:-*; Acceptance:0(ns); Speed of:-*; Speed of:-*; Speed of:0,DECREASE,NO_DIFFERENCE,False
+G2-0209,concentr:0(ns); increase in plasma:+*; concentr:+*; concentr:+*,INCREASE,INCREASE,True
+G2-0208,Uncorrected:0(ns); Final refractive:0(ns); Time needed for:-*; Mean spherical equivalent:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0214,The frequency of:+*; Improvement of:0(ns); defecation:0(ns); painful def:0(ns),INCREASE,NO_DIFFERENCE,False
+G2-0204,The average returning time of:0(ns); stopping the anesthesia drugs:0(ns); nausea and vomiting:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0212,mean circumferential extent:+*; mean LGE encirc:0(ns); Late gadolinium enhancement:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0221,pain response:-*; substantial scalp traumas:0(ns); The proportion of EDIN:0(ns),DECREASE,NOT_MENTIONED,False
+G2-0217,Medications costs:0(ns); Accident and emergency visits:0(ns); Overall costs:+*,NO_DIFFERENCE,DECREASE,False
+G2-0219,surv:+*; collagen:-*; surv:0(ns); alve:-*; interle:-*,DECREASE,DECREASE,True
+G2-0195,helping to diagnosed and:+*; post-test in the GP:0(ns); deciding about medication and:+*,INCREASE,NO_DIFFERENCE,False
+G2-0210,Total protein:0(ns); Levels of:+*; Cerv:0(ns); Baseline characteristics:0(ns); Levels,INCREASE,NO_DIFFERENCE,False
+G2-0202,Alve:-*; Surfact:+*; Mean air:-*; mRNA:-*; Alve:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0216,The numbers of:0(ns); total symptom scores:0(ns); fever-al:0(ns); virus t:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0205,Time to clearance:-*; Hemoglobin:0(ns); Rate of gametocyte:-*,DECREASE,NO_DIFFERENCE,False
+G2-0215,Peak exp:+*; FEV:+*; Forced:+*; Maximum Vol:+*; FEV:0(ns),INCREASE,INCREASE,True
+G2-0222,Dependence Scale:-*; decline Disability Assessment for:+*; Clinical Dementia Rating–:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0191,Peripheral intravenous catheter:0(ns); Peripheral intravenous catheter:0(ns); Peripheral intravenous catheter:0,NO_DIFFERENCE,NOT_MENTIONED,False
+G2-0227,nitro:-*; PKG activity:+*; The values:+*; Tau (:-*; the slope:-*,DECREASE,INCREASE,False
+G2-0225,intens:0(ns); haem:+*; intens:0(ns); incremental:0(ns); medication:+*,NO_DIFFERENCE,INCREASE,False
+G2-0223,antibody titers:+*; the percent of sero:0(ns); antibody titers:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0224,Cardiovascular:-*; General mortality:0(ns); General mortality:-*; Cardiovascular:-*,DECREASE,UNCERTAIN,False
+G2-0243,"Total nasal resistance:0(ns); ""n"" consonant:+*; ""a"" vowel improvement:0(ns)",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0228,Glut:0(ns); Exercise-induced:0(ns); Interle:0(ns); Movement induced:0(ns); exercise,DECREASE,NO_DIFFERENCE,False
+G2-0238,Fat-free:+*; Leg blood:0(ns); Intr:0(ns); Mean arterial:0(ns); Fem:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0236,Pulse:+*; Biochemistry:0(ns); Pressure-based:+*; Cardiac:0(ns); Oxygen:0,INCREASE,INCREASE,True
+G2-0240,Improvement:0(ns); Improvement:0(ns); Improvement:+*; Improvement:0(ns); Improvement:+*,NO_DIFFERENCE,UNCERTAIN,False
+G2-0237,Bleeding:0(ns); Thromb:-*; Hb levels:0(ns); Complications:0(ns,DECREASE,DECREASE,True
+G2-0229,impro:+*; incidence:0(ns); Improvements:+*; first respiratory:-*; Improvements:+*,INCREASE,INCREASE,True
+G2-0242,Stre:-*; Stre:0(ns); Stre:0(ns); Stre:-*; Stre:-*,DECREASE,DECREASE,True
+G2-0233,peak tidal exp:0(ns); fraction of tidal:0(ns); ratio of the:-*; tidal exp:-*,DECREASE,NOT_MENTIONED,False
+G2-0249,Achieved:0(ns); Adverse:-*; iPTH:+*; iPTH:+*; Calcium:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0239,"The median progression-free survival:+*; At 6 months,:+*; Median overall survival (OS:0(ns)",INCREASE,NOT_MENTIONED,False
+G2-0241,Groton:-*; Mood:0(ns); Visual attention:0(ns); Set-Sh:0(ns); N-back:,DECREASE,NO_DIFFERENCE,False
+G2-0234,slightly elevated body mass:0(ns); moderate hypertension:0(ns); SNPs on chromosome :+*,INCREASE,INCREASE,True
+G2-0244,Sample rejection rate:0(ns); Preanalytical:0(ns); Request-form errors:0(ns); Phlebot:+,INCREASE,INCREASE,True
+G2-0247,Anemia:0(ns); Open def:-*; Helmin:0(ns); E.:0(ns); Sanitation:+,DECREASE,DECREASE,True
+G2-0252,The mean:-*; the bone:-*; the mean:-*; risk reduction:-*; bone events:-*,DECREASE,DECREASE,True
+G2-0232,Calcium:0(ns); Bone strength:+*; Equol:+*; Bone strength:+*; Calcium:+*,INCREASE,INCREASE,True
+G2-0245,Within the:+*; proportion:-*; estimated proportion:+*; proportion:-*; estimated proportion:+*,DECREASE,DECREASE,True
+G2-0256,smoking:0(ns); smoking:0(ns); smoking:0(ns); smoking:0(ns); smoking:0(ns,NO_DIFFERENCE,INCREASE,False
+G2-0250,Adverse:0(ns); Improvement:+*; Improvement:+*; Improvement:+*; Improvement:+*,INCREASE,INCREASE,True
+G2-0246,VO2:+*; Simple Attention:+*; Adverse:+*; Visuos:+*; Verbal:0(ns,INCREASE,INCREASE,True
+G2-0257,Yo-Y:0(ns); Body fat:-*; Syst:-*; Body mass:-*; 20:,DECREASE,DECREASE,True
+G2-0262,Ingrown:0(ns); Soft tissue:0(ns); Time to:+*; Postoperative:0(ns); Pain:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0266,Value of:-*; Pain:+*; Cumulative:+*; Consumption:+*; Demographic:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0235,vital:0(ns); proportion:0(ns); Serious:0(ns); total cholesterol:-*; mean BMI:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0269,Spont:-*; Conscious:-*; Surgery:-*; Extub:-*; Eye opening:-*,DECREASE,NO_DIFFERENCE,False
+G2-0254,overall treatment:+*; the proportion:+*; Treatment-em:+*; The percentage:+*; the TS:0(ns,INCREASE,INCREASE,True
+G2-0268,High density lipoprotein:0(ns); C-Reactive Protein:0(ns); Low density lipoprotein:+*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0248,stain:-*; amount of:-*; amount of:-*; amount of:0(ns); stain:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0265,Urgency:+*; Urgency:0(ns); Urgency:+*; Mictur:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0259,discrimination:+*; symptoms of:-*; pre-test probability:-*; Goodness-of:0(ns),DECREASE,DECREASE,True
+G2-0263,pain scores:-*; the proportion of headache days:0(ns); The pain intensity and attack:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0271,estradiol:0(ns); bone mineral density:+*; Endometrial:-*; bone mineral density:-*,DECREASE,INCREASE,False
+G2-0264,Physical Component Summary:0(ns); total costs:0(ns); CES‐D:0(ns); 12‐:+,INCREASE,INCREASE,True
+G2-0258,Composition of the microbiota:0(ns); Composition of the microbiota:+*; Clostridium difficile:-*,DECREASE,NO_DIFFERENCE,False
+G2-0273,Ery:-*; Ery:0(ns); Pain:0(ns); Pain:0(ns); Pain:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0275,bleeding time:+*; Salivary:-*; Swelling:+*; Salivary:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0270,Rate of superficial wound infection:0(ns); Major neurological complications:0(ns); Complications related to approach:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0272,interleukin :0(ns); Values of total antioxidant capacity:+*; serum iron:0(ns),INCREASE,INCREASE,True
+G2-0277,Vital parameters:0(ns); Quality of Life:0(ns); Quality of Life:+*; Increase from baseline:+*,INCREASE,INCREASE,True
+G2-0283,Left-:0(ns); Left vent:0(ns); Left vent:0(ns); Infar:-*; Infar,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0281,felt stigma after treatment:-*; felt stigma after treatment:-*; felt stigma after 6:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0279,compensation:+*; compensation:0(ns); job satisfaction:+*; nurses:-*; administrators:-*,DECREASE,INCREASE,False
+G2-0274,rate of symptomatic rem:0(ns); Hamilton Depression Rating Scale:0(ns); symptomatic remission:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0278,Flow mediated:0(ns); Epider:0(ns); CD3:+*; Gluc:0(ns); Gastr,NO_DIFFERENCE,NOT_MENTIONED,False
+G2-0276,Follow-up:0(ns); Mean functional:+*; Mean V:-*; Mean knee:+*; Severity of:0,INCREASE,INCREASE,True
+G2-0284,Hepatic Enceph:-*; blood level of ammonia:0(ns); length of hospital stay:-*,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0294,C-Re:0(ns); Serum:0(ns); Ig:+*; C-Re:0(ns); Serum:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0295,Serum hs:0(ns); Serum :0(ns); Overall reduction in:0(ns); Serum interle:+*,INCREASE,INCREASE,True
+G2-0287,Waist:0(ns); BMI:0(ns); Fasting:-*; IL-:0(ns); Insulin:,DECREASE,DECREASE,True
+G2-0291,"LDL-C:-*; fasting plasma:0(ns); TG, non:-*; hsCRP:-*",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0293,Morphine:-*; Changes in plasma:0(ns); Methad:0(ns); Treatment retention:+*,INCREASE,INCREASE,True
+G2-0290,average bed day:0(ns); improvement:0(ns); completed follow-up:+*; effect on compliance:0(ns),INCREASE,INCREASE,True
+G2-0296,"goats body weight at:0(ns); The commercial cuts and yields:0(ns); Weights, carcass yields:",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0303,Neurological progression-free:0(ns); Quality of life:0(ns); Overall survival:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0285,Sternoc:0(ns); Sternoc:0(ns); Longus col:+*; Sternoc:0(ns),INCREASE,INCREASE,True
+G2-0292,happiness:+*; state anxiety:-*; POMS depression:0(ns),DECREASE,DECREASE,True
+G2-0297,"Decrease in Surgical Stress:0(ns); MAC and SE values before:0(ns); HR, MAC and SE:0",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0306,LDL:0(ns); Total cholesterol:-*; LDL:-*; Waist:-*; Fasting:-*,DECREASE,DECREASE,True
+G2-0286,Duration of hospitalization:0(ns); Postoperative infection:0(ns); Post-cesarean:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0298,Fasting plasma triacy:+*; HDLc levels:0(ns); Average daily energy:0(ns),INCREASE,DECREASE,False
+G2-0289,ACTH:-*; Levels of:+*; plasma:-*; 24:-*; ACTH:+*,DECREASE,INCREASE,False
+G2-0304,General health:+*; Mean scores of:+*; Positive well-being:+*; Self-control domain:0(ns),INCREASE,INCREASE,True
+G2-0309,"HR:0(ns); fatty acid:+*; Hunger,:-*; prospective:-*",DECREASE,DECREASE,True
+G2-0302,suturing:-*; length score:+*; suturing:-*; suturing:0(ns); Nag:0(ns,DECREASE,NO_DIFFERENCE,False
+G2-0305,"first attempt at successful insertion:0(ns); Adverse effects:0(ns); insertion time, A:0(ns)",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0300,Partner sexual:0(ns); Believing:0(ns); Participation:+*; Partner physical:0(ns); Hostility:-,DECREASE,DECREASE,True
+G2-0307,creatine kinase:0(ns); cardiotrophin-:0(ns); triglycerides:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0308,heart rate:0(ns); Resting:+*; Resting:+*; Resting:+*; self-report:0,INCREASE,INCREASE,True
+G2-0314,Peripro:0(ns); Cath:+*; Anxiety:0(ns); Non-c:0(ns); Local pain:+*,INCREASE,DECREASE,False
+G2-0310,anteroposter:0(ns); dynamic balance:0(ns); dynamic balance:+*; anteroposter:-*,DECREASE,NOT_MENTIONED,False
+G2-0317,pressure support ventilation:-*; Total duration of:0(ns); Weaning duration:+*; maximal inspir:0(ns),DECREASE,DECREASE,True
+G2-0319,Veget:0(ns); High-energy:-*; Fruit:+*; High-energy:-*; Fruit:+*,DECREASE,DECREASE,True
+G2-0316,Yale:-*; Yale:-*; Yale:-*; Discontin:+*; Yale:-*,INCREASE,DECREASE,False
+G2-0318,understanding:0(ns); knowing:0(ns); declared:0(ns); understanding:0(ns); accurately:+*,INCREASE,INCREASE,True
+G2-0311,hyperhidrosis:-*; Plasma concentrations:0(ns); symptom control:+*; growth hormone:-*,INCREASE,INCREASE,True
+G2-0313,plasma:0(ns); total cholesterol:-*; Waist:-*; dietary:+*; blood pressure:0(ns),DECREASE,DECREASE,True
+G2-0315,bedtime and:+*; REM sleep percentages:-*; Serum glucose:0(ns); Johns d:0(ns),DECREASE,NO_DIFFERENCE,False
+G2-0312,Flow-mediated vasodil:0(ns); Nitroglycerine response:0(ns); Flow-mediated vasodil:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0320,The mean:+*; the frequency:+*; The mean:-*; events of:0(ns); time was:-*,INCREASE,DECREASE,False
+G2-0324,Insulin:0(ns); Trig:-*; Gly:0(ns); Fasting:0(ns); Fruct:,DECREASE,NO_DIFFERENCE,False
+G2-0331,Adverse events:0(ns); ‘daily activities:+*; Dermatology:0(ns); Dermatology:+*,INCREASE,INCREASE,True
+G2-0322,The median:-*; adverse:0(ns); median F:-*; Clinical efficacy:0(ns); The median:0,DECREASE,NO_DIFFERENCE,False
+G2-0321,Multiple sclerosis pla:0(ns); Multiple sclerosis pla:0(ns); Expanded disability status:0(ns); Multiple sclerosis pla:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0329,Flexibility:+*; pNN:-*; LF::+*; Push-up:0(ns); Quality of:0,INCREASE,INCREASE,True
+G2-0330,Daily OFF time:-*; Daily ON time with problematic:0(ns); Daily OFF time:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0332,number of shocks:0(ns); terminating F:0(ns); FVT acceleration:0(ns); Syncope and:0,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0326,fecal fat levels:+*; wet weight of fec:0(ns); fecal fat levels:+*,INCREASE,INCREASE,True
+G2-0328,Episiorraphy:0(ns); Puerperal and:0(ns); Median labour time:0(ns),NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0325,PI change:+*; Pain:0(ns); lameness:0(ns); change in:0(ns); PVF:,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0323,Disposition index:+*; The probability:-*; Hypergly:+*; Cox:0(ns); The restricted:+*,INCREASE,NO_DIFFERENCE,False
+G2-0340,Lip:0(ns); Waist:-*; Physical fitness:+*; Insulin:-*; BMI standard:-*,DECREASE,DECREASE,True
+G2-0341,macro-n:0(ns); macro-n:0(ns); dietary:+*; dietary:+*; total energy:0(ns,INCREASE,INCREASE,True
+G2-0335,"tension, anxiety,:0(ns); cortisol concentration from:+*; Subjective stress markers:0(ns)",NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0337,Insulin concentration:0(ns); Urinary N:+*; Osteocal:-*; Procollagen:-*,DECREASE,DECREASE,True
+G2-0343,fiber intake:+*; fiber intake:+*; weight loss:0(ns); fat consumption:0(ns); weight loss:+,INCREASE,INCREASE,True
+G2-0334,higher levels of:0(ns); Emergency Room Vis:0(ns); the subjects who:+*; shortness of:0,INCREASE,NO_DIFFERENCE,False
+G2-0339,Ascent vertical:-*; Ascent vertical:0(ns); Ascent duration:-*; Ascent duration:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0336,View of L:0(ns); Larynge:0(ns); Discomfort score:+*; Tracheal:0,INCREASE,DECREASE,False
+G2-0355,The incidence rate:-*; The incidence rate:+*; The incidence rate:-*; induction time:0(ns),INCREASE,DECREASE,False
+G2-0338,Apical dye:0(ns); Apical dye:0(ns); Apical dye:0(ns); Coronal dye:-,DECREASE,NOT_MENTIONED,False
+G2-0333,insulin-mediated:-*; Peripheral glucose uptake:0(ns); whole-body prote:0(ns); lipolysis:0,DECREASE,NO_DIFFERENCE,False
+G2-0356,Endoth:0(ns); Plasma:0(ns); value of:-*; value of:+*; Plasma:0(ns,INCREASE,NO_DIFFERENCE,False
+G2-0359,The average:0(ns); patient-reported:0(ns); the SF:0(ns); Frequency of:+*; chole,INCREASE,INCREASE,True
+G2-0346,QT effect (:0(ns); heart rate effect:0(ns); Adverse events:+*; Adverse events:+*,INCREASE,INCREASE,True
+G2-0344,International Index of Erectile Function:+*; International Prostatic Symptom:0(ns); International Index of Erectile Function:0(ns,NO_DIFFERENCE,NO_DIFFERENCE,True
+G2-0342,apoA:0(ns); PLAC:-*; low‐:-*; apoA:+*; low‐:0,NO_DIFFERENCE,DECREASE,False
