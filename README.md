@@ -12,10 +12,12 @@ supplementary material (`supplementary/supplementary_material.pdf`).
 | Matched writer prompt, retry instruction, truncation-free protocol | `scripts/run_phase5.py` (`MATCHED_SYSTEM`, `MATCHED_USER`, `STRICTER`, `notrunc_chain`) |
 | Evaluator rubric (frozen Qwen3-32B-FP8 classifier, prompt v3) | `supdrift/classifier.py` (`SYSTEM_PROMPT`, `USER_TEMPLATE`) |
 | Sampling settings (temperature 0.7, seed 42, retry seed 42 + 100a) | `supdrift/chain.py`, `scripts/run_phase5.py` |
+| Additional base seeds of the multi-seed replication (143, 244, 345, 446; retry seed s + 100a) | `scripts/run_e2x.py` (`SEEDS`), `scripts/run_phase5.py` (`notrunc_chain(base_seed=...)`) |
 | Reference-token counting (`o200k_base`, tiktoken 0.14.0) | `scripts/build_longsource.py` (`ntok`, `render`) |
 | Multi sources (about 1,000 reference tokens) | `scripts/build_longsource.py`, `data/longsource/longsource_v1.jsonl` |
 | Length-matched Filler sources | `scripts/build_longfiller.py`, `data/longsource/longfiller_v1.jsonl` |
 | Length-by-position sources (three placements x three lengths) | `scripts/build_e19_sources.py`, `data/longsource/e19_sources_v1.jsonl` |
+| Competing-finding sources with the target first (three lengths) | `scripts/build_e21_sources.py`, `data/longsource/e21_sources_v1.jsonl` |
 | Cohort (294 articles, one target per article) | `data/gate2/gate2_v1.jsonl` |
 | Audit codebook, blinded sheets, keys and ratings of the two LLM audit sessions | `data/audit/` |
 | Pre-specified designs and reading rules | `docs/phase4_prereg.md`, `docs/phase5_prereg.md`, `docs/phase6_prereg.md` |
@@ -36,12 +38,15 @@ figures/        figure files and captions
 `results/` holds the chains and verdicts of the experiments reported in the paper: the extended-source experiment
 under both protocols (`ratio_*`, `ratio_notrunc_*`), the length-matched control (`lenctrl_*`), the matched prompt
 (`e15b200_*`), the first-write comparison (`e18_*`), the length-by-position experiment (`e19_*`), the contextualized
-inputs (`e6_*`) and the verdicts of the original 25-token experiment (`gate2_scored_*`). For other auxiliary
+inputs (`e6_*`), the answers given straight from the uncompressed Single and Filler sources (`e20_answers_*`), the
+length-by-composition experiment (`e21_*`), the four additional seeds of the length-matched control (`e23_*`) and
+the verdicts of the original 25-token experiment (`gate2_scored_*`). For other auxiliary
 experiments only the summary tables are included.
 
 Experiment reports: `results/e15/` (matched prompt), `results/e16/` (filler audit), `results/e17/` (evaluator audit),
 `results/e18/` (first write against fourth write), `results/e19/` (length by position), `results/e6/` (contextualized
-inputs). Each directory holds a summary table (`*_summary.csv`) and a report (`*_report.md`) written by the
+inputs), `results/e20/` (full-source reading and loss stage), `results/e21/` (source length by evidence composition),
+`results/e23/` (multi-seed replication of the length-matched control). Each directory holds a summary table (`*_summary.csv`) and a report (`*_report.md`) written by the
 corresponding `scripts/analyze_*.py`.
 
 ## Data
@@ -63,7 +68,13 @@ The analyses can be re-run from the stored chains and verdicts without any model
 ```
 python scripts/analyze_e19.py     # results/e19/e19_summary.csv, e19_cells.csv, e19_report.md
 python scripts/analyze_e17.py     # results/e17/e17_report.md
+python scripts/analyze_e20.py     # results/e20/e20_summary.csv, e20_stage.csv, e20_report.md
+python scripts/analyze_e21.py     # results/e21/e21_summary.csv, e21_cells.csv, e21_report.md
+python scripts/analyze_e23.py     # results/e23/e23_summary.csv, e23_cells.csv, e23_attempts.csv, e23_report.md
 ```
+
+`analyze_e23.py` also loads the Qwen3-14B tokenizer (memory lengths). Generation and scoring of the three experiments:
+`scripts/e2x_chain.sh` (`scripts/run_e2x.py e20 | e21 | e23`).
 
 Stored evaluator verdicts are the record of the paper; the evaluator is stochastic, so re-scoring gives slightly
 different verdicts.

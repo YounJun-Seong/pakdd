@@ -80,7 +80,10 @@ def replay_rows(model, sample, spans, mode, cond, budget, cache, enc, dec, legac
 
 
 # ----------------------------------------------------------------- P0-2 regen
-async def notrunc_chain(model, sample, spans, mode, cond, budget, cache, sem, enc, material_override=None, n_writes=4):
+async def notrunc_chain(model, sample, spans, mode, cond, budget, cache, sem, enc, material_override=None, n_writes=4,
+                        base_seed=42):
+    # base_seed != 42: Phase-6 E23 multi-seed replication (the seed enters the cache key; seed 42 keeps the old keys)
+    sd = {} if base_seed == 42 else {"seed": base_seed}
     t = sample["target"]
     ico = {k: t[k] for k in ("intervention", "comparator", "outcome")}
     material = material_override or material_text(sample["pmcid"], spans)   # override: Phase-6 E13 long source
@@ -106,11 +109,11 @@ async def notrunc_chain(model, sample, spans, mode, cond, budget, cache, sem, en
             key = full_cache_key(model, {"task": "p5_notrunc_step", "sid": sample["sample_id"],
                                          "mode": mode, "cond": cond, "budget": budget,
                                          "step": step, "attempt": a, "instructed": ib,
-                                         "material": material})
+                                         "material": material, **sd})
             raw = (await chat(model, [{"role": "system", "content": system},
                                       {"role": "user", "content": user}],
                               cache=cache, cache_key=key, sem=sem,
-                              temperature=0.7, seed=42 + 100 * a,
+                              temperature=0.7, seed=base_seed + 100 * a,
                               max_tokens=budget * 2 + 64)).strip()
             if len(enc(model, raw)) <= budget:
                 fitted = raw
@@ -125,10 +128,10 @@ async def notrunc_chain(model, sample, spans, mode, cond, budget, cache, sem, en
     user = FINAL_USER.format(material=memory, budget=FINAL_ANSWER_TOKENS,
                              words=int(FINAL_ANSWER_TOKENS * 0.75), **ico)
     key = full_cache_key(model, {"task": "p5_notrunc_final", "sid": sample["sample_id"],
-                                 "mode": mode, "cond": cond, "budget": budget, "material": memory})
+                                 "mode": mode, "cond": cond, "budget": budget, "material": memory, **sd})
     text = (await chat(model, [{"role": "system", "content": FINAL_SYSTEM},
                                {"role": "user", "content": user}],
-                       cache=cache, cache_key=key, sem=sem, temperature=0.7, seed=42,
+                       cache=cache, cache_key=key, sem=sem, temperature=0.7, seed=base_seed,
                        max_tokens=FINAL_ANSWER_TOKENS * 2 + 64)).strip()
     return {"sample_id": sample["sample_id"], "exp": "notrunc", "mode": mode, "cond": cond,
             "budget": budget, "depth": 5, "failed": False, "attempts": attempts,

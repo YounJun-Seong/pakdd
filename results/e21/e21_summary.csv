@@ -1,0 +1,613 @@
+family,outcome,set,n,estimand,est,lo,hi
+original,ELR,primary (common cohort),235,"G|cell (competing, L=200)",0.0,-3.83,3.83
+original,ELR,primary (common cohort),235,"G|cell (competing, L=500)",-5.532,-9.362,-2.128
+original,ELR,primary (common cohort),235,"G|cell (competing, L=1000)",-7.234,-11.915,-2.979
+original,ELR,primary (common cohort),235,G|LENGTH(competing),-7.234,-13.191,-1.702
+original,ELR,primary (common cohort),235,G|step 200->500 (competing),-5.532,-11.064,-0.426
+original,ELR,primary (common cohort),235,G|step 500->1000 (competing),-1.702,-6.383,2.979
+original,ELR,primary (common cohort),235,"G|cell (noncompeting, L=200)",-0.851,-3.83,2.128
+original,ELR,primary (common cohort),235,"G|cell (noncompeting, L=500)",-6.809,-10.638,-2.979
+original,ELR,primary (common cohort),235,"G|cell (noncompeting, L=1000)",-8.936,-13.191,-5.106
+original,ELR,primary (common cohort),235,G|LENGTH(noncompeting),-8.085,-13.191,-2.553
+original,ELR,primary (common cohort),235,G|step 200->500 (noncompeting),-5.957,-11.064,-0.426
+original,ELR,primary (common cohort),235,G|step 500->1000 (noncompeting),-2.128,-7.234,2.979
+original,ELR,primary (common cohort),235,G|COMPOSITION(L=200),0.851,-4.255,5.957
+original,ELR,primary (common cohort),235,G|COMPOSITION(L=500),1.277,-4.255,6.809
+original,ELR,primary (common cohort),235,G|COMPOSITION(L=1000),1.702,-4.255,7.234
+original,ELR,primary (common cohort),235,G|INTERACTION,0.851,-6.809,8.085
+original,ELR,primary (common cohort),235,G|LENGTH pooled,-7.66,-11.915,-3.617
+original,ELR,primary (common cohort),235,"blind|cell (competing, L=200)",93.617,90.213,96.596
+original,ELR,primary (common cohort),235,"blind|cell (competing, L=500)",90.213,86.383,94.043
+original,ELR,primary (common cohort),235,"blind|cell (competing, L=1000)",87.234,82.979,91.064
+original,ELR,primary (common cohort),235,blind|LENGTH(competing),-6.383,-11.064,-1.702
+original,ELR,primary (common cohort),235,blind|step 200->500 (competing),-3.404,-7.66,0.436
+original,ELR,primary (common cohort),235,blind|step 500->1000 (competing),-2.979,-7.234,1.277
+original,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=200)",95.745,93.191,98.298
+original,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=500)",88.936,85.106,92.766
+original,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=1000)",85.957,81.277,90.213
+original,ELR,primary (common cohort),235,blind|LENGTH(noncompeting),-9.787,-14.468,-5.106
+original,ELR,primary (common cohort),235,blind|step 200->500 (noncompeting),-6.809,-11.064,-2.553
+original,ELR,primary (common cohort),235,blind|step 500->1000 (noncompeting),-2.979,-8.085,2.128
+original,ELR,primary (common cohort),235,blind|COMPOSITION(L=200),-2.128,-5.957,1.702
+original,ELR,primary (common cohort),235,blind|COMPOSITION(L=500),1.277,-3.83,6.383
+original,ELR,primary (common cohort),235,blind|COMPOSITION(L=1000),1.277,-4.255,6.383
+original,ELR,primary (common cohort),235,blind|INTERACTION,3.404,-2.553,9.362
+original,ELR,primary (common cohort),235,blind|LENGTH pooled,-8.085,-11.702,-4.681
+original,ELR,primary (common cohort),235,"aware|cell (competing, L=200)",93.617,90.213,96.596
+original,ELR,primary (common cohort),235,"aware|cell (competing, L=500)",95.745,93.191,98.298
+original,ELR,primary (common cohort),235,"aware|cell (competing, L=1000)",94.468,91.489,97.021
+original,ELR,primary (common cohort),235,aware|LENGTH(competing),0.851,-2.553,4.681
+original,ELR,primary (common cohort),235,aware|step 200->500 (competing),2.128,-1.277,5.957
+original,ELR,primary (common cohort),235,aware|step 500->1000 (competing),-1.277,-4.681,2.128
+original,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=200)",96.596,94.043,98.723
+original,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=500)",95.745,93.191,98.298
+original,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=1000)",94.894,91.915,97.447
+original,ELR,primary (common cohort),235,aware|LENGTH(noncompeting),-1.702,-4.681,1.277
+original,ELR,primary (common cohort),235,aware|step 200->500 (noncompeting),-0.851,-4.255,2.553
+original,ELR,primary (common cohort),235,aware|step 500->1000 (noncompeting),-0.851,-3.404,1.702
+original,ELR,primary (common cohort),235,aware|COMPOSITION(L=200),-2.979,-6.809,0.851
+original,ELR,primary (common cohort),235,aware|COMPOSITION(L=500),0.0,-3.404,2.979
+original,ELR,primary (common cohort),235,aware|COMPOSITION(L=1000),-0.426,-3.83,3.404
+original,ELR,primary (common cohort),235,aware|INTERACTION,2.553,-2.128,7.66
+original,ELR,primary (common cohort),235,aware|LENGTH pooled,-0.426,-2.766,1.915
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=200)",0.0,-3.947,3.947
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=500)",-5.702,-10.088,-1.754
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=1000)",-7.456,-12.281,-3.07
+original,ELR,excluding the 7 E16 leak sources,228,G|LENGTH(competing),-7.456,-13.596,-1.754
+original,ELR,excluding the 7 E16 leak sources,228,G|step 200->500 (competing),-5.702,-11.404,-0.439
+original,ELR,excluding the 7 E16 leak sources,228,G|step 500->1000 (competing),-1.754,-7.018,3.07
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=200)",-1.316,-4.386,1.754
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=500)",-7.018,-11.404,-3.07
+original,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=1000)",-9.211,-13.596,-5.263
+original,ELR,excluding the 7 E16 leak sources,228,G|LENGTH(noncompeting),-7.895,-13.596,-2.632
+original,ELR,excluding the 7 E16 leak sources,228,G|step 200->500 (noncompeting),-5.702,-11.404,-0.428
+original,ELR,excluding the 7 E16 leak sources,228,G|step 500->1000 (noncompeting),-2.193,-7.895,3.07
+original,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=200),1.316,-3.509,6.14
+original,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=500),1.316,-4.386,7.018
+original,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=1000),1.754,-3.947,7.018
+original,ELR,excluding the 7 E16 leak sources,228,G|INTERACTION,0.439,-7.018,7.895
+original,ELR,excluding the 7 E16 leak sources,228,G|LENGTH pooled,-7.675,-12.061,-3.509
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=200)",93.421,89.912,96.491
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=500)",89.912,85.965,93.421
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=1000)",86.842,82.018,91.228
+original,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH(competing),-6.579,-11.404,-1.754
+original,ELR,excluding the 7 E16 leak sources,228,blind|step 200->500 (competing),-3.509,-7.895,0.877
+original,ELR,excluding the 7 E16 leak sources,228,blind|step 500->1000 (competing),-3.07,-7.456,1.316
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=200)",95.614,92.544,98.246
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=500)",88.596,84.211,92.544
+original,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=1000)",85.965,81.14,90.351
+original,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH(noncompeting),-9.649,-14.474,-5.263
+original,ELR,excluding the 7 E16 leak sources,228,blind|step 200->500 (noncompeting),-7.018,-11.842,-2.632
+original,ELR,excluding the 7 E16 leak sources,228,blind|step 500->1000 (noncompeting),-2.632,-7.895,2.632
+original,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=200),-2.193,-6.14,1.754
+original,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=500),1.316,-3.947,6.579
+original,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=1000),0.877,-4.386,6.14
+original,ELR,excluding the 7 E16 leak sources,228,blind|INTERACTION,3.07,-3.07,9.211
+original,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH pooled,-8.114,-11.628,-4.6
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=200)",93.421,89.912,96.491
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=500)",95.614,92.544,97.807
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=1000)",94.298,91.228,96.93
+original,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH(competing),0.877,-2.632,4.825
+original,ELR,excluding the 7 E16 leak sources,228,aware|step 200->500 (competing),2.193,-1.316,6.14
+original,ELR,excluding the 7 E16 leak sources,228,aware|step 500->1000 (competing),-1.316,-4.825,2.193
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=200)",96.93,94.737,99.123
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=500)",95.614,92.982,98.246
+original,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=1000)",95.175,92.105,97.807
+original,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH(noncompeting),-1.754,-4.825,1.316
+original,ELR,excluding the 7 E16 leak sources,228,aware|step 200->500 (noncompeting),-1.316,-4.386,2.193
+original,ELR,excluding the 7 E16 leak sources,228,aware|step 500->1000 (noncompeting),-0.439,-3.07,2.193
+original,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=200),-3.509,-7.456,0.439
+original,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=500),0.0,-3.509,3.509
+original,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=1000),-0.877,-4.386,2.632
+original,ELR,excluding the 7 E16 leak sources,228,aware|INTERACTION,2.632,-2.204,7.895
+original,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH pooled,-0.439,-2.851,1.974
+original,ELR,all articles with both sources,279,"G|cell (competing, L=200)",1.075,-2.509,4.659
+original,ELR,all articles with both sources,279,"G|cell (competing, L=500)",-5.735,-9.677,-2.151
+original,ELR,all articles with both sources,279,"G|cell (competing, L=1000)",-7.168,-11.111,-3.217
+original,ELR,all articles with both sources,279,G|LENGTH(competing),-8.244,-13.62,-3.226
+original,ELR,all articles with both sources,279,G|step 200->500 (competing),-6.81,-11.828,-2.151
+original,ELR,all articles with both sources,279,G|step 500->1000 (competing),-1.434,-6.093,3.226
+original,ELR,all articles with both sources,279,"G|cell (noncompeting, L=200)",0.358,-2.518,3.226
+original,ELR,all articles with both sources,279,"G|cell (noncompeting, L=500)",-5.735,-8.961,-2.509
+original,ELR,all articles with both sources,279,"G|cell (noncompeting, L=1000)",-9.319,-13.262,-5.376
+original,ELR,all articles with both sources,279,G|LENGTH(noncompeting),-9.677,-14.695,-4.659
+original,ELR,all articles with both sources,279,G|step 200->500 (noncompeting),-6.093,-10.403,-1.425
+original,ELR,all articles with both sources,279,G|step 500->1000 (noncompeting),-3.584,-8.253,1.084
+original,ELR,all articles with both sources,279,G|COMPOSITION(L=200),0.717,-3.584,5.018
+original,ELR,all articles with both sources,279,G|COMPOSITION(L=500),0.0,-5.018,5.018
+original,ELR,all articles with both sources,279,G|COMPOSITION(L=1000),2.151,-2.867,6.81
+original,ELR,all articles with both sources,279,G|INTERACTION,1.434,-5.018,7.527
+original,ELR,all articles with both sources,279,G|LENGTH pooled,-8.961,-13.082,-5.018
+original,ELR,all articles with both sources,279,"blind|cell (competing, L=200)",94.265,91.398,96.774
+original,ELR,all articles with both sources,279,"blind|cell (competing, L=500)",89.606,86.022,92.832
+original,ELR,all articles with both sources,279,"blind|cell (competing, L=1000)",87.455,83.513,91.398
+original,ELR,all articles with both sources,279,blind|LENGTH(competing),-6.81,-11.111,-2.509
+original,ELR,all articles with both sources,279,blind|step 200->500 (competing),-4.659,-8.602,-0.717
+original,ELR,all articles with both sources,279,blind|step 500->1000 (competing),-2.151,-5.744,1.792
+original,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=200)",95.341,92.473,97.491
+original,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=500)",90.323,86.738,93.548
+original,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=1000)",86.022,82.079,89.964
+original,ELR,all articles with both sources,279,blind|LENGTH(noncompeting),-9.319,-13.62,-5.376
+original,ELR,all articles with both sources,279,blind|step 200->500 (noncompeting),-5.018,-8.602,-1.075
+original,ELR,all articles with both sources,279,blind|step 500->1000 (noncompeting),-4.301,-8.961,0.0
+original,ELR,all articles with both sources,279,blind|COMPOSITION(L=200),-1.075,-4.301,2.151
+original,ELR,all articles with both sources,279,blind|COMPOSITION(L=500),-0.717,-5.376,3.584
+original,ELR,all articles with both sources,279,blind|COMPOSITION(L=1000),1.434,-3.226,6.093
+original,ELR,all articles with both sources,279,blind|INTERACTION,2.509,-2.867,7.885
+original,ELR,all articles with both sources,279,blind|LENGTH pooled,-8.065,-11.111,-4.839
+original,ELR,all articles with both sources,279,"aware|cell (competing, L=200)",93.19,89.964,96.057
+original,ELR,all articles with both sources,279,"aware|cell (competing, L=500)",95.341,92.832,97.491
+original,ELR,all articles with both sources,279,"aware|cell (competing, L=1000)",94.624,91.756,97.133
+original,ELR,all articles with both sources,279,aware|LENGTH(competing),1.434,-1.792,4.659
+original,ELR,all articles with both sources,279,aware|step 200->500 (competing),2.151,-1.075,5.376
+original,ELR,all articles with both sources,279,aware|step 500->1000 (competing),-0.717,-3.584,2.151
+original,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=200)",94.982,92.473,97.491
+original,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=500)",96.057,93.548,98.208
+original,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=1000)",95.341,92.832,97.5
+original,ELR,all articles with both sources,279,aware|LENGTH(noncompeting),0.358,-2.867,3.226
+original,ELR,all articles with both sources,279,aware|step 200->500 (noncompeting),1.075,-2.151,4.301
+original,ELR,all articles with both sources,279,aware|step 500->1000 (noncompeting),-0.717,-2.867,1.434
+original,ELR,all articles with both sources,279,aware|COMPOSITION(L=200),-1.792,-5.376,1.792
+original,ELR,all articles with both sources,279,aware|COMPOSITION(L=500),-0.717,-3.584,2.151
+original,ELR,all articles with both sources,279,aware|COMPOSITION(L=1000),-0.717,-3.584,2.509
+original,ELR,all articles with both sources,279,aware|INTERACTION,1.075,-3.226,5.376
+original,ELR,all articles with both sources,279,aware|LENGTH pooled,0.896,-1.434,3.051
+original,WP,primary (common cohort),235,"G|cell (competing, L=200)",-3.404,-7.234,0.426
+original,WP,primary (common cohort),235,"G|cell (competing, L=500)",-9.787,-14.468,-5.532
+original,WP,primary (common cohort),235,"G|cell (competing, L=1000)",-12.34,-17.872,-7.234
+original,WP,primary (common cohort),235,G|LENGTH(competing),-8.936,-14.894,-3.404
+original,WP,primary (common cohort),235,G|step 200->500 (competing),-6.383,-11.915,-0.426
+original,WP,primary (common cohort),235,G|step 500->1000 (competing),-2.553,-8.511,3.404
+original,WP,primary (common cohort),235,"G|cell (noncompeting, L=200)",-3.83,-7.66,0.0
+original,WP,primary (common cohort),235,"G|cell (noncompeting, L=500)",-13.617,-18.298,-8.936
+original,WP,primary (common cohort),235,"G|cell (noncompeting, L=1000)",-15.745,-21.277,-10.638
+original,WP,primary (common cohort),235,G|LENGTH(noncompeting),-11.915,-18.298,-5.957
+original,WP,primary (common cohort),235,G|step 200->500 (noncompeting),-9.787,-15.319,-4.255
+original,WP,primary (common cohort),235,G|step 500->1000 (noncompeting),-2.128,-8.085,3.83
+original,WP,primary (common cohort),235,G|COMPOSITION(L=200),0.426,-5.106,5.532
+original,WP,primary (common cohort),235,G|COMPOSITION(L=500),3.83,-2.553,10.213
+original,WP,primary (common cohort),235,G|COMPOSITION(L=1000),3.404,-3.84,10.223
+original,WP,primary (common cohort),235,G|INTERACTION,2.979,-5.532,11.489
+original,WP,primary (common cohort),235,G|LENGTH pooled,-10.426,-14.686,-6.383
+original,WP,primary (common cohort),235,"blind|cell (competing, L=200)",90.213,86.372,93.617
+original,WP,primary (common cohort),235,"blind|cell (competing, L=500)",85.106,80.851,89.362
+original,WP,primary (common cohort),235,"blind|cell (competing, L=1000)",81.277,75.745,85.957
+original,WP,primary (common cohort),235,blind|LENGTH(competing),-8.936,-14.479,-3.83
+original,WP,primary (common cohort),235,blind|step 200->500 (competing),-5.106,-9.787,0.0
+original,WP,primary (common cohort),235,blind|step 500->1000 (competing),-3.83,-8.511,0.851
+original,WP,primary (common cohort),235,"blind|cell (noncompeting, L=200)",91.915,88.5,94.894
+original,WP,primary (common cohort),235,"blind|cell (noncompeting, L=500)",82.979,78.298,87.66
+original,WP,primary (common cohort),235,"blind|cell (noncompeting, L=1000)",76.17,70.638,81.277
+original,WP,primary (common cohort),235,blind|LENGTH(noncompeting),-15.745,-21.702,-10.213
+original,WP,primary (common cohort),235,blind|step 200->500 (noncompeting),-8.936,-13.191,-5.106
+original,WP,primary (common cohort),235,blind|step 500->1000 (noncompeting),-6.809,-12.34,-1.702
+original,WP,primary (common cohort),235,blind|COMPOSITION(L=200),-1.702,-5.957,2.553
+original,WP,primary (common cohort),235,blind|COMPOSITION(L=500),2.128,-2.979,7.234
+original,WP,primary (common cohort),235,blind|COMPOSITION(L=1000),5.106,-0.851,11.489
+original,WP,primary (common cohort),235,blind|INTERACTION,6.809,-0.851,14.468
+original,WP,primary (common cohort),235,blind|LENGTH pooled,-12.34,-16.596,-8.718
+original,WP,primary (common cohort),235,"aware|cell (competing, L=200)",93.617,90.213,96.596
+original,WP,primary (common cohort),235,"aware|cell (competing, L=500)",94.894,91.915,97.447
+original,WP,primary (common cohort),235,"aware|cell (competing, L=1000)",93.617,90.213,96.596
+original,WP,primary (common cohort),235,aware|LENGTH(competing),0.0,-3.404,3.404
+original,WP,primary (common cohort),235,aware|step 200->500 (competing),1.277,-2.128,5.106
+original,WP,primary (common cohort),235,aware|step 500->1000 (competing),-1.277,-4.681,1.702
+original,WP,primary (common cohort),235,"aware|cell (noncompeting, L=200)",95.745,93.191,98.298
+original,WP,primary (common cohort),235,"aware|cell (noncompeting, L=500)",96.596,94.043,98.723
+original,WP,primary (common cohort),235,"aware|cell (noncompeting, L=1000)",91.915,88.511,95.319
+original,WP,primary (common cohort),235,aware|LENGTH(noncompeting),-3.83,-7.234,-0.851
+original,WP,primary (common cohort),235,aware|step 200->500 (noncompeting),0.851,-2.128,4.255
+original,WP,primary (common cohort),235,aware|step 500->1000 (noncompeting),-4.681,-8.085,-1.277
+original,WP,primary (common cohort),235,aware|COMPOSITION(L=200),-2.128,-5.957,1.277
+original,WP,primary (common cohort),235,aware|COMPOSITION(L=500),-1.702,-4.681,1.277
+original,WP,primary (common cohort),235,aware|COMPOSITION(L=1000),1.702,-2.128,5.957
+original,WP,primary (common cohort),235,aware|INTERACTION,3.83,-0.851,8.511
+original,WP,primary (common cohort),235,aware|LENGTH pooled,-1.915,-4.468,0.638
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=200)",-3.07,-7.018,0.877
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=500)",-9.649,-14.474,-5.263
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=1000)",-12.719,-18.421,-7.018
+original,WP,excluding the 7 E16 leak sources,228,G|LENGTH(competing),-9.649,-15.789,-3.509
+original,WP,excluding the 7 E16 leak sources,228,G|step 200->500 (competing),-6.579,-12.281,-1.316
+original,WP,excluding the 7 E16 leak sources,228,G|step 500->1000 (competing),-3.07,-8.772,2.643
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=200)",-3.947,-8.333,0.0
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=500)",-13.596,-18.421,-8.772
+original,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=1000)",-15.789,-21.93,-10.526
+original,WP,excluding the 7 E16 leak sources,228,G|LENGTH(noncompeting),-11.842,-18.421,-5.702
+original,WP,excluding the 7 E16 leak sources,228,G|step 200->500 (noncompeting),-9.649,-15.351,-4.386
+original,WP,excluding the 7 E16 leak sources,228,G|step 500->1000 (noncompeting),-2.193,-8.772,3.947
+original,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=200),0.877,-3.947,5.702
+original,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=500),3.947,-2.632,10.526
+original,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=1000),3.07,-3.947,10.526
+original,WP,excluding the 7 E16 leak sources,228,G|INTERACTION,2.193,-6.579,10.965
+original,WP,excluding the 7 E16 leak sources,228,G|LENGTH pooled,-10.746,-15.351,-6.36
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=200)",90.351,86.404,93.86
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=500)",85.088,80.263,89.474
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=1000)",80.702,75.866,85.965
+original,WP,excluding the 7 E16 leak sources,228,blind|LENGTH(competing),-9.649,-15.351,-4.375
+original,WP,excluding the 7 E16 leak sources,228,blind|step 200->500 (competing),-5.263,-10.088,-0.439
+original,WP,excluding the 7 E16 leak sources,228,blind|step 500->1000 (competing),-4.386,-9.649,0.877
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=200)",91.667,88.158,94.737
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=500)",82.895,78.059,87.719
+original,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=1000)",75.877,70.175,81.579
+original,WP,excluding the 7 E16 leak sources,228,blind|LENGTH(noncompeting),-15.789,-21.93,-10.515
+original,WP,excluding the 7 E16 leak sources,228,blind|step 200->500 (noncompeting),-8.772,-13.158,-4.825
+original,WP,excluding the 7 E16 leak sources,228,blind|step 500->1000 (noncompeting),-7.018,-12.719,-1.316
+original,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=200),-1.316,-5.702,3.07
+original,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=500),2.193,-3.509,7.895
+original,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=1000),4.825,-0.877,10.965
+original,WP,excluding the 7 E16 leak sources,228,blind|INTERACTION,6.14,-1.316,14.035
+original,WP,excluding the 7 E16 leak sources,228,blind|LENGTH pooled,-12.719,-16.667,-8.772
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=200)",93.421,90.351,96.491
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=500)",94.737,91.667,97.368
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=1000)",93.421,89.912,96.491
+original,WP,excluding the 7 E16 leak sources,228,aware|LENGTH(competing),0.0,-3.947,3.947
+original,WP,excluding the 7 E16 leak sources,228,aware|step 200->500 (competing),1.316,-2.193,4.825
+original,WP,excluding the 7 E16 leak sources,228,aware|step 500->1000 (competing),-1.316,-4.825,2.204
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=200)",95.614,92.544,98.246
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=500)",96.491,93.86,98.684
+original,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=1000)",91.667,87.719,95.175
+original,WP,excluding the 7 E16 leak sources,228,aware|LENGTH(noncompeting),-3.947,-7.456,-0.877
+original,WP,excluding the 7 E16 leak sources,228,aware|step 200->500 (noncompeting),0.877,-2.193,4.386
+original,WP,excluding the 7 E16 leak sources,228,aware|step 500->1000 (noncompeting),-4.825,-8.772,-1.316
+original,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=200),-2.193,-6.14,1.316
+original,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=500),-1.754,-4.825,1.316
+original,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=1000),1.754,-2.632,6.14
+original,WP,excluding the 7 E16 leak sources,228,aware|INTERACTION,3.947,-0.877,8.772
+original,WP,excluding the 7 E16 leak sources,228,aware|LENGTH pooled,-1.974,-4.605,0.439
+original,WP,all articles with both sources,279,"G|cell (competing, L=200)",-5.018,-8.961,-1.425
+original,WP,all articles with both sources,279,"G|cell (competing, L=500)",-9.677,-13.978,-5.376
+original,WP,all articles with both sources,279,"G|cell (competing, L=1000)",-12.545,-17.563,-7.527
+original,WP,all articles with both sources,279,G|LENGTH(competing),-7.527,-12.903,-1.792
+original,WP,all articles with both sources,279,G|step 200->500 (competing),-4.659,-10.036,1.075
+original,WP,all articles with both sources,279,G|step 500->1000 (competing),-2.867,-7.885,2.509
+original,WP,all articles with both sources,279,"G|cell (noncompeting, L=200)",-3.943,-7.527,0.0
+original,WP,all articles with both sources,279,"G|cell (noncompeting, L=500)",-14.337,-18.638,-10.036
+original,WP,all articles with both sources,279,"G|cell (noncompeting, L=1000)",-17.204,-22.222,-12.186
+original,WP,all articles with both sources,279,G|LENGTH(noncompeting),-13.262,-18.638,-7.527
+original,WP,all articles with both sources,279,G|step 200->500 (noncompeting),-10.394,-15.412,-5.735
+original,WP,all articles with both sources,279,G|step 500->1000 (noncompeting),-2.867,-8.244,2.509
+original,WP,all articles with both sources,279,G|COMPOSITION(L=200),-1.075,-6.093,3.584
+original,WP,all articles with both sources,279,G|COMPOSITION(L=500),4.659,-1.075,10.753
+original,WP,all articles with both sources,279,G|COMPOSITION(L=1000),4.659,-1.443,11.111
+original,WP,all articles with both sources,279,G|INTERACTION,5.735,-1.792,13.62
+original,WP,all articles with both sources,279,G|LENGTH pooled,-10.394,-14.337,-6.093
+original,WP,all articles with both sources,279,"blind|cell (competing, L=200)",88.889,85.305,92.124
+original,WP,all articles with both sources,279,"blind|cell (competing, L=500)",84.229,79.928,88.172
+original,WP,all articles with both sources,279,"blind|cell (competing, L=1000)",80.645,75.986,85.305
+original,WP,all articles with both sources,279,blind|LENGTH(competing),-8.244,-12.903,-3.575
+original,WP,all articles with both sources,279,blind|step 200->500 (competing),-4.659,-9.319,0.0
+original,WP,all articles with both sources,279,blind|step 500->1000 (competing),-3.584,-7.885,0.367
+original,WP,all articles with both sources,279,"blind|cell (noncompeting, L=200)",91.039,87.455,94.265
+original,WP,all articles with both sources,279,"blind|cell (noncompeting, L=500)",82.079,77.419,86.38
+original,WP,all articles with both sources,279,"blind|cell (noncompeting, L=1000)",75.627,70.609,80.287
+original,WP,all articles with both sources,279,blind|LENGTH(noncompeting),-15.412,-20.072,-10.385
+original,WP,all articles with both sources,279,blind|step 200->500 (noncompeting),-8.961,-12.545,-5.376
+original,WP,all articles with both sources,279,blind|step 500->1000 (noncompeting),-6.452,-11.111,-1.792
+original,WP,all articles with both sources,279,blind|COMPOSITION(L=200),-2.151,-6.093,2.151
+original,WP,all articles with both sources,279,blind|COMPOSITION(L=500),2.151,-2.867,7.168
+original,WP,all articles with both sources,279,blind|COMPOSITION(L=1000),5.018,-0.358,10.394
+original,WP,all articles with both sources,279,blind|INTERACTION,7.168,0.358,13.62
+original,WP,all articles with both sources,279,blind|LENGTH pooled,-11.828,-15.233,-8.065
+original,WP,all articles with both sources,279,"aware|cell (competing, L=200)",93.907,91.039,96.416
+original,WP,all articles with both sources,279,"aware|cell (competing, L=500)",93.907,91.039,96.416
+original,WP,all articles with both sources,279,"aware|cell (competing, L=1000)",93.19,90.314,96.057
+original,WP,all articles with both sources,279,aware|LENGTH(competing),-0.717,-4.301,2.509
+original,WP,all articles with both sources,279,aware|step 200->500 (competing),0.0,-3.584,3.226
+original,WP,all articles with both sources,279,aware|step 500->1000 (competing),-0.717,-3.943,2.509
+original,WP,all articles with both sources,279,"aware|cell (noncompeting, L=200)",94.982,92.115,97.491
+original,WP,all articles with both sources,279,"aware|cell (noncompeting, L=500)",96.416,94.256,98.566
+original,WP,all articles with both sources,279,"aware|cell (noncompeting, L=1000)",92.832,89.606,95.699
+original,WP,all articles with both sources,279,aware|LENGTH(noncompeting),-2.151,-5.018,0.717
+original,WP,all articles with both sources,279,aware|step 200->500 (noncompeting),1.434,-1.434,4.301
+original,WP,all articles with both sources,279,aware|step 500->1000 (noncompeting),-3.584,-6.452,-0.717
+original,WP,all articles with both sources,279,aware|COMPOSITION(L=200),-1.075,-4.301,2.151
+original,WP,all articles with both sources,279,aware|COMPOSITION(L=500),-2.509,-5.735,0.358
+original,WP,all articles with both sources,279,aware|COMPOSITION(L=1000),0.358,-3.584,3.943
+original,WP,all articles with both sources,279,aware|INTERACTION,1.434,-2.867,5.735
+original,WP,all articles with both sources,279,aware|LENGTH pooled,-1.434,-3.763,0.717
+matched,ELR,primary (common cohort),235,"G|cell (competing, L=200)",-1.702,-5.532,2.128
+matched,ELR,primary (common cohort),235,"G|cell (competing, L=500)",-2.553,-6.383,1.277
+matched,ELR,primary (common cohort),235,"G|cell (competing, L=1000)",-5.106,-9.372,-0.851
+matched,ELR,primary (common cohort),235,G|LENGTH(competing),-3.404,-8.936,2.128
+matched,ELR,primary (common cohort),235,G|step 200->500 (competing),-0.851,-5.957,4.255
+matched,ELR,primary (common cohort),235,G|step 500->1000 (competing),-2.553,-7.66,2.128
+matched,ELR,primary (common cohort),235,"G|cell (noncompeting, L=200)",-0.426,-3.83,2.979
+matched,ELR,primary (common cohort),235,"G|cell (noncompeting, L=500)",-6.809,-11.064,-2.968
+matched,ELR,primary (common cohort),235,"G|cell (noncompeting, L=1000)",-6.383,-11.489,-1.702
+matched,ELR,primary (common cohort),235,G|LENGTH(noncompeting),-5.957,-11.064,-1.266
+matched,ELR,primary (common cohort),235,G|step 200->500 (noncompeting),-6.383,-11.064,-1.277
+matched,ELR,primary (common cohort),235,G|step 500->1000 (noncompeting),0.426,-5.532,6.383
+matched,ELR,primary (common cohort),235,G|COMPOSITION(L=200),-1.277,-5.957,3.404
+matched,ELR,primary (common cohort),235,G|COMPOSITION(L=500),4.255,-1.277,9.787
+matched,ELR,primary (common cohort),235,G|COMPOSITION(L=1000),1.277,-5.117,7.66
+matched,ELR,primary (common cohort),235,G|INTERACTION,2.553,-4.255,9.787
+matched,ELR,primary (common cohort),235,G|LENGTH pooled,-4.681,-8.723,-0.638
+matched,ELR,primary (common cohort),235,"blind|cell (competing, L=200)",92.34,88.936,95.745
+matched,ELR,primary (common cohort),235,"blind|cell (competing, L=500)",91.915,88.511,95.319
+matched,ELR,primary (common cohort),235,"blind|cell (competing, L=1000)",88.936,85.106,92.766
+matched,ELR,primary (common cohort),235,blind|LENGTH(competing),-3.404,-8.085,1.277
+matched,ELR,primary (common cohort),235,blind|step 200->500 (competing),-0.426,-3.84,3.404
+matched,ELR,primary (common cohort),235,blind|step 500->1000 (competing),-2.979,-7.234,0.851
+matched,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=200)",95.319,92.34,97.872
+matched,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=500)",89.362,85.106,93.191
+matched,ELR,primary (common cohort),235,"blind|cell (noncompeting, L=1000)",87.66,82.979,91.489
+matched,ELR,primary (common cohort),235,blind|LENGTH(noncompeting),-7.66,-11.915,-3.404
+matched,ELR,primary (common cohort),235,blind|step 200->500 (noncompeting),-5.957,-10.213,-1.702
+matched,ELR,primary (common cohort),235,blind|step 500->1000 (noncompeting),-1.702,-6.383,2.553
+matched,ELR,primary (common cohort),235,blind|COMPOSITION(L=200),-2.979,-6.819,0.862
+matched,ELR,primary (common cohort),235,blind|COMPOSITION(L=500),2.553,-2.128,7.66
+matched,ELR,primary (common cohort),235,blind|COMPOSITION(L=1000),1.277,-3.83,5.968
+matched,ELR,primary (common cohort),235,blind|INTERACTION,4.255,-1.702,10.213
+matched,ELR,primary (common cohort),235,blind|LENGTH pooled,-5.532,-9.149,-2.128
+matched,ELR,primary (common cohort),235,"aware|cell (competing, L=200)",94.043,91.064,97.021
+matched,ELR,primary (common cohort),235,"aware|cell (competing, L=500)",94.468,91.489,97.021
+matched,ELR,primary (common cohort),235,"aware|cell (competing, L=1000)",94.043,91.064,97.021
+matched,ELR,primary (common cohort),235,aware|LENGTH(competing),0.0,-3.83,3.404
+matched,ELR,primary (common cohort),235,aware|step 200->500 (competing),0.426,-2.979,3.83
+matched,ELR,primary (common cohort),235,aware|step 500->1000 (competing),-0.426,-3.404,2.553
+matched,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=200)",95.745,93.181,97.872
+matched,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=500)",96.17,93.617,98.298
+matched,ELR,primary (common cohort),235,"aware|cell (noncompeting, L=1000)",94.043,91.064,97.021
+matched,ELR,primary (common cohort),235,aware|LENGTH(noncompeting),-1.702,-4.681,1.702
+matched,ELR,primary (common cohort),235,aware|step 200->500 (noncompeting),0.426,-2.553,3.404
+matched,ELR,primary (common cohort),235,aware|step 500->1000 (noncompeting),-2.128,-5.106,0.851
+matched,ELR,primary (common cohort),235,aware|COMPOSITION(L=200),-1.702,-5.106,2.128
+matched,ELR,primary (common cohort),235,aware|COMPOSITION(L=500),-1.702,-5.532,2.128
+matched,ELR,primary (common cohort),235,aware|COMPOSITION(L=1000),0.0,-4.255,4.255
+matched,ELR,primary (common cohort),235,aware|INTERACTION,1.702,-2.979,6.383
+matched,ELR,primary (common cohort),235,aware|LENGTH pooled,-0.851,-3.404,1.702
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=200)",-1.754,-5.702,2.193
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=500)",-2.632,-6.579,1.316
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (competing, L=1000)",-5.263,-10.088,-0.877
+matched,ELR,excluding the 7 E16 leak sources,228,G|LENGTH(competing),-3.509,-9.211,2.193
+matched,ELR,excluding the 7 E16 leak sources,228,G|step 200->500 (competing),-0.877,-5.702,3.958
+matched,ELR,excluding the 7 E16 leak sources,228,G|step 500->1000 (competing),-2.632,-8.333,2.632
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=200)",0.0,-3.07,3.081
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=500)",-7.018,-11.404,-2.632
+matched,ELR,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=1000)",-7.018,-12.281,-2.193
+matched,ELR,excluding the 7 E16 leak sources,228,G|LENGTH(noncompeting),-7.018,-12.281,-2.193
+matched,ELR,excluding the 7 E16 leak sources,228,G|step 200->500 (noncompeting),-7.018,-11.853,-1.754
+matched,ELR,excluding the 7 E16 leak sources,228,G|step 500->1000 (noncompeting),0.0,-6.14,6.14
+matched,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=200),-1.754,-6.579,3.07
+matched,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=500),4.386,-1.316,10.526
+matched,ELR,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=1000),1.754,-4.825,8.333
+matched,ELR,excluding the 7 E16 leak sources,228,G|INTERACTION,3.509,-3.509,10.088
+matched,ELR,excluding the 7 E16 leak sources,228,G|LENGTH pooled,-5.263,-9.649,-1.096
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=200)",92.105,88.596,95.175
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=500)",91.667,88.158,95.175
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=1000)",88.596,84.211,92.544
+matched,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH(competing),-3.509,-8.333,0.877
+matched,ELR,excluding the 7 E16 leak sources,228,blind|step 200->500 (competing),-0.439,-4.386,3.509
+matched,ELR,excluding the 7 E16 leak sources,228,blind|step 500->1000 (competing),-3.07,-7.456,0.877
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=200)",95.614,92.982,97.818
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=500)",89.035,84.649,92.982
+matched,ELR,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=1000)",87.281,82.456,91.228
+matched,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH(noncompeting),-8.333,-12.719,-4.386
+matched,ELR,excluding the 7 E16 leak sources,228,blind|step 200->500 (noncompeting),-6.579,-10.965,-2.193
+matched,ELR,excluding the 7 E16 leak sources,228,blind|step 500->1000 (noncompeting),-1.754,-6.579,3.07
+matched,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=200),-3.509,-7.456,0.439
+matched,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=500),2.632,-2.193,7.456
+matched,ELR,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=1000),1.316,-3.509,6.14
+matched,ELR,excluding the 7 E16 leak sources,228,blind|INTERACTION,4.825,-0.877,10.537
+matched,ELR,excluding the 7 E16 leak sources,228,blind|LENGTH pooled,-5.921,-9.435,-2.412
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=200)",93.86,90.789,96.491
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=500)",94.298,91.228,97.368
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=1000)",93.86,90.351,96.502
+matched,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH(competing),0.0,-3.509,3.947
+matched,ELR,excluding the 7 E16 leak sources,228,aware|step 200->500 (competing),0.439,-3.07,3.958
+matched,ELR,excluding the 7 E16 leak sources,228,aware|step 500->1000 (competing),-0.439,-3.509,2.632
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=200)",95.614,92.544,98.246
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=500)",96.053,93.421,98.246
+matched,ELR,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=1000)",94.298,91.228,96.93
+matched,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH(noncompeting),-1.316,-4.386,1.754
+matched,ELR,excluding the 7 E16 leak sources,228,aware|step 200->500 (noncompeting),0.439,-2.632,3.509
+matched,ELR,excluding the 7 E16 leak sources,228,aware|step 500->1000 (noncompeting),-1.754,-4.825,1.316
+matched,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=200),-1.754,-5.263,1.754
+matched,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=500),-1.754,-5.263,1.754
+matched,ELR,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=1000),-0.439,-4.825,3.947
+matched,ELR,excluding the 7 E16 leak sources,228,aware|INTERACTION,1.316,-3.07,6.151
+matched,ELR,excluding the 7 E16 leak sources,228,aware|LENGTH pooled,-0.658,-3.289,1.974
+matched,ELR,all articles with both sources,279,"G|cell (competing, L=200)",-1.792,-5.376,1.792
+matched,ELR,all articles with both sources,279,"G|cell (competing, L=500)",-2.867,-6.452,0.358
+matched,ELR,all articles with both sources,279,"G|cell (competing, L=1000)",-5.018,-8.961,-0.717
+matched,ELR,all articles with both sources,279,G|LENGTH(competing),-3.226,-8.244,1.792
+matched,ELR,all articles with both sources,279,G|step 200->500 (competing),-1.075,-5.385,3.584
+matched,ELR,all articles with both sources,279,G|step 500->1000 (competing),-2.151,-6.81,2.509
+matched,ELR,all articles with both sources,279,"G|cell (noncompeting, L=200)",-1.075,-4.301,1.792
+matched,ELR,all articles with both sources,279,"G|cell (noncompeting, L=500)",-5.018,-8.961,-1.075
+matched,ELR,all articles with both sources,279,"G|cell (noncompeting, L=1000)",-5.376,-9.677,-1.075
+matched,ELR,all articles with both sources,279,G|LENGTH(noncompeting),-4.301,-8.97,0.358
+matched,ELR,all articles with both sources,279,G|step 200->500 (noncompeting),-3.943,-8.961,1.084
+matched,ELR,all articles with both sources,279,G|step 500->1000 (noncompeting),-0.358,-5.735,5.018
+matched,ELR,all articles with both sources,279,G|COMPOSITION(L=200),-0.717,-5.376,3.943
+matched,ELR,all articles with both sources,279,G|COMPOSITION(L=500),2.151,-2.867,7.527
+matched,ELR,all articles with both sources,279,G|COMPOSITION(L=1000),0.358,-5.376,6.093
+matched,ELR,all articles with both sources,279,G|INTERACTION,1.075,-5.376,7.168
+matched,ELR,all articles with both sources,279,G|LENGTH pooled,-3.763,-7.527,0.0
+matched,ELR,all articles with both sources,279,"blind|cell (competing, L=200)",92.832,89.964,95.699
+matched,ELR,all articles with both sources,279,"blind|cell (competing, L=500)",91.398,87.814,94.624
+matched,ELR,all articles with both sources,279,"blind|cell (competing, L=1000)",88.889,85.305,92.473
+matched,ELR,all articles with both sources,279,blind|LENGTH(competing),-3.943,-8.244,0.358
+matched,ELR,all articles with both sources,279,blind|step 200->500 (competing),-1.434,-5.018,1.792
+matched,ELR,all articles with both sources,279,blind|step 500->1000 (competing),-2.509,-6.452,1.434
+matched,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=200)",94.982,92.115,97.491
+matched,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=500)",89.964,86.38,93.19
+matched,ELR,all articles with both sources,279,"blind|cell (noncompeting, L=1000)",88.53,84.588,92.115
+matched,ELR,all articles with both sources,279,blind|LENGTH(noncompeting),-6.452,-10.394,-2.509
+matched,ELR,all articles with both sources,279,blind|step 200->500 (noncompeting),-5.018,-8.961,-1.075
+matched,ELR,all articles with both sources,279,blind|step 500->1000 (noncompeting),-1.434,-5.376,2.509
+matched,ELR,all articles with both sources,279,blind|COMPOSITION(L=200),-2.151,-6.093,1.434
+matched,ELR,all articles with both sources,279,blind|COMPOSITION(L=500),1.434,-2.867,6.093
+matched,ELR,all articles with both sources,279,blind|COMPOSITION(L=1000),0.358,-3.943,4.659
+matched,ELR,all articles with both sources,279,blind|INTERACTION,2.509,-2.509,7.885
+matched,ELR,all articles with both sources,279,blind|LENGTH pooled,-5.197,-8.423,-1.971
+matched,ELR,all articles with both sources,279,"aware|cell (competing, L=200)",94.624,91.756,97.133
+matched,ELR,all articles with both sources,279,"aware|cell (competing, L=500)",94.265,91.398,96.774
+matched,ELR,all articles with both sources,279,"aware|cell (competing, L=1000)",93.907,91.039,96.416
+matched,ELR,all articles with both sources,279,aware|LENGTH(competing),-0.717,-3.943,2.509
+matched,ELR,all articles with both sources,279,aware|step 200->500 (competing),-0.358,-3.584,2.867
+matched,ELR,all articles with both sources,279,aware|step 500->1000 (competing),-0.358,-3.226,2.509
+matched,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=200)",96.057,93.548,98.208
+matched,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=500)",94.982,92.473,97.491
+matched,ELR,all articles with both sources,279,"aware|cell (noncompeting, L=1000)",93.907,91.039,96.416
+matched,ELR,all articles with both sources,279,aware|LENGTH(noncompeting),-2.151,-5.018,0.358
+matched,ELR,all articles with both sources,279,aware|step 200->500 (noncompeting),-1.075,-3.943,1.792
+matched,ELR,all articles with both sources,279,aware|step 500->1000 (noncompeting),-1.075,-4.301,2.151
+matched,ELR,all articles with both sources,279,aware|COMPOSITION(L=200),-1.434,-4.659,1.792
+matched,ELR,all articles with both sources,279,aware|COMPOSITION(L=500),-0.717,-3.943,2.509
+matched,ELR,all articles with both sources,279,aware|COMPOSITION(L=1000),0.0,-3.584,3.584
+matched,ELR,all articles with both sources,279,aware|INTERACTION,1.434,-2.867,5.735
+matched,ELR,all articles with both sources,279,aware|LENGTH pooled,-1.434,-3.763,0.717
+matched,WP,primary (common cohort),235,"G|cell (competing, L=200)",-2.979,-6.809,0.851
+matched,WP,primary (common cohort),235,"G|cell (competing, L=500)",-6.809,-11.489,-2.128
+matched,WP,primary (common cohort),235,"G|cell (competing, L=1000)",-11.489,-16.606,-6.809
+matched,WP,primary (common cohort),235,G|LENGTH(competing),-8.511,-14.468,-2.553
+matched,WP,primary (common cohort),235,G|step 200->500 (competing),-3.83,-9.362,2.128
+matched,WP,primary (common cohort),235,G|step 500->1000 (competing),-4.681,-10.638,1.277
+matched,WP,primary (common cohort),235,"G|cell (noncompeting, L=200)",-8.511,-13.202,-3.83
+matched,WP,primary (common cohort),235,"G|cell (noncompeting, L=500)",-9.787,-15.319,-4.681
+matched,WP,primary (common cohort),235,"G|cell (noncompeting, L=1000)",-14.468,-20.0,-8.936
+matched,WP,primary (common cohort),235,G|LENGTH(noncompeting),-5.957,-12.766,0.851
+matched,WP,primary (common cohort),235,G|step 200->500 (noncompeting),-1.277,-7.67,5.117
+matched,WP,primary (common cohort),235,G|step 500->1000 (noncompeting),-4.681,-11.489,2.128
+matched,WP,primary (common cohort),235,G|COMPOSITION(L=200),5.532,-0.426,11.489
+matched,WP,primary (common cohort),235,G|COMPOSITION(L=500),2.979,-3.404,9.362
+matched,WP,primary (common cohort),235,G|COMPOSITION(L=1000),2.979,-3.83,9.787
+matched,WP,primary (common cohort),235,G|INTERACTION,-2.553,-11.489,5.957
+matched,WP,primary (common cohort),235,G|LENGTH pooled,-7.234,-11.915,-2.553
+matched,WP,primary (common cohort),235,"blind|cell (competing, L=200)",91.064,87.234,94.468
+matched,WP,primary (common cohort),235,"blind|cell (competing, L=500)",87.66,83.404,91.915
+matched,WP,primary (common cohort),235,"blind|cell (competing, L=1000)",81.702,76.596,86.383
+matched,WP,primary (common cohort),235,blind|LENGTH(competing),-9.362,-14.479,-4.681
+matched,WP,primary (common cohort),235,blind|step 200->500 (competing),-3.404,-8.085,0.862
+matched,WP,primary (common cohort),235,blind|step 500->1000 (competing),-5.957,-11.064,-1.277
+matched,WP,primary (common cohort),235,"blind|cell (noncompeting, L=200)",88.085,83.83,91.915
+matched,WP,primary (common cohort),235,"blind|cell (noncompeting, L=500)",84.681,79.989,89.362
+matched,WP,primary (common cohort),235,"blind|cell (noncompeting, L=1000)",79.149,74.043,84.255
+matched,WP,primary (common cohort),235,blind|LENGTH(noncompeting),-8.936,-14.894,-2.979
+matched,WP,primary (common cohort),235,blind|step 200->500 (noncompeting),-3.404,-8.511,1.702
+matched,WP,primary (common cohort),235,blind|step 500->1000 (noncompeting),-5.532,-11.064,0.0
+matched,WP,primary (common cohort),235,blind|COMPOSITION(L=200),2.979,-1.702,7.66
+matched,WP,primary (common cohort),235,blind|COMPOSITION(L=500),2.979,-2.553,8.085
+matched,WP,primary (common cohort),235,blind|COMPOSITION(L=1000),2.553,-3.404,8.511
+matched,WP,primary (common cohort),235,blind|INTERACTION,-0.426,-8.085,6.809
+matched,WP,primary (common cohort),235,blind|LENGTH pooled,-9.149,-13.191,-5.314
+matched,WP,primary (common cohort),235,"aware|cell (competing, L=200)",94.043,91.064,97.021
+matched,WP,primary (common cohort),235,"aware|cell (competing, L=500)",94.468,91.489,97.021
+matched,WP,primary (common cohort),235,"aware|cell (competing, L=1000)",93.191,89.787,96.17
+matched,WP,primary (common cohort),235,aware|LENGTH(competing),-0.851,-4.681,2.553
+matched,WP,primary (common cohort),235,aware|step 200->500 (competing),0.426,-3.404,3.83
+matched,WP,primary (common cohort),235,aware|step 500->1000 (competing),-1.277,-4.681,2.128
+matched,WP,primary (common cohort),235,"aware|cell (noncompeting, L=200)",96.596,94.043,98.723
+matched,WP,primary (common cohort),235,"aware|cell (noncompeting, L=500)",94.468,91.489,97.021
+matched,WP,primary (common cohort),235,"aware|cell (noncompeting, L=1000)",93.617,90.638,96.596
+matched,WP,primary (common cohort),235,aware|LENGTH(noncompeting),-2.979,-6.383,0.426
+matched,WP,primary (common cohort),235,aware|step 200->500 (noncompeting),-2.128,-5.532,1.277
+matched,WP,primary (common cohort),235,aware|step 500->1000 (noncompeting),-0.851,-4.255,2.553
+matched,WP,primary (common cohort),235,aware|COMPOSITION(L=200),-2.553,-5.957,0.851
+matched,WP,primary (common cohort),235,aware|COMPOSITION(L=500),0.0,-3.415,3.83
+matched,WP,primary (common cohort),235,aware|COMPOSITION(L=1000),-0.426,-4.255,3.404
+matched,WP,primary (common cohort),235,aware|INTERACTION,2.128,-2.553,7.234
+matched,WP,primary (common cohort),235,aware|LENGTH pooled,-1.915,-4.468,0.638
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=200)",-3.07,-7.018,0.877
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=500)",-7.018,-11.842,-2.193
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (competing, L=1000)",-11.404,-16.667,-6.579
+matched,WP,excluding the 7 E16 leak sources,228,G|LENGTH(competing),-8.333,-14.474,-2.632
+matched,WP,excluding the 7 E16 leak sources,228,G|step 200->500 (competing),-3.947,-9.649,2.193
+matched,WP,excluding the 7 E16 leak sources,228,G|step 500->1000 (competing),-4.386,-10.088,1.754
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=200)",-8.333,-13.596,-3.509
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=500)",-10.088,-15.789,-4.825
+matched,WP,excluding the 7 E16 leak sources,228,"G|cell (noncompeting, L=1000)",-15.351,-21.053,-9.649
+matched,WP,excluding the 7 E16 leak sources,228,G|LENGTH(noncompeting),-7.018,-14.035,0.0
+matched,WP,excluding the 7 E16 leak sources,228,G|step 200->500 (noncompeting),-1.754,-8.772,5.263
+matched,WP,excluding the 7 E16 leak sources,228,G|step 500->1000 (noncompeting),-5.263,-12.719,2.193
+matched,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=200),5.263,-0.888,11.404
+matched,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=500),3.07,-3.07,9.649
+matched,WP,excluding the 7 E16 leak sources,228,G|COMPOSITION(L=1000),3.947,-3.07,10.526
+matched,WP,excluding the 7 E16 leak sources,228,G|INTERACTION,-1.316,-9.66,7.456
+matched,WP,excluding the 7 E16 leak sources,228,G|LENGTH pooled,-7.675,-12.719,-2.851
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=200)",90.789,86.842,94.298
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=500)",87.281,82.895,91.667
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (competing, L=1000)",81.579,76.316,86.404
+matched,WP,excluding the 7 E16 leak sources,228,blind|LENGTH(competing),-9.211,-14.474,-4.386
+matched,WP,excluding the 7 E16 leak sources,228,blind|step 200->500 (competing),-3.509,-8.333,1.316
+matched,WP,excluding the 7 E16 leak sources,228,blind|step 500->1000 (competing),-5.702,-10.526,-0.877
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=200)",88.158,83.772,92.105
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=500)",84.211,79.386,88.596
+matched,WP,excluding the 7 E16 leak sources,228,"blind|cell (noncompeting, L=1000)",78.509,72.807,84.211
+matched,WP,excluding the 7 E16 leak sources,228,blind|LENGTH(noncompeting),-9.649,-15.351,-3.509
+matched,WP,excluding the 7 E16 leak sources,228,blind|step 200->500 (noncompeting),-3.947,-9.649,1.316
+matched,WP,excluding the 7 E16 leak sources,228,blind|step 500->1000 (noncompeting),-5.702,-11.842,0.0
+matched,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=200),2.632,-2.632,7.467
+matched,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=500),3.07,-2.193,8.772
+matched,WP,excluding the 7 E16 leak sources,228,blind|COMPOSITION(L=1000),3.07,-3.07,9.211
+matched,WP,excluding the 7 E16 leak sources,228,blind|INTERACTION,0.439,-7.456,7.895
+matched,WP,excluding the 7 E16 leak sources,228,blind|LENGTH pooled,-9.43,-13.596,-5.482
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=200)",93.86,90.351,96.93
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=500)",94.298,91.228,96.93
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (competing, L=1000)",92.982,89.474,96.053
+matched,WP,excluding the 7 E16 leak sources,228,aware|LENGTH(competing),-0.877,-4.386,2.632
+matched,WP,excluding the 7 E16 leak sources,228,aware|step 200->500 (competing),0.439,-3.07,4.386
+matched,WP,excluding the 7 E16 leak sources,228,aware|step 500->1000 (competing),-1.316,-4.825,2.193
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=200)",96.491,93.86,98.684
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=500)",94.298,91.228,96.93
+matched,WP,excluding the 7 E16 leak sources,228,"aware|cell (noncompeting, L=1000)",93.86,90.351,96.93
+matched,WP,excluding the 7 E16 leak sources,228,aware|LENGTH(noncompeting),-2.632,-6.14,0.877
+matched,WP,excluding the 7 E16 leak sources,228,aware|step 200->500 (noncompeting),-2.193,-5.702,0.877
+matched,WP,excluding the 7 E16 leak sources,228,aware|step 500->1000 (noncompeting),-0.439,-3.947,3.07
+matched,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=200),-2.632,-6.14,0.439
+matched,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=500),0.0,-3.947,3.947
+matched,WP,excluding the 7 E16 leak sources,228,aware|COMPOSITION(L=1000),-0.877,-4.825,3.07
+matched,WP,excluding the 7 E16 leak sources,228,aware|INTERACTION,1.754,-3.07,7.018
+matched,WP,excluding the 7 E16 leak sources,228,aware|LENGTH pooled,-1.754,-4.386,0.877
+matched,WP,all articles with both sources,279,"G|cell (competing, L=200)",-3.226,-7.168,0.358
+matched,WP,all articles with both sources,279,"G|cell (competing, L=500)",-7.527,-11.828,-3.226
+matched,WP,all articles with both sources,279,"G|cell (competing, L=1000)",-11.47,-16.129,-6.81
+matched,WP,all articles with both sources,279,G|LENGTH(competing),-8.244,-13.62,-2.509
+matched,WP,all articles with both sources,279,G|step 200->500 (competing),-4.301,-9.677,1.084
+matched,WP,all articles with both sources,279,G|step 500->1000 (competing),-3.943,-9.319,1.792
+matched,WP,all articles with both sources,279,"G|cell (noncompeting, L=200)",-8.244,-12.545,-3.943
+matched,WP,all articles with both sources,279,"G|cell (noncompeting, L=500)",-9.319,-13.978,-4.651
+matched,WP,all articles with both sources,279,"G|cell (noncompeting, L=1000)",-13.62,-18.638,-8.961
+matched,WP,all articles with both sources,279,G|LENGTH(noncompeting),-5.376,-11.828,0.717
+matched,WP,all articles with both sources,279,G|step 200->500 (noncompeting),-1.075,-7.168,4.659
+matched,WP,all articles with both sources,279,G|step 500->1000 (noncompeting),-4.301,-10.394,1.792
+matched,WP,all articles with both sources,279,G|COMPOSITION(L=200),5.018,-0.358,10.753
+matched,WP,all articles with both sources,279,G|COMPOSITION(L=500),1.792,-3.943,7.527
+matched,WP,all articles with both sources,279,G|COMPOSITION(L=1000),2.151,-3.943,8.244
+matched,WP,all articles with both sources,279,G|INTERACTION,-2.867,-10.762,4.668
+matched,WP,all articles with both sources,279,G|LENGTH pooled,-6.81,-11.111,-2.509
+matched,WP,all articles with both sources,279,"blind|cell (competing, L=200)",90.323,86.738,93.907
+matched,WP,all articles with both sources,279,"blind|cell (competing, L=500)",86.738,82.437,90.332
+matched,WP,all articles with both sources,279,"blind|cell (competing, L=1000)",81.004,75.986,85.663
+matched,WP,all articles with both sources,279,blind|LENGTH(competing),-9.319,-13.978,-4.659
+matched,WP,all articles with both sources,279,blind|step 200->500 (competing),-3.584,-7.527,0.358
+matched,WP,all articles with both sources,279,blind|step 500->1000 (competing),-5.735,-10.394,-1.075
+matched,WP,all articles with both sources,279,"blind|cell (noncompeting, L=200)",87.814,83.871,91.756
+matched,WP,all articles with both sources,279,"blind|cell (noncompeting, L=500)",84.229,79.928,88.172
+matched,WP,all articles with both sources,279,"blind|cell (noncompeting, L=1000)",79.211,74.194,83.871
+matched,WP,all articles with both sources,279,blind|LENGTH(noncompeting),-8.602,-13.629,-3.584
+matched,WP,all articles with both sources,279,blind|step 200->500 (noncompeting),-3.584,-8.244,0.717
+matched,WP,all articles with both sources,279,blind|step 500->1000 (noncompeting),-5.018,-10.036,0.0
+matched,WP,all articles with both sources,279,blind|COMPOSITION(L=200),2.509,-1.792,7.168
+matched,WP,all articles with both sources,279,blind|COMPOSITION(L=500),2.509,-2.159,7.527
+matched,WP,all articles with both sources,279,blind|COMPOSITION(L=1000),1.792,-3.584,7.168
+matched,WP,all articles with both sources,279,blind|INTERACTION,-0.717,-7.168,5.376
+matched,WP,all articles with both sources,279,blind|LENGTH pooled,-8.961,-12.545,-5.197
+matched,WP,all articles with both sources,279,"aware|cell (competing, L=200)",93.548,90.681,96.416
+matched,WP,all articles with both sources,279,"aware|cell (competing, L=500)",94.265,91.398,96.774
+matched,WP,all articles with both sources,279,"aware|cell (competing, L=1000)",92.473,89.247,95.699
+matched,WP,all articles with both sources,279,aware|LENGTH(competing),-1.075,-4.659,2.159
+matched,WP,all articles with both sources,279,aware|step 200->500 (competing),0.717,-2.867,3.943
+matched,WP,all articles with both sources,279,aware|step 500->1000 (competing),-1.792,-5.018,1.434
+matched,WP,all articles with both sources,279,"aware|cell (noncompeting, L=200)",96.057,93.548,98.208
+matched,WP,all articles with both sources,279,"aware|cell (noncompeting, L=500)",93.548,90.323,96.066
+matched,WP,all articles with both sources,279,"aware|cell (noncompeting, L=1000)",92.832,89.606,95.699
+matched,WP,all articles with both sources,279,aware|LENGTH(noncompeting),-3.226,-6.452,0.0
+matched,WP,all articles with both sources,279,aware|step 200->500 (noncompeting),-2.509,-5.735,0.717
+matched,WP,all articles with both sources,279,aware|step 500->1000 (noncompeting),-0.717,-3.593,2.151
+matched,WP,all articles with both sources,279,aware|COMPOSITION(L=200),-2.509,-5.735,0.717
+matched,WP,all articles with both sources,279,aware|COMPOSITION(L=500),0.717,-2.867,4.301
+matched,WP,all articles with both sources,279,aware|COMPOSITION(L=1000),-0.358,-3.943,3.584
+matched,WP,all articles with both sources,279,aware|INTERACTION,2.151,-2.509,6.81
+matched,WP,all articles with both sources,279,aware|LENGTH pooled,-2.151,-4.659,0.358

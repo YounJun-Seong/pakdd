@@ -567,3 +567,161 @@ LEN(middle) − LEN(first) −21.8 [−29.2, −14.4]. WP: LEN_pooled −29.2 [�
 last −39.5), POS_pooled −10.4 [−14.4, −6.6]. Matched prompt: ELR LEN_pooled −19.3 [−24.0, −15.2] (first −5.8*),
 WP −28.3 [−33.1, −23.3] (first −5.8 [−12.8, +0.8], n.s.). Sensitivity sets: same readings, except matched-prompt
 first-arm ELR with all 279 articles (−4.3 [−9.0, +0.4]). Both effects are reported; neither is dropped.
+
+---
+
+# Phase 6 — E20 / E21 / E23 (written 2026-11-27, before any generation or scoring of these experiments)
+
+Origin: a pasted plan of eight experiments (E20–E27). Checked against the record first: E26 (same sentences,
+position only) already exists as the 1,000-token level of E19 (the three arms hold the same sentence set in
+279 / 279 articles); E22 rests on a comparison across different inputs (−23.8 is E13, 1,121 tokens and ~18
+findings; −2.0 is the E6 context arm, 822 tokens and ~4 findings, whose own span-only reference gave −1.4) and is
+not run; E24 / E25 / E27 need decisions outside this round. Run now, at the user's request: E20, E21, E23.
+Common to all three: frozen prompts, truncation-free protocol (<= 20 attempts, instructed budget shrinking 5 % per
+attempt, acceptance against the true budget), frozen evaluator (Qwen3-32B-FP8, prompt v3), judge-based ELR
+(primary) and memory-level WP, paired article bootstrap (2,000 resamples, seed 42, percentile intervals),
+complete cases, no exclusions after outcomes are seen. Committed verdicts of earlier experiments are reused and
+never re-scored.
+
+## E20 Full-source reading and loss stage (new: two reader calls per article and model; the rest is existing data)
+
+Question: is the Blind loss on long sources a loss at the write stage, or does the reader already fail on the
+uncompressed source?
+- Articles: the 279 articles of E14. Models: Qwen3-8B and Qwen3-14B.
+- New generation: the final answer straight from the uncompressed source, for Single (the target sentence under its
+  article header = the gold evidence) and Filler. Same reader prompt and settings as every final answer
+  (`answer_from`: temperature 0.7, seed 42, 80 instructed tokens). Multi: the E13 `full_long` answers, verdicts reused.
+- Existing: Aware / Blind M4 chains of E13 / E14 (Single, Filler, Multi; B = 100 / 200 / 400 / 800) with ELR and WP
+  verdicts; first-write memories of E18 (14B, B = 200) as a descriptive row.
+- Estimands, per model, source and budget: FULL = ELR of the full-source answer; Blind M4 − FULL and
+  Aware M4 − FULL (paired); FULL(Filler) − FULL(Single) and FULL(Multi) − FULL(Single).
+- Loss-stage table, per model, mode, source and budget, over articles whose full-source answer is correct:
+  WP = 1 & ELR = 1 retained and used; WP = 0 & ELR = 0 write-stage loss; WP = 1 & ELR = 0 read-stage failure;
+  WP = 0 & ELR = 1 correct answer without a recoverable memory statement (E17: mostly answers without warrant,
+  about 30 % evaluator error). "Evidence in memory" is the evaluator's WP verdict, i.e. label recoverability,
+  not ICO completeness.
+- Reading rule (primary: Qwen3-14B, B = 200, Filler; the same rule is read for the other cells):
+  "write-stage loss" iff (i) Blind M4 − FULL < 0 with a CI excluding 0 and (ii) among articles with a correct
+  full-source answer and a wrong Blind final answer, the share with WP = 0 has a Wilson 95 % lower bound above 50 %.
+  "source-reading difficulty contributes" iff FULL(Filler) − FULL(Single) < 0 with a CI excluding 0; its size is
+  then reported next to the Blind Filler − Single difference.
+- Limits stated now: the full-source reader sees 1,000 tokens and the memory reader at most B, so Blind M4 − FULL
+  is not a pure writer effect; the stage table rests on WP, whose agreement with the audit raters was 75 %.
+  A four-condition stage diagnosis is not a new method; here it is only tied to the Aware / Blind contrast.
+
+## E21 Source length x evidence composition (new generation)
+
+Question: does the Blind − Aware gap grow with source length when the added material is competing findings, as it
+does when it is non-finding prose (E19), and does the composition change the growth?
+- Material (built before this entry; no model output involved): `scripts/build_e21_sources.py` ->
+  `data/longsource/e21_sources_v1.jsonl`, `results/e21/e21_sources_summary.csv`.
+  COMPETING: from the E13 long source; home block first, target finding as its first bullet; the other bullets are
+  annotated findings (remaining home findings, then the other trial blocks in their E13 order), whole findings only,
+  tried in reading order: a finding that keeps the source at or below the level is added, one that overshoots is
+  added only if the source stays within the upper tolerance and lands closer, otherwise it is skipped at that level.
+  Level 1,000 = all findings of the E13 source. Nested (200 within 500 within 1,000). Any bullet that is, contains
+  or is contained in the target sentence is dropped (93 articles), so the target occurs exactly once.
+  NON-COMPETING: the E19 `first` arm, unchanged (existing chains and verdicts).
+  Levels 200 / 500 / 1,000 reference tokens (o200k_base), tolerances of E19 (170–230, 425–575, 850–1,100).
+  Target position fixed: 13 reference tokens before the target in every source of both compositions.
+- Cohort (fixed now): articles in the E19 primary set (243) whose three competing sources are in tolerance
+  (257 of 279) = 235 articles. Realized (235): competing 205.3 ± 12.6 / 509.1 ± 17.3 / 992.0 ± 44.3 tokens,
+  2.6 / 7.3 / 15.1 competing findings, 1.5 / 2.8 / 4.6 blocks; non-competing 200.5 ± 11.7 / 499.1 ± 13.6 /
+  1,002.5 ± 37.3 tokens, 3.8 / 12.4 / 28.3 filler sentences, 1.3 / 2.6 / 4.6 blocks. At 200 and 500 tokens 72 % of
+  the competing sources are a contiguous prefix of the queue (no skipped finding).
+- Design: Qwen3-14B, B = 200, Aware / Blind, original prompts (primary) and the E15 matched prompt (secondary),
+  four writes + reader. Competing sources of all 279 articles are generated (sensitivity); non-constructible ones
+  are not in the primary analysis.
+- Estimands (G = Blind − Aware; L in {200, 500, 1000}; C in {competing, non-competing}):
+  COMPOSITION(L) = G(L, competing) − G(L, non-competing);
+  LENGTH(C) = G(1000, C) − G(200, C);
+  INTERACTION = LENGTH(competing) − LENGTH(non-competing).
+- Reading rule (ELR, original prompts, n = 235):
+  "length effect in both compositions" iff LENGTH(competing) and LENGTH(non-competing) are both < 0 with CIs
+  excluding 0; "composition changes the length effect" iff the CI of INTERACTION excludes 0 (sign reported);
+  "competition-specific loss at L" iff COMPOSITION(L) < 0 with a CI excluding 0. A LENGTH that is significant in one
+  composition and not in the other is not by itself evidence of a difference.
+- Secondary, reported whatever the result: WP; matched prompt; all articles with both sources available;
+  excluding the 7 E16 leak sources; realized memory length and attempts per write in every cell.
+- Limits stated now: one model, one budget, one seed, target first only (E19: the first position is where the
+  length effect is smallest); "competing" and "non-competing" differ in more than the presence of findings
+  (sentence type, number of bullets, statistical language); at 200 and 500 tokens the competing source prefers
+  findings that fit, i.e. shorter ones; the non-competing material carries about 5.6 % unrelated result statements (E16).
+
+## E23 Multi-seed replication of E14 (new generation)
+
+Question: do the E14 contrasts hold across independent generation runs?
+- Qwen3-14B, B = 200, the 279 articles of E14, Aware / Blind x Single / Filler / Multi, original prompts.
+- Seeds: 42 (the existing E13 / E14 chains, verdicts reused) and four new base seeds 143, 244, 345, 446 (the seeds of
+  the earlier seed studies). Within a run with base seed s: write attempt a uses seed s + 100a, the reader uses s
+  (for s = 42 this is the protocol of record; the five seed sequences do not overlap). The base seed enters the
+  generation cache key (`run_phase5.notrunc_chain(base_seed=...)`); nothing else differs between runs.
+- Per seed: LENGTH = G_Filler − G_Single, COMPETITION = G_Multi − G_Filler, E13 DiD = G_Multi − G_Single, with the
+  paired article bootstrap; cell means; failed regenerations; attempts per write and realized memory length by cell.
+- Across seeds: mean and SD of the five per-seed estimates; number of seeds with a negative estimate and with a CI
+  excluding 0. Pooled estimate: each article's outcome averaged over the five seeds, then the paired article
+  bootstrap (articles are the resampling unit; the 5 x 279 observations are never treated as independent).
+  Also reported: a two-way bootstrap resampling seeds and articles (2,000 resamples), which adds seed-to-seed
+  variation to the interval; with five seeds this interval is itself imprecise.
+- Reading rule (ELR): "replicates" iff LENGTH is negative with a CI excluding 0 in every seed and in the pooled
+  estimate. "seed-sensitive" iff the sign of LENGTH differs between seeds or its seed SD exceeds half of the
+  absolute pooled estimate. COMPETITION is read the same way against the E14 finding (not negative with a CI
+  excluding 0): it "stays non-negative" iff no seed gives a negative estimate with a CI excluding 0.
+- Limits stated now: one model, one budget (B = 100 is not run in this round); the evaluator is one frozen model
+  and is not re-sampled; seeds change sampling only, not the sources or the prompts.
+
+## E20 outcome (2026-11-27) — Qwen3-8B and Qwen3-14B, n = 279, 1,116 new answers, 0 dirty; `results/e20/e20_report.md`
+Full-source ELR (8B / 14B): Single 95.3 / 98.6, Filler 92.8 / 93.2, Multi 90.7 / 93.9 (Multi = the E13 `full_long`
+verdicts restricted to the 279 articles; 90.8 / 93.5 over the 294 of E13). FULL − FULL(Single): Filler −2.5
+[−5.7, +0.7] / −5.4 [−8.2, −2.5]; Multi −4.7 [−8.2, −1.4] / −4.7 [−7.9, −1.8] -> "source-reading difficulty
+contributes" for 14B (both long sources) and for 8B Multi; not shown for 8B Filler.
+Primary (14B, B = 200, Filler): Blind M4 − FULL −20.8 [−26.2, −15.8]; among 260 full-correct articles the Blind final
+answer is wrong in 63, with WP = 0 in 56 (88.9 % [78.8, 94.5]) -> "write-stage loss" (i and ii). Aware M4 − FULL −0.4
+[−3.9, +2.9]. Same reading for 14B Multi at 200 (−22.2; 90.8 % [81.3, 95.7] of 65), both models and both long sources
+at B = 100 (−30.1 to −43.7; write share 90.0–98.9 %), 8B at 200 (Filler −22.2, 94.0 %; Multi −21.9, 80.0 %) and
+Filler at 400 (8B −10.0, 72.7 % [55.8, 84.9]; 14B −8.6, 69.7 % [52.7, 82.6]). NOT established (ii fails; the gap to
+FULL is still negative except 14B Multi at 800): Multi at 400 and every long cell at 800 (14–36 wrong finals, write
+share 48–65 %, Wilson lower bound <= 50).
+Size of the read stage in the primary cell: read failure (WP 1 & ELR 0) 7 of 260 (2.7 %). First write (E18 M1, 14B,
+B = 200, Blind): wrong finals 50 (Filler) / 60 (Multi) of the full-correct articles, write share 94.0 % / 90.0 % ->
+the loss is already present after one write.
+Not anticipated in the reading rule, reported as observed: "answer without memory" (WP 0 & ELR 1) is large in the
+Blind long cells — 14B, B = 200: Filler 62 of 260 (23.8 %), Multi 37 of 262 (14.1 %); B = 100 Filler 91 of 260
+(35.0 %) — against 2–4 % in the Aware cells. The final-answer ELR therefore understates how often the target
+evidence is absent from a Blind memory (WP is the direct measure); E17 is the audit of these disagreement cells.
+Single: Blind M4 − FULL −2.2 [−4.3, +0.0] (14B, 200); Aware/Single M4 is below FULL at 200–800 for 14B (−3.6 to −5.0).
+
+## E21 outcome (2026-11-27) — Qwen3-14B, B = 200, 3,348 chains, 0 failures, 0 dirty; `results/e21/e21_report.md`
+Primary (ELR, original prompts, common cohort n = 235). G at 200 / 500 / 1,000: competing +0.0 / −5.5 / −7.2;
+non-competing −0.9 / −6.8 / −8.9. LENGTH(competing) −7.2 [−13.2, −1.7], LENGTH(non-competing) −8.1 [−13.2, −2.6],
+INTERACTION +0.9 [−6.8, +8.1]; COMPOSITION(L) +0.9 [−4.3, +6.0] / +1.3 [−4.3, +6.8] / +1.7 [−4.3, +7.2]
+-> "length effect in both compositions"; composition does not detectably change the length effect; no
+competition-specific loss at any length. The 200 -> 500 step carries the effect in both (−5.5*, −6.0*); 500 -> 1,000
+is −1.7 / −2.1, n.s. The INTERACTION interval is about ±7.5 points wide: an interaction of that size is not excluded.
+WP: LENGTH −8.9 [−14.9, −3.4] / −11.9 [−18.3, −6.0], INTERACTION +3.0 [−5.5, +11.5]; COMPOSITION all positive, n.s.
+Sensitivity (original): excluding the 7 leak sources (n = 228) and all 279 articles give the same reading
+(ELR LENGTH −7.5 / −7.9 and −8.2 / −9.7).
+Matched prompt (secondary): ELR LENGTH(competing) −3.4 [−8.9, +2.1] (n.s.), non-competing −6.0 [−11.1, −1.3],
+INTERACTION +2.6 [−4.3, +9.8]; WP LENGTH(competing) −8.5 [−14.5, −2.6], non-competing −6.0 [−12.8, +0.9] (n.s.),
+INTERACTION −2.6 [−11.5, +6.0]. Under the matched prompt "length effect in both compositions" is NOT met for either
+outcome (one composition each); no interaction and no competition-specific loss there either.
+Realized: competing sources 205 / 509 / 992 reference tokens (230 / 568 / 1,102 model tokens), 2.6 / 7.3 / 15.1
+competing findings; Blind first-write attempts 1.1 / 3.6 / 4.9 (competing) vs 1.0 / 1.8 / 3.1 (non-competing).
+Scope as pre-stated: target first only, where E19 found the length effect smallest (E19 first arm −7.8 on n = 243).
+
+## E23 outcome (2026-11-27) — Qwen3-14B, B = 200, n = 279, 6,696 new chains, 0 failures, 0 dirty; `results/e23/e23_report.md`
+ELR, per seed (42 / 143 / 244 / 345 / 446): LENGTH −23.3 / −22.2 / −19.7 / −16.8 / −19.4, every CI excluding 0;
+COMPETITION −0.7 / +2.2 / +4.3 / +0.0 / +0.0, no CI excluding 0; E13 DiD −24.0 / −20.1 / −15.4 / −16.8 / −19.4,
+every CI excluding 0. Across seeds: LENGTH mean −20.3, SD 2.5; pooled −20.3 [−24.9, −15.6] (article bootstrap),
+[−25.7, −14.9] (seeds x articles). COMPETITION pooled +1.1 [−3.2, +5.4]. DiD pooled −19.1 [−23.3, −14.8], SD 3.3.
+G pooled: Single +0.9 [−1.2, +3.1], Filler −19.4 [−23.4, −15.5], Multi −18.2 [−21.8, −14.7].
+-> LENGTH "replicates"; not "seed-sensitive" (SD 2.5 < 10.2); COMPETITION "stays non-negative".
+WP: LENGTH −40.1 / −40.5 / −34.1 / −31.9 / −43.4, pooled −38.0 [−42.9, −32.8], SD 4.8 -> replicates. COMPETITION
++6.8 / +12.2 / +6.1 / +8.2 / +10.8 (CI excluding 0 in 3 of 5 seeds), pooled +8.8 [+3.8, +14.0], two-way
+[+2.6, +15.0]: at the memory level the Multi source retains the target MORE often than the Filler source.
+Seed 42 is the largest LENGTH and DiD of the five on ELR (−23.3 vs mean −20.3; −24.0 vs mean −19.1): the single-seed
+figures of record sit at the strong end of the seed range, inside it.
+Regeneration: Blind first-write attempts 1.5–1.9 (Filler) and 4.8–5.0 (Multi) in every seed; M4 length stable
+(Blind Filler 149–152, Multi 169–171 model tokens).
+
+---

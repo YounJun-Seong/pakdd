@@ -1,0 +1,73 @@
+outcome,level,seed,n,estimand,est,lo,hi,seed_mean,seed_sd,n_negative,n_sig,twoway_lo,twoway_hi
+ELR,seed,42,279,LENGTH (Filler − Single),-23.297,-29.749,-17.204,,,,,,
+ELR,seed,42,279,COMPETITION (Multi − Filler),-0.717,-7.168,6.093,,,,,,
+ELR,seed,42,279,E13 DiD (Multi − Single),-24.014,-30.108,-18.28,,,,,,
+ELR,seed,42,279,G single,2.867,0.0,6.093,,,,,,
+ELR,seed,42,279,G filler,-20.43,-25.806,-15.412,,,,,,
+ELR,seed,42,279,G multi,-21.147,-26.523,-15.771,,,,,,
+ELR,seed,143,279,LENGTH (Filler − Single),-22.222,-29.032,-15.054,,,,,,
+ELR,seed,143,279,COMPETITION (Multi − Filler),2.151,-5.018,8.961,,,,,,
+ELR,seed,143,279,E13 DiD (Multi − Single),-20.072,-26.165,-13.978,,,,,,
+ELR,seed,143,279,G single,1.792,-1.434,5.018,,,,,,
+ELR,seed,143,279,G filler,-20.43,-26.165,-14.695,,,,,,
+ELR,seed,143,279,G multi,-18.28,-23.297,-13.262,,,,,,
+ELR,seed,244,279,LENGTH (Filler − Single),-19.713,-25.806,-13.62,,,,,,
+ELR,seed,244,279,COMPETITION (Multi − Filler),4.301,-2.867,11.111,,,,,,
+ELR,seed,244,279,E13 DiD (Multi − Single),-15.412,-21.505,-8.961,,,,,,
+ELR,seed,244,279,G single,-0.717,-3.584,2.151,,,,,,
+ELR,seed,244,279,G filler,-20.43,-25.806,-15.054,,,,,,
+ELR,seed,244,279,G multi,-16.129,-21.505,-10.753,,,,,,
+ELR,seed,345,279,LENGTH (Filler − Single),-16.846,-22.948,-10.753,,,,,,
+ELR,seed,345,279,COMPETITION (Multi − Filler),0.0,-6.102,6.452,,,,,,
+ELR,seed,345,279,E13 DiD (Multi − Single),-16.846,-22.939,-10.753,,,,,,
+ELR,seed,345,279,G single,1.075,-1.792,3.943,,,,,,
+ELR,seed,345,279,G filler,-15.771,-20.789,-10.753,,,,,,
+ELR,seed,345,279,G multi,-15.771,-20.43,-10.753,,,,,,
+ELR,seed,446,279,LENGTH (Filler − Single),-19.355,-25.806,-12.545,,,,,,
+ELR,seed,446,279,COMPETITION (Multi − Filler),0.0,-7.168,7.168,,,,,,
+ELR,seed,446,279,E13 DiD (Multi − Single),-19.355,-25.09,-13.62,,,,,,
+ELR,seed,446,279,G single,-0.358,-3.593,3.226,,,,,,
+ELR,seed,446,279,G filler,-19.713,-25.09,-14.337,,,,,,
+ELR,seed,446,279,G multi,-19.713,-24.731,-14.337,,,,,,
+ELR,across,-1,279,LENGTH (Filler − Single),-20.287,-24.946,-15.556,-20.287,2.542,5.0,5.0,-25.665,-14.909
+ELR,across,-1,279,COMPETITION (Multi − Filler),1.147,-3.156,5.45,1.147,2.065,1.0,0.0,-4.158,6.453
+ELR,across,-1,279,E13 DiD (Multi − Single),-19.14,-23.297,-14.767,-19.14,3.31,5.0,5.0,-24.588,-13.835
+ELR,across,-1,279,G single,0.932,-1.219,3.082,0.932,1.491,2.0,0.0,-1.649,3.584
+ELR,across,-1,279,G filler,-19.355,-23.371,-15.484,-19.355,2.028,5.0,5.0,-23.728,-14.839
+ELR,across,-1,279,G multi,-18.208,-21.792,-14.695,-18.208,2.301,5.0,5.0,-22.652,-14.048
+WP,seed,42,279,LENGTH (Filler − Single),-40.143,-46.953,-33.333,,,,,,
+WP,seed,42,279,COMPETITION (Multi − Filler),6.81,-0.717,14.337,,,,,,
+WP,seed,42,279,E13 DiD (Multi − Single),-33.333,-40.143,-26.882,,,,,,
+WP,seed,42,279,G single,2.151,-1.075,5.735,,,,,,
+WP,seed,42,279,G filler,-37.993,-44.086,-31.541,,,,,,
+WP,seed,42,279,G multi,-31.183,-37.276,-25.448,,,,,,
+WP,seed,143,279,LENGTH (Filler − Single),-40.502,-47.67,-33.692,,,,,,
+WP,seed,143,279,COMPETITION (Multi − Filler),12.186,5.009,19.364,,,,,,
+WP,seed,143,279,E13 DiD (Multi − Single),-28.315,-34.409,-22.222,,,,,,
+WP,seed,143,279,G single,-0.717,-4.301,2.867,,,,,,
+WP,seed,143,279,G filler,-41.219,-47.321,-35.125,,,,,,
+WP,seed,143,279,G multi,-29.032,-35.125,-22.939,,,,,,
+WP,seed,244,279,LENGTH (Filler − Single),-34.05,-40.86,-27.24,,,,,,
+WP,seed,244,279,COMPETITION (Multi − Filler),6.093,-1.434,13.978,,,,,,
+WP,seed,244,279,E13 DiD (Multi − Single),-27.957,-34.767,-21.147,,,,,,
+WP,seed,244,279,G single,-3.584,-6.452,-0.358,,,,,,
+WP,seed,244,279,G filler,-37.634,-43.728,-31.183,,,,,,
+WP,seed,244,279,G multi,-31.541,-37.634,-25.448,,,,,,
+WP,seed,345,279,LENGTH (Filler − Single),-31.9,-39.068,-25.09,,,,,,
+WP,seed,345,279,COMPETITION (Multi − Filler),8.244,0.717,16.129,,,,,,
+WP,seed,345,279,E13 DiD (Multi − Single),-23.656,-30.108,-16.846,,,,,,
+WP,seed,345,279,G single,-2.151,-5.376,1.434,,,,,,
+WP,seed,345,279,G filler,-34.05,-40.143,-27.957,,,,,,
+WP,seed,345,279,G multi,-25.806,-31.183,-20.072,,,,,,
+WP,seed,446,279,LENGTH (Filler − Single),-43.369,-50.538,-36.201,,,,,,
+WP,seed,446,279,COMPETITION (Multi − Filler),10.753,2.509,18.638,,,,,,
+WP,seed,446,279,E13 DiD (Multi − Single),-32.616,-39.427,-25.797,,,,,,
+WP,seed,446,279,G single,-0.717,-4.301,3.226,,,,,,
+WP,seed,446,279,G filler,-44.086,-50.179,-37.993,,,,,,
+WP,seed,446,279,G multi,-33.333,-39.785,-26.882,,,,,,
+WP,across,-1,279,LENGTH (Filler − Single),-37.993,-42.867,-32.832,-37.993,4.809,5.0,5.0,-44.588,-31.541
+WP,across,-1,279,COMPETITION (Multi − Filler),8.817,3.797,13.978,8.817,2.592,0.0,3.0,2.581,14.982
+WP,across,-1,279,E13 DiD (Multi − Single),-29.176,-33.765,-24.086,-29.176,3.931,5.0,5.0,-35.269,-23.296
+WP,across,-1,279,G single,-1.004,-3.369,1.362,-1.004,2.127,4.0,1.0,-4.086,2.007
+WP,across,-1,279,G filler,-38.996,-43.586,-34.337,-38.996,3.813,5.0,5.0,-44.588,-32.973
+WP,across,-1,279,G multi,-30.179,-34.767,-25.448,-30.179,2.883,5.0,5.0,-35.699,-24.731
